@@ -681,6 +681,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000009116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009116">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin gene enhancer protein ISL-1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ISL1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin gene enhancer protein ISL-1</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011158">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurogenin-3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human NEUROG3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurogenin-3</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000016043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016043">

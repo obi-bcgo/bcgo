@@ -57,6 +57,8 @@ http://purl.obolibrary.org/obo/PR_000007431
 http://purl.obolibrary.org/obo/PR_000007857
 http://purl.obolibrary.org/obo/PR_000007858
 http://purl.obolibrary.org/obo/PR_000016043
+http://purl.obolibrary.org/obo/PR_000009116
+http://purl.obolibrary.org/obo/PR_000011158
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PR_000000001 #protein
