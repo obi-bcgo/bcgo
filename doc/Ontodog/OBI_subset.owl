@@ -583,6 +583,21 @@ there is a measurement process p that has specified output m, a measurement datu
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000834 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000834">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high molecular weight DNA extract</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001051"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extraction of chromosomal DNA from mammalian cells by first isolating nucei</obo:IAO_0000112>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The output of an extraction process in which DNA molecules above a molecular weight cutoff are purified in order to exclude DNA from organellas.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high molecular weight DNA extract</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000">
