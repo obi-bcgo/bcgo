@@ -1,0 +1,813 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/import_ChEBI.owl#"
+     xml:base="http://purl.obolibrary.org/obo/import_ChEBI.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/import_ChEBI.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</obo:IAO_0000111>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15956 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15956">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biotin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51570"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic heterobicyclic compound that consists of 2-oxohexahydro-1H-thieno[3,4-d]imidazole having a valeric acid substituent attached to the tetrahydrothiophene ring. The parent of the class of biotins.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biotin</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15986 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15986">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polynucleotide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61120"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nucleobase-containing molecular entity with an oligomeric structure comprised of a linear sequence of 13 or more nucleotide residues.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polynucleotide</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16670 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16670">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peptide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33256"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50047"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amide derived from two or more amino carboxylic acid molecules (the same or different) by formation of a covalent bond from the carbonyl carbon of one to the nitrogen atom of another with formal loss of water. The term is usually applied to structures formed from alpha-amino acids, but it includes those derived from any amino carboxylic acid.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peptide</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16991 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16991">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deoxyribonucleic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33696"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High molecular weight, linear polymers, composed of nucleotides containing deoxyribose and linked by phosphodiester bonds; DNA contain the genetic information of organisms.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deoxyribonucleic acid</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18154">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polysaccharide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biomacromolecule consisting of large numbers of monosaccharide residues linked glycosidically. This term is commonly used only for those containing more than ten monosaccharide residues.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polysaccharide</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22728 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22728">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">benzopyrrole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27171"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38101"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">benzopyrrole</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical entity</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24532">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heterocyclic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33285"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33832"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5686"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cyclic compound having as ring members atoms of carbon and at least of one other element.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heterocyclic compound</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24651 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24651">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydroxides</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25806"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37577"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydroxides are chemical compounds containing a hydroxy group or salts containing hydroxide (OH(-)).</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydroxides</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24828 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24828">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indoles</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22728"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any compound containing an indole skeleton.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indoles</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_2511 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2511">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agarose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polysaccharide that has formula C24H38O19.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agarose</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25806 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25806">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33304"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen molecular entity</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26835 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26835">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sulfur molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33304"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sulfur molecular entity</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27171">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heterobicyclic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33672"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38166"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heterobicyclic compound</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28659">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphorus atom</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pnictogen that has formula P.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphorus atom</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33256">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary amide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51143"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A derivative of an oxoacid RkE(=O)l(OH)m (l =/= 0) in which an acidic hydroxy group has been replaced by an amino or substituted amino group.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary amide</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33261">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organosulfur compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26835"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36962"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organosulfur compound is a compound containing at least one carbon-sulfur bond.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organosulfur compound</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33285">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteroorganic entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A heteroorganic entity is an organic molecular entity in which carbon atoms or organic groups are bonded directly to one or more heteroatoms.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteroorganic entity</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33304">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chalcogen molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any p-block molecular entity containing a chalcogen.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chalcogen molecular entity</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33424 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33424">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sulfur oxoacid derivative</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26835"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37577"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sulfur oxoacid derivative</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33551">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organosulfonic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33261"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33424"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic derivative of sulfonic acid in which the sulfo group is linked directly to carbon.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organosulfonic acid</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33575">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carboxylic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35605"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36586"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A carbon oxoacid acid carrying at least one -C(=O)OH group and having the structure RC(=O)OH, where R is any any monovalent functional group. Carboxylic acids are the most common type of organic acid.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carboxylic acid</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33579">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">main group molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">main group molecular entity</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33595 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33595">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36357"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclic compound</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33659">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic aromatic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33595"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33832"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic aromatic compound</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33671 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33671">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteropolycyclic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33595"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5686"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteropolycyclic compound</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33672 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33672">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterobicyclic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33595"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5686"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bicyclic compound in which at least one of the rings contains at least one skeletal heteroatom.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterobicyclic compound</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33675 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33675">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A p-block molecular entity is a molecular entity containing one or more atoms of a p-block element.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block molecular entity</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33694 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33694">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biomacromolecule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36357"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule formed by a living organism.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biomacromolecule</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33696 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33696">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15986"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule made up of nucleotide units and hydrolysable into certain pyrimidine or purine bases (usually adenine, cytosine, guanine, thymine, uracil), D-ribose or 2-deoxy-D-ribose and phosphoric acid.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleic acid</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33697 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33697">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribonucleic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33696"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High molecular weight, linear polymers, composed of nucleotides containing ribose and linked by phosphodiester bonds; RNA is central to the synthesis of proteins.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribonucleic acid</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33832 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33832">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic cyclic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic cyclic compound</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33833 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33833">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteroarene</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24532"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33659"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A heterocyclic compound formally derived from an arene by replacement of one or more methine (-C=) and/or vinylene (-CH=CH-) groups by trivalent or divalent heteroatoms, respectively, in such a way as to maintain the continuous pi-electron system characteristic of aromatic systems and a number of out-of-plane pi-electrons corresponding to the Hueckel rule (4n+2).</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteroarene</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35352">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organonitrogen compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33285"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51143"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any heteroorganic entity containing at least one carbon-nitrogen bond.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organonitrogen compound</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35605 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35605">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon oxoacid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24651"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon oxoacid</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36357">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyatomic entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any molecular entity consisting of more than one atom.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyatomic entity</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36586">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbonyl compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any compound containing the carbonyl group, C=O. The term is commonly used in the restricted sense of aldehydes and ketones, although it actually includes carboxylic acids and derivatives.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbonyl compound</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36962 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36962">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organochalcogen compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33285"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33304"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organochalcogen compound is a compound containing at least one carbon-chalcogen bond.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organochalcogen compound</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36963 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36963">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organooxygen compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25806"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36962"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organochalcogen compound containing at least one carbon-oxygen bond.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organooxygen compound</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37577">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteroatomic molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36357"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A molecular entity consisting of two or more chemical elements.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteroatomic molecular entity</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37960 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37960">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyanine dye</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35352"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyanine dyes are synthetic dyes with the general formula R2N[CH=CH]nCH=N(+)R2    &lt;-&gt; R2N(+)=CH[CH=CH]nNR2 (n is a small number) in which the nitrogen and part of the conjugated chain usually form part of a heterocyclic system, such as imidazole, pyridine, pyrrole, quinoline and thiazole.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyanine dye</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37972 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37972">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphorus-32 atom</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28659"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The radioactive isotope of phosphorus with relative atomic mass 31.973907 and half-life of 14.26 days.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphorus-32 atom</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37973 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37973">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphorus-33 atom</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28659"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The radioactive isotope of phosphorus with relative atomic mass 32.971725, half-life of 25.34 days and nuclear spin (1)/2.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphorus-33 atom</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37987 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37987">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cy3 dye</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24828"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37960"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cy3 dye</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37989 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37989">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cy5 dye</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24828"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37960"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cy5 dye</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38101">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organonitrogen heterocyclic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24532"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35352"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any organonitrogen compound containing a cyclic component with nitrogen and at least one other element as ring member atoms.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organonitrogen heterocyclic compound</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38106">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organosulfur heterocyclic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24532"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33261"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organosulfur heterocyclic compound</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38164">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heteropentacyclic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38166"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heteropentacyclic compound</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38166">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heteropolycyclic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24532"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33671"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heteropolycyclic compound</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38295">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">azabicycloalkane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27171"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38101"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">azabicycloalkane</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38297">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thiabicycloalkane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27171"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38106"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thiabicycloalkane</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_4705 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_4705">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double-stranded DNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16991"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double-stranded DNA</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50047">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic amino compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35352"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound formally derived from ammonia by replacing one, two or three hydrogen atoms by organyl groups.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic amino compound</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50860 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50860">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any molecular entity that contains carbon.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic molecular entity</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51143">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen molecular entity</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51570">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biotins</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33256"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33575"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38295"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38297"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds containing a biotin (5-[(3aS,4S,6aR)-2-oxohexahydro-1H-thieno[3,4-d]imidazol-4-yl]pentanoic acid) skeleton.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biotins</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51756 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51756">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexa Fluor 532</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33551"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38164"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexa Fluor 532</obo:IAO_0000111>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organosulfonic acid that has formula C34H33N3O11S2.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51760 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51760">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexa Fluor 546</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38164"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexa Fluor 546</obo:IAO_0000111>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic heteropentacyclic compound that has formula C44H46Cl3N4NaO14S3.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_5686 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5686">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocyclic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33595"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cyclic compound having as ring members atoms of at least two different elements.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocyclic compound</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_61120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_61120">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleobase-containing molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51143"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any compound that has a nucleobase as a part.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleobase-containing molecular entity</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+
