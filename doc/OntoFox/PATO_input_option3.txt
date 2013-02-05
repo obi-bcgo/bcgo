@@ -1,0 +1,52 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/import_PATO.owl
+
+[Source ontology]
+#comment here
+#List of ontologies: OBI, NCBITaxon, MP, PATO, GO, DOID, IDO, CHEBI, SO, PRO, CL, ENVO, FMA, CARO
+PATO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PATO_0000011
+http://purl.obolibrary.org/obo/PATO_0000047
+http://purl.obolibrary.org/obo/PATO_0000146
+http://purl.obolibrary.org/obo/PATO_0000383
+http://purl.obolibrary.org/obo/PATO_0000384
+http://purl.obolibrary.org/obo/PATO_0000586
+http://purl.obolibrary.org/obo/PATO_0001338
+http://purl.obolibrary.org/obo/PATO_0001339
+http://purl.obolibrary.org/obo/PATO_0001340
+http://purl.obolibrary.org/obo/PATO_0001341
+http://purl.obolibrary.org/obo/PATO_0001344
+http://purl.obolibrary.org/obo/PATO_0001345
+http://purl.obolibrary.org/obo/PATO_0001346
+http://purl.obolibrary.org/obo/PATO_0001347
+http://purl.obolibrary.org/obo/PATO_0001348
+http://purl.obolibrary.org/obo/PATO_0001374
+http://purl.obolibrary.org/obo/PATO_0001375
+http://purl.obolibrary.org/obo/PATO_0001377
+http://purl.obolibrary.org/obo/PATO_0001385
+http://purl.obolibrary.org/obo/PATO_0001393
+http://purl.obolibrary.org/obo/PATO_0001394
+http://purl.obolibrary.org/obo/PATO_0001400
+http://purl.obolibrary.org/obo/PATO_0001401
+http://purl.obolibrary.org/obo/PATO_0001402
+http://purl.obolibrary.org/obo/PATO_0001405
+http://purl.obolibrary.org/obo/PATO_0001407
+http://purl.obolibrary.org/obo/PATO_0001421
+http://purl.obolibrary.org/obo/PATO_0001422
+http://purl.obolibrary.org/obo/PATO_0001874
+http://purl.obolibrary.org/obo/PATO_0001985
+http://purl.obolibrary.org/obo/PATO_0002039
+http://purl.obolibrary.org/obo/PATO_0002094
+http://purl.obolibrary.org/obo/PATO_0000069
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PATO_0000001 #PATO:quality
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #BFO:quality
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively

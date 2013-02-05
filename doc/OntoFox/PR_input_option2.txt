@@ -1,0 +1,74 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/import_PR.owl
+
+[Source ontology]
+#comment here
+#List of ontologies: OBI, NCBITaxon, MP, PATO, GO, DOID, IDO, CHEBI, SO, PRO, CL, ENVO, FMA, CARO
+PR
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PR_000001002
+http://purl.obolibrary.org/obo/PR_000001003
+http://purl.obolibrary.org/obo/PR_000001004
+http://purl.obolibrary.org/obo/PR_000001006
+http://purl.obolibrary.org/obo/PR_000001012
+http://purl.obolibrary.org/obo/PR_000001015
+http://purl.obolibrary.org/obo/PR_000001020
+http://purl.obolibrary.org/obo/PR_000001024
+http://purl.obolibrary.org/obo/PR_000001083
+http://purl.obolibrary.org/obo/PR_000001084
+http://purl.obolibrary.org/obo/PR_000001254
+http://purl.obolibrary.org/obo/PR_000001255
+http://purl.obolibrary.org/obo/PR_000001289
+http://purl.obolibrary.org/obo/PR_000001307
+http://purl.obolibrary.org/obo/PR_000001332
+http://purl.obolibrary.org/obo/PR_000001343
+http://purl.obolibrary.org/obo/PR_000001344
+http://purl.obolibrary.org/obo/PR_000001345
+http://purl.obolibrary.org/obo/PR_000001381
+http://purl.obolibrary.org/obo/PR_000001444
+http://purl.obolibrary.org/obo/PR_000001456
+http://purl.obolibrary.org/obo/PR_000001479
+http://purl.obolibrary.org/obo/PR_000001483
+http://purl.obolibrary.org/obo/PR_000001800
+http://purl.obolibrary.org/obo/PR_000001839
+http://purl.obolibrary.org/obo/PR_000001843
+http://purl.obolibrary.org/obo/PR_000001865
+http://purl.obolibrary.org/obo/PR_000001869
+http://purl.obolibrary.org/obo/PR_000001874
+http://purl.obolibrary.org/obo/PR_000001879
+http://purl.obolibrary.org/obo/PR_000001889
+http://purl.obolibrary.org/obo/PR_000001892
+http://purl.obolibrary.org/obo/PR_000001898
+http://purl.obolibrary.org/obo/PR_000001903
+http://purl.obolibrary.org/obo/PR_000001932
+http://purl.obolibrary.org/obo/PR_000001944
+http://purl.obolibrary.org/obo/PR_000001945
+http://purl.obolibrary.org/obo/PR_000001950
+http://purl.obolibrary.org/obo/PR_000001969
+http://purl.obolibrary.org/obo/PR_000002065
+http://purl.obolibrary.org/obo/PR_000002112
+http://purl.obolibrary.org/obo/PR_000002978
+http://purl.obolibrary.org/obo/PR_000002981
+http://purl.obolibrary.org/obo/PR_000005178
+http://purl.obolibrary.org/obo/PR_000005307
+http://purl.obolibrary.org/obo/PR_000006611
+http://purl.obolibrary.org/obo/PR_000007431
+http://purl.obolibrary.org/obo/PR_000007857
+http://purl.obolibrary.org/obo/PR_000007858
+http://purl.obolibrary.org/obo/PR_000016043
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PR_000000001 #protein
+subClassOf http://purl.obolibrary.org/obo/CHEBI_16670 #peptide
+http://purl.obolibrary.org/obo/PR_000002981
+subClassOf http://purl.obolibrary.org/obo/PR_000000001
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000115
+mapTo http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition

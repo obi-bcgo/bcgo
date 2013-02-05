@@ -1,0 +1,99 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/import_GO.owl
+
+[Source ontology]
+#comment here
+#List of ontologies: OBI, NCBITaxon, MP, PATO, GO, DOID, IDO, CHEBI, SO, PRO, CL, ENVO, FMA, CARO
+GO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0000791
+http://purl.obolibrary.org/obo/GO_0000792
+http://purl.obolibrary.org/obo/GO_0001649
+http://purl.obolibrary.org/obo/GO_0001667
+http://purl.obolibrary.org/obo/GO_0001816
+http://purl.obolibrary.org/obo/GO_0001820
+http://purl.obolibrary.org/obo/GO_0002228
+http://purl.obolibrary.org/obo/GO_0002244
+http://purl.obolibrary.org/obo/GO_0002456
+http://purl.obolibrary.org/obo/GO_0002573
+http://purl.obolibrary.org/obo/GO_0003824
+http://purl.obolibrary.org/obo/GO_0003964
+http://purl.obolibrary.org/obo/GO_0005634
+http://purl.obolibrary.org/obo/GO_0005730
+http://purl.obolibrary.org/obo/GO_0005737
+http://purl.obolibrary.org/obo/GO_0005840
+http://purl.obolibrary.org/obo/GO_0007049
+http://purl.obolibrary.org/obo/GO_0007113
+http://purl.obolibrary.org/obo/GO_0007143
+http://purl.obolibrary.org/obo/GO_0007596
+http://purl.obolibrary.org/obo/GO_0008015
+http://purl.obolibrary.org/obo/GO_0009987
+http://purl.obolibrary.org/obo/GO_0010467
+http://purl.obolibrary.org/obo/GO_0015671
+http://purl.obolibrary.org/obo/GO_0016477
+http://purl.obolibrary.org/obo/GO_0017145
+http://purl.obolibrary.org/obo/GO_0019724
+http://purl.obolibrary.org/obo/GO_0019882
+http://purl.obolibrary.org/obo/GO_0022414
+http://purl.obolibrary.org/obo/GO_0030072
+http://purl.obolibrary.org/obo/GO_0030073
+http://purl.obolibrary.org/obo/GO_0030098
+http://purl.obolibrary.org/obo/GO_0030099
+http://purl.obolibrary.org/obo/GO_0030141
+http://purl.obolibrary.org/obo/GO_0030154
+http://purl.obolibrary.org/obo/GO_0030182
+http://purl.obolibrary.org/obo/GO_0030217
+http://purl.obolibrary.org/obo/GO_0030218
+http://purl.obolibrary.org/obo/GO_0030219
+http://purl.obolibrary.org/obo/GO_0030224
+http://purl.obolibrary.org/obo/GO_0030225
+http://purl.obolibrary.org/obo/GO_0030263
+http://purl.obolibrary.org/obo/GO_0030316
+http://purl.obolibrary.org/obo/GO_0030851
+http://purl.obolibrary.org/obo/GO_0030855
+http://purl.obolibrary.org/obo/GO_0032940
+http://purl.obolibrary.org/obo/GO_0033152
+http://purl.obolibrary.org/obo/GO_0042470
+http://purl.obolibrary.org/obo/GO_0042575
+http://purl.obolibrary.org/obo/GO_0042582
+http://purl.obolibrary.org/obo/GO_0042613
+http://purl.obolibrary.org/obo/GO_0043011
+http://purl.obolibrary.org/obo/GO_0043234
+http://purl.obolibrary.org/obo/GO_0045444
+http://purl.obolibrary.org/obo/GO_0045580
+http://purl.obolibrary.org/obo/GO_0046879
+http://purl.obolibrary.org/obo/GO_0048103
+http://purl.obolibrary.org/obo/GO_0048477
+http://purl.obolibrary.org/obo/GO_0048609
+http://purl.obolibrary.org/obo/GO_0048869
+http://purl.obolibrary.org/obo/GO_0048870
+http://purl.obolibrary.org/obo/GO_0050776
+http://purl.obolibrary.org/obo/GO_0050896
+http://purl.obolibrary.org/obo/GO_0055007
+http://purl.obolibrary.org/obo/GO_0060591
+http://purl.obolibrary.org/obo/GO_0070091
+http://purl.obolibrary.org/obo/GO_0070253
+http://purl.obolibrary.org/obo/GO_0071971
+http://purl.obolibrary.org/obo/GO_0006725
+http://purl.obolibrary.org/obo/GO_0034641
+http://purl.obolibrary.org/obo/GO_0044238
+http://purl.obolibrary.org/obo/GO_0046483
+http://purl.obolibrary.org/obo/GO_1901360
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+subClassOf http://purl.obolibrary.org/obo/BFO_0000007 #process
+http://purl.obolibrary.org/obo/GO_0005575 #cellular_component
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/GO_0003674 #molecular_function
+subClassOf http://purl.obolibrary.org/obo/BFO_0000034 #function
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000115
+mapTo http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
