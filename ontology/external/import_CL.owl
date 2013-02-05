@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/import_CL.owl#"
-     xml:base="http://purl.obolibrary.org/obo/import_CL.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/bcgo/import_CL.owl#"
+     xml:base="http://purl.obolibrary.org/obo/bcgo/import_CL.owl"
      xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
      xmlns:uberon="http://purl.obolibrary.org/obo/uberon#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -13,7 +13,7 @@
      xmlns:OBO_REL="http://purl.obolibrary.org/obo/OBO_REL#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:go="http://purl.obolibrary.org/obo/go#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/import_CL.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bcgo/import_CL.owl"/>
     
 
 
