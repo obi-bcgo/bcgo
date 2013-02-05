@@ -1,5 +1,5 @@
 [URI of the OWL(RDF/XML) output file]
-http://purl.obolibrary.org/obo/import_PR.owl
+http://purl.obolibrary.org/obo/bcgo/import_PR.owl
 
 [Source ontology]
 #comment here

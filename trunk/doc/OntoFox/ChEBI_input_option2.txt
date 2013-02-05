@@ -1,5 +1,5 @@
 [URI of the OWL(RDF/XML) output file]
-http://purl.obolibrary.org/obo/import_ChEBI.owl
+http://purl.obolibrary.org/obo/bcgo/import_ChEBI.owl
 
 [Source ontology]
 #comment here
