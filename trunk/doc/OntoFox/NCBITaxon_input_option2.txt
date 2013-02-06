@@ -15,6 +15,12 @@ http://purl.obolibrary.org/obo/NCBITaxon_2157
 http://purl.obolibrary.org/obo/NCBITaxon_2759
 http://purl.obolibrary.org/obo/NCBITaxon_7742
 http://purl.obolibrary.org/obo/NCBITaxon_9606
+http://purl.obolibrary.org/obo/NCBITaxon_10114
+http://purl.obolibrary.org/obo/NCBITaxon_32443
+http://purl.obolibrary.org/obo/NCBITaxon_7776
+http://purl.obolibrary.org/obo/NCBITaxon_7955
+http://purl.obolibrary.org/obo/NCBITaxon_8570
+http://purl.obolibrary.org/obo/NCBITaxon_8782
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCBITaxon_2157
