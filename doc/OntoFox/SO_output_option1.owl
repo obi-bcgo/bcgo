@@ -78,6 +78,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000104">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polypeptide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sequence of amino acids linked by peptide bonds which may lack appreciable tertiary structure and may not be liable to irreversible denaturation.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polypeptide</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0000443 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000443">
