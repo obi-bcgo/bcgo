@@ -1,0 +1,210 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/bcgo/import_OBO.owl
+
+############################################################
+[Source ontology]
+#comment here
+#List of ontologies: OBI, NCBITaxon, MP, PATO, GO, DOID, IDO, CHEBI, SO, PRO, CL, ENVO, FMA, CARO
+BTO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/BTO_0000773 #lymphoblastoid cell line
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BTO_0000773 #lymphoblastoid cell line
+subClassOf http://purl.obolibrary.org/obo/CLO_0000044 #immortal cell line
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+
+
+[Source ontology]
+#comment here
+BTO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/BTO_0003560 #CCE cell
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BTO_0001581 #embryonic stem cell line
+subClassOf http://purl.obolibrary.org/obo/CLO_0000044 #permanent stem cell line
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+
+
+############################################################
+[Source ontology]
+#comment here
+ENVO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/ENVO_00001998 #soil
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/ENVO_00010483 #environment material
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000115
+
+
+############################################################
+[Source ontology]
+#comment here
+ERO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/ERO_0001211 #massively parallel signature sequencing	
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/ERO_0001211 #massively parallel signature sequencing	
+subClassOf http://purl.obolibrary.org/obo/OBI_0000723 #DNA sequencing by ligation
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000115
+
+
+[Source ontology]
+#comment here
+ERO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/ERO_0001334 #biopsy
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/ERO_0001334 #biopsy
+subClassOf http://purl.obolibrary.org/obo/OBI_0600005 #collecting specimen from organism
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000115
+
+############################################################
+[Source ontology]
+#comment here
+FMA
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/FMA_63919 #Fetus
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/FMA_63919 #Fetus
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000468 #multi-cellular organism
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000115
+
+
+############################################################
+[Source ontology]
+#comment here
+OGMS
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OGMS_0000015 #clinical history
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OGMS_0000015 #clinical history
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000115
+
+
+[Source ontology]
+#comment here
+OGMS
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OGMS_0000023 #phenotype
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OGMS_0000023 #phenotype
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #quality
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000115
+
+
+[Source ontology]
+#comment here
+OGMS
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000115
+
+
+############################################################
+[Source ontology]
+#comment here
+SWO
+
+[Low level source term URIs]
+http://www.ebi.ac.uk/efo/swo/SWO_0000107 #Feature Extraction Software
+
+[Top level source term URIs and target direct superclass URIs]
+http://www.ebi.ac.uk/efo/swo/SWO_0000107 #Feature Extraction Software
+subClassOf http://purl.obolibrary.org/obo/IAO_0000010 #software
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000115
+
+
+
+
+
