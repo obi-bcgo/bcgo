@@ -1,14 +1,271 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/bcgo.owl#"
      xml:base="http://purl.obolibrary.org/obo/bcgo.owl"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#">
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bcgo.owl">
-      <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bcgo/2013-02-14/bcgo.owl"/>
-      <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/bcgo_basis.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/bcgo_basis.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bcgo/2013-02-14/bcgo.owl"/>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000002">
+        <rdfs:label xml:lang="en">mouse strain</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001175"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000003">
+        <rdfs:label xml:lang="en">rat strain</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10116"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001175"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000004">
+        <rdfs:label xml:lang="en">insulin expressing cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0001034"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003922"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000673"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so_translates_to"/>
+                                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Insulin expressing cells isolated from embryonic pancreatic buds.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000005 -->
+
+    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000005">
+        <rdfs:label xml:lang="en">Ngn3 expressing cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0001034"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000673"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so_translates_to"/>
+                                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003922"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Ngn3-expressing cells isolated from embryonic pancreatic buds.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000006 -->
+
+    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000006">
+        <rdfs:label xml:lang="en">insulin expressing mature beta cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0001034"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000673"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so_translates_to"/>
+                                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000006"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#existence_starts_at"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000092"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Insulin expressing cells isolated from adult (e.g., P60) islets.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000007 -->
+
+    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000007">
+        <rdfs:label xml:lang="en">embryonic day 8.5</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001367"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000008 -->
+
+    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000008">
+        <rdfs:label xml:lang="en">embryonic day 9.5</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001367"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000009 -->
+
+    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000009">
+        <rdfs:label xml:lang="en">embryonic day 10.5</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001367"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001581 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BTO_0001581">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0002322"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000044 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000044">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
 </rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+
