@@ -21,6 +21,7 @@ http://purl.obolibrary.org/obo/CHEBI_37989
 http://purl.obolibrary.org/obo/CHEBI_4705
 http://purl.obolibrary.org/obo/CHEBI_51756
 http://purl.obolibrary.org/obo/CHEBI_51760
+http://purl.obolibrary.org/obo/CHEBI_17137
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity

@@ -59,6 +59,7 @@ http://purl.obolibrary.org/obo/PR_000007858
 http://purl.obolibrary.org/obo/PR_000016043
 http://purl.obolibrary.org/obo/PR_000009116
 http://purl.obolibrary.org/obo/PR_000011158
+http://purl.obolibrary.org/obo/PR_000023089
 http://purl.obolibrary.org/obo/PR_000009054 #insulin
 http://purl.obolibrary.org/obo/PR_000007891 #glucagon
 

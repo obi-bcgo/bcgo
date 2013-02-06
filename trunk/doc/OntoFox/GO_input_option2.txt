@@ -80,6 +80,14 @@ http://purl.obolibrary.org/obo/GO_0034641
 http://purl.obolibrary.org/obo/GO_0044238
 http://purl.obolibrary.org/obo/GO_0046483
 http://purl.obolibrary.org/obo/GO_1901360
+http://purl.obolibrary.org/obo/GO_0006338
+http://purl.obolibrary.org/obo/GO_0019815
+http://purl.obolibrary.org/obo/GO_0040030
+http://purl.obolibrary.org/obo/GO_0042101
+http://purl.obolibrary.org/obo/GO_0042571
+http://purl.obolibrary.org/obo/GO_0043565
+http://purl.obolibrary.org/obo/GO_0044030
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/GO_0008150 #biological_process
