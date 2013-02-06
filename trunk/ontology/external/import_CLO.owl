@@ -63,6 +63,19 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000002"/>    
 
 
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000044">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">permanent stem cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000002"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a cell line that is derived from stem cell</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">permanent stem cell line</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CLO_0000081 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000081">
