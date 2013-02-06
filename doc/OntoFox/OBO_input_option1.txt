@@ -150,10 +150,13 @@ OGMS
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OGMS_0000023 #phenotype
+http://purl.obolibrary.org/obo/OGMS_0000063 #disease course
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OGMS_0000023 #phenotype
 subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #quality
+http://purl.obolibrary.org/obo/OGMS_0000063 #disease course
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological process
 
 [Source term retrieval setting]
 includeNoIntermediates
