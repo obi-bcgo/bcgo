@@ -681,6 +681,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000007891 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007891">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucagon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human GCG gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucagon</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000009054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009054">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human INS gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000009116 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009116">
@@ -712,6 +736,18 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human TAL1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-cell acute lymphocytic leukemia protein 1</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000023089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000023089">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA ligase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the Escherichia coli K12 ligA gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA ligase</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
 </rdf:RDF>
