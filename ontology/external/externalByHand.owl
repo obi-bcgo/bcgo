@@ -9,6 +9,57 @@
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bcgo/externalByHand.owl"/>
 
 
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/so_translates_to -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so_translates_to">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">translates_to</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: codon translates_to amino_acid.</rdfs:comment>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inverse of translation _of.</obo:IAO_0000115>
+        <obo:IAO_creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wed Aug 19 00:11:53 PDT 2009</obo:IAO_creation_date>
+        <obo:IAO_created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</obo:IAO_created_by>
+        <obo:IAO_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">translates_to</obo:IAO_id>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inverse of translation _of.</owl:annotatedTarget>
+        <obo:IAO_xref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</obo:IAO_xref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so_translates_to"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/so_translation_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so_translation_of">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">translation_of</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: Polypeptide translation_of CDS.</rdfs:comment>
+        <obo:IAO_creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wed Aug 19 00:09:59 PDT 2009</obo:IAO_creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X is translation of Y if X is translated by ribosome to create Y.</obo:IAO_0000115>
+        <obo:IAO_created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</obo:IAO_created_by>
+        <obo:IAO_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">translation_of</obo:IAO_id>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X is translation of Y if X is translated by ribosome to create Y.</owl:annotatedTarget>
+        <obo:IAO_xref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</obo:IAO_xref>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so_translation_of"/>
+    </owl:Axiom>
+
+
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -44,5 +95,27 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
         <obo:IAO_0000115>A reference to a place on the Earth, by its name or by its geographical location.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
+    </owl:Class> 
+    
+    
+    
+   <!-- http://purl.obolibrary.org/obo/MP_0001261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0001261">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obese</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mp.owl"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a status with body weight that is grossly above the average, acceptable or desirable weight, usually due to accumulation of excess fat tissue in the body</obo:IAO_0000115>
+    </owl:Class>
+
+
+
+
+   <!-- http://purl.obolibrary.org/obo/RS_0002307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RS_0002307">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICR</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.oblibrary.org/obo/bcgo/BCGO_0000003"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/rs.owl"/>
     </owl:Class>    
 </rdf:RDF>
