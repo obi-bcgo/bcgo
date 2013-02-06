@@ -1,0 +1,105 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/bcgo/import_EFO.owl
+
+[Source ontology]
+#comment here
+#List of ontologies: OBI, NCBITaxon, MP, PATO, GO, DOID, IDO, CHEBI, SO, PRO, CL, ENVO, FMA, CARO
+EFO
+
+[Low level source term URIs]
+http://www.ebi.ac.uk/efo/EFO_0000493 #family history
+
+[Top level source term URIs and target direct superclass URIs]
+http://www.ebi.ac.uk/efo/EFO_0000493 #family history
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000015 #clinical history
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000115
+
+
+
+[Source ontology]
+#comment here
+#List of ontologies: OBI, NCBITaxon, MP, PATO, GO, DOID, IDO, CHEBI, SO, PRO, CL, ENVO, FMA, CARO
+EFO
+
+[Low level source term URIs]
+http://www.ebi.ac.uk/efo/EFO_0000549 #insulinoma	
+http://www.ebi.ac.uk/efo/EFO_0000270 #asthma	
+http://www.ebi.ac.uk/efo/EFO_0000309 #Burkitts lymphoma	
+http://www.ebi.ac.uk/efo/EFO_0000400 #diabetes mellitus	
+http://www.ebi.ac.uk/efo/EFO_0001359 #type I diabetes mellitus	
+http://www.ebi.ac.uk/efo/EFO_0001360 #type II diabetes mellitus	
+http://www.ebi.ac.uk/efo/EFO_0000339 #chronic myelogenous leukemia	
+http://www.ebi.ac.uk/efo/EFO_0000365 #colorectal adenocarcinoma	
+http://www.ebi.ac.uk/efo/EFO_0000220 #acute lymphoblastic leukemia	
+http://www.ebi.ac.uk/efo/EFO_0000224 #acute promyelocytic leukemia	
+
+[Top level source term URIs and target direct superclass URIs]
+http://www.ebi.ac.uk/efo/EFO_0000408 #disease
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000115
+
+
+
+[Source ontology]
+#comment here
+#List of ontologies: OBI, NCBITaxon, MP, PATO, GO, DOID, IDO, CHEBI, SO, PRO, CL, ENVO, FMA, CARO
+EFO
+
+[Low level source term URIs]
+http://www.ebi.ac.uk/efo/EFO_0002927 #International Unit
+
+[Top level source term URIs and target direct superclass URIs]
+http://www.ebi.ac.uk/efo/EFO_0002927 #International Unit
+subClassOf http://purl.obolibrary.org/obo/IAO_0000003
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000115
+
+
+[Source ontology]
+#comment here
+#List of ontologies: OBI, NCBITaxon, MP, PATO, GO, DOID, IDO, CHEBI, SO, PRO, CL, ENVO, FMA, CARO
+EFO
+
+[Low level source term URIs]
+http://www.ebi.ac.uk/efo/EFO_0001367
+includeAllChildren
+http://www.ebi.ac.uk/efo/EFO_0002543
+includeAllChildren
+http://www.ebi.ac.uk/efo/EFO_0004390
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://www.ebi.ac.uk/efo/EFO_0001367
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000105 #life cycle stage
+http://www.ebi.ac.uk/efo/EFO_0002543
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000105 #life cycle stage
+http://www.ebi.ac.uk/efo/EFO_0004390
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000105 #life cycle stage
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000115
