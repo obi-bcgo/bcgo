@@ -8,8 +8,11 @@
     <uri name="http://purl.obolibrary.org/obo/bcgo/import_NCBITaxon.owl" uri="external/import_NCBITaxon.owl"/>
     <uri name="http://purl.obolibrary.org/obo/bcgo/import_PATO.owl" uri="external/import_PATO.owl"/>
     <uri name="http://purl.obolibrary.org/obo/bcgo/import_PR.owl" uri="external/import_PR.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/bcgo/import_SO.owl" uri="external/import_SO.owl"/>
     <uri name="http://purl.obolibrary.org/obo/bcgo/import_UBERON.owl" uri="external/import_UBERON.owl"/>
     <uri name="http://purl.obolibrary.org/obo/bcgo/import_UO.owl" uri="external/import_UO.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/bcgo/import_OBO.owl" uri="external/import_OBO.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/bcgo/import_EFO.owl" uri="external/import_EFO.owl"/>
     <uri name="http://purl.obolibrary.org/obo/bcgo/externalByHand.owl" uri="external/externalByHand.owl"/>
     <uri name="http://purl.obolibrary.org/obo/bcgo/bcgo_basis.owl" uri="bcgo_basis.owl"/>
 </catalog>
