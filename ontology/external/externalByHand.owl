@@ -17,10 +17,13 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
     <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+
+
 
     <!-- http://purl.obolibrary.org/obo/CARO_0001008 -->
 
@@ -31,4 +34,15 @@
         <obo:IAO_0000111 xml:lang="en">gross anatomical part</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/caro.owl"/>
     </owl:Class>
+   
+
+   
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000448 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000448">
+        <rdfs:label xml:lang="en">geographical location</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <obo:IAO_0000115>A reference to a place on the Earth, by its name or by its geographical location.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
+    </owl:Class>    
 </rdf:RDF>
