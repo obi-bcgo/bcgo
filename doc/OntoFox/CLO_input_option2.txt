@@ -18,6 +18,7 @@ http://purl.obolibrary.org/obo/CLO_0007050
 http://purl.obolibrary.org/obo/CLO_0008381
 http://purl.obolibrary.org/obo/CLO_0008734
 http://purl.obolibrary.org/obo/CLO_0009218
+http://purl.obolibrary.org/obo/CLO_0000044 #permanent stem cell line 
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CL_0000578
