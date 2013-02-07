@@ -76,7 +76,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000105"/>
     
-
+    
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000068 -->
+    
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000068"/>
+    
+    
 
     <!-- http://www.ebi.ac.uk/efo/EFO_0000220 -->
 
@@ -247,17 +252,6 @@
     
 
 
-    <!-- http://www.ebi.ac.uk/efo/EFO_0001367 -->
-
-    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001367">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryo stage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryo stage</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.ebi.ac.uk/efo/EFO_0001642 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001642">
@@ -295,7 +289,7 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002561">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic day 8.25</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001367"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000068"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic day 8.25</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
     </owl:Class>
@@ -306,7 +300,7 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002562">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic day 11.5</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001367"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000068"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic day 11.5</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
     </owl:Class>
@@ -317,7 +311,7 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002563">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic day 12.5</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001367"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000068"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic day 12.5</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
     </owl:Class>
@@ -328,7 +322,7 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002564">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic day 13.5</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001367"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000068"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic day 13.5</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
     </owl:Class>
@@ -339,7 +333,7 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002565">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic day 14.5</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001367"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000068"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic day 14.5</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
     </owl:Class>
@@ -350,7 +344,7 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002566">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic day 15.5</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001367"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000068"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic day 15.5</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
     </owl:Class>
@@ -361,7 +355,7 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002567">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic day 16.5</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001367"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000068"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic day 16.5</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
     </owl:Class>
@@ -372,7 +366,7 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002568">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic day 17.5</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001367"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000068"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic day 17.5</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
     </owl:Class>
@@ -383,7 +377,7 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002569">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic day 18</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001367"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000068"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic day 18</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
     </owl:Class>
@@ -394,7 +388,7 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002570">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic day 18.5</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001367"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000068"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic day 18.5</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
     </owl:Class>
