@@ -7,7 +7,37 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bcgo/externalByHand.owl"/>
+    
 
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_creation_date"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_id"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_created_by"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
 
 
     <!-- 
@@ -21,6 +51,33 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0003000 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003000">
+        <rdfs:label xml:lang="en">produces</rdfs:label>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melissa Haendel</obo:IAO_0000117>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Note that this definition doesn&apos;t quite distinguish the output of a transformation process from a production process, which is related to the identity/granularity issue.</rdfs:comment>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a produces b if some process that occurs_in a has_output b, where a and b are material entities. Examples: hybridoma cell line produces monoclonal antibody reagent; chondroblast produces avascular GAG-rich matrix.</obo:IAO_0000115>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0003001"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0003001 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003001">
+        <rdfs:label xml:lang="en">produced by</rdfs:label>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melissa Haendel</obo:IAO_0000117>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/so_translates_to -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so_translates_to">
@@ -31,12 +88,6 @@
         <obo:IAO_created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</obo:IAO_created_by>
         <obo:IAO_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">translates_to</obo:IAO_id>
     </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inverse of translation _of.</owl:annotatedTarget>
-        <obo:IAO_xref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</obo:IAO_xref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so_translates_to"/>
-    </owl:Axiom>
     
 
 
@@ -50,14 +101,7 @@
         <obo:IAO_created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</obo:IAO_created_by>
         <obo:IAO_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">translation_of</obo:IAO_id>
     </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X is translation of Y if X is translated by ribosome to create Y.</owl:annotatedTarget>
-        <obo:IAO_xref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://precedings.nature.com/documents/3495/version/1</obo:IAO_xref>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/so_translation_of"/>
-    </owl:Axiom>
-
-
+    
 
 
     <!-- 
@@ -68,12 +112,25 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
     
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000003"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000029"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/CARO_0001008 -->
@@ -85,9 +142,9 @@
         <obo:IAO_0000111 xml:lang="en">gross anatomical part</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/caro.owl"/>
     </owl:Class>
-   
+    
 
-   
+
     <!-- http://purl.obolibrary.org/obo/GAZ_00000448 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000448">
@@ -95,27 +152,37 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
         <obo:IAO_0000115>A reference to a place on the Earth, by its name or by its geographical location.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
-    </owl:Class> 
+    </owl:Class>
     
-    
-    
-   <!-- http://purl.obolibrary.org/obo/MP_0001261 -->
+
+
+    <!-- http://purl.obolibrary.org/obo/MP_0001261 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0001261">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obese</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mp.owl"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a status with body weight that is grossly above the average, acceptable or desirable weight, usually due to accumulation of excess fat tissue in the body</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mp.owl"/>
     </owl:Class>
+    
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0001995 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001995"/>
+    
 
 
-   <!-- http://purl.obolibrary.org/obo/RS_0002307 -->
+    <!-- http://purl.obolibrary.org/obo/RS_0002307 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RS_0002307">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICR</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.oblibrary.org/obo/bcgo/BCGO_0000003"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/rs.owl"/>
-    </owl:Class>    
+    </owl:Class>
 </rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+
