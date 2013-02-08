@@ -746,6 +746,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000157">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which is a standard measure of the intensity of light.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light unit</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_0000163 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000163">
