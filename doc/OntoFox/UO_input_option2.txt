@@ -72,6 +72,7 @@ http://purl.obolibrary.org/obo/UO_0000208
 http://purl.obolibrary.org/obo/UO_0000209
 http://purl.obolibrary.org/obo/UO_0000213
 http://purl.obolibrary.org/obo/UO_0000232
+http://purl.obolibrary.org/obo/UO_0000157 #light unit
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/UO_0000000 #unit
