@@ -494,7 +494,7 @@
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000673"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so_translates_to"/>
-                                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -510,7 +510,7 @@
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000673"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so_translates_to"/>
-                                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009116"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
