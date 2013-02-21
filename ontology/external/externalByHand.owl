@@ -85,8 +85,7 @@
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: codon translates_to amino_acid.</rdfs:comment>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inverse of translation _of.</obo:IAO_0000115>
         <obo:IAO_creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wed Aug 19 00:11:53 PDT 2009</obo:IAO_creation_date>
-        <obo:IAO_created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</obo:IAO_created_by>
-        <obo:IAO_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">translates_to</obo:IAO_id>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</obo:IAO_0000117>
     </owl:ObjectProperty>
     
 
@@ -98,8 +97,7 @@
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Example: Polypeptide translation_of CDS.</rdfs:comment>
         <obo:IAO_creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wed Aug 19 00:09:59 PDT 2009</obo:IAO_creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X is translation of Y if X is translated by ribosome to create Y.</obo:IAO_0000115>
-        <obo:IAO_created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</obo:IAO_created_by>
-        <obo:IAO_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">translation_of</obo:IAO_id>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareneilbeck</obo:IAO_0000117>
     </owl:ObjectProperty>
     
 
