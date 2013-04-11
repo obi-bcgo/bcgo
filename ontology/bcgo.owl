@@ -243,6 +243,7 @@
     <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000007">
         <rdfs:label xml:lang="en">embryonic day 8.5</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000068"/>
+        <obo:IAO_0000115>A embryo stage that is 8.5 days of the embryo</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -252,6 +253,7 @@
     <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000008">
         <rdfs:label xml:lang="en">embryonic day 9.5</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000068"/>
+        <obo:IAO_0000115>A embryo stage that is 9.5 days of the embryo</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -261,6 +263,7 @@
     <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000009">
         <rdfs:label xml:lang="en">embryonic day 10.5</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000068"/>
+        <obo:IAO_0000115>A embryo stage that is 10.5 days of the embryo</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -270,12 +273,6 @@
     <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000010">
         <rdfs:label xml:lang="en">insulin expressing pancreatic bud cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003922"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
@@ -290,6 +287,12 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003922"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a native cell that is part of embryonic pancreatic buds and expressing insulin.</obo:IAO_0000115>
@@ -335,6 +338,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003922"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -347,12 +356,6 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003922"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a native cell that is part of pancreatic bud and is expressing ngn3</obo:IAO_0000115>
@@ -404,7 +407,7 @@
     <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000015 -->
 
     <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000015">
-        <rdfs:label xml:lang="en">postnatal day 60</rdfs:label>
+        <rdfs:label xml:lang="en">mouse postnatal day 60</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004390"/>
         <obo:IAO_0000115>A mouse postnatal stage that is 60 days after birth.</obo:IAO_0000115>
         <obo:IAO_0000118>P60</obo:IAO_0000118>
@@ -473,7 +476,7 @@
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000673"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so_translates_to"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009116"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -489,7 +492,7 @@
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000673"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so_translates_to"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009116"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
