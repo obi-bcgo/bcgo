@@ -203,22 +203,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0001034"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000673"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so_translates_to"/>
-                                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -227,6 +211,22 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#existence_starts_at"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000092"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000673"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so_translates_to"/>
+                                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -275,6 +275,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003922"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -287,12 +293,6 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003922"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a native cell that is part of embryonic pancreatic buds and expressing insulin.</obo:IAO_0000115>
@@ -366,8 +366,13 @@
     <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000013 -->
 
     <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000013">
-        <rdfs:label xml:lang="en">C57BL/6J strain</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <rdfs:label xml:lang="en">C57BL/6J mouse strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.oblibrary.org/obo/bcgo/BCGO_0000002"/>
+        <obo:IAO_0000118>C57 black 6</obo:IAO_0000118>
+        <obo:IAO_0000115>A mouse strain that is a laboratory mouse generated from long inbreeding with nearly identical genotype. C57BL/6 mouse has a dark brown, nearly black coat, and an easily irritable temperament. It has a good reproductive performance and is the most widely used &quot;genetic background&quot; for genetically modified mice for use as models of human disease.</obo:IAO_0000115>
+        <obo:IAO_0000118>black 6</obo:IAO_0000118>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/C57BL/6</obo:IAO_0000119>
+        <obo:IAO_0000118>C57</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -377,12 +382,6 @@
     <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000014">
         <rdfs:label xml:lang="en">functional beta cell like cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#capable_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030073"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
@@ -399,6 +398,12 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#capable_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030073"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A cell that has all features and genetic signatures as functional beta cell. It may not be part of pancreas.</obo:IAO_0000115>
     </owl:Class>
     
@@ -411,6 +416,48 @@
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004390"/>
         <obo:IAO_0000115>A mouse postnatal stage that is 60 days after birth.</obo:IAO_0000115>
         <obo:IAO_0000118>P60</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000028 -->
+
+    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000028">
+        <rdfs:label xml:lang="en">129X1/SvJ mouse strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.oblibrary.org/obo/bcgo/BCGO_0000002"/>
+        <obo:IAO_0000118>129/SvJ</obo:IAO_0000118>
+        <obo:IAO_0000118>129X1</obo:IAO_0000118>
+        <obo:IAO_0000115>A mouse strain that is a laboratory mouse generated from inbreeding. It has white-bellied, pink-eyed, light chinchilla (off-white) or albino  or white-bellied, pink-eyed, light chinchilla (light tan). It has a good reproductive performance and is widely used in the production of targeted mutations due to the availability of multiple embryonic stem cell lines derived from them. </obo:IAO_0000115>
+        <obo:IAO_0000119>http://www.informatics.jax.org/mgihome/nomen/strain_129.shtml
+http://jaxmice.jax.org/strain/000691.html</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000030">
+        <rdfs:label xml:lang="en">C3H mouse strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.oblibrary.org/obo/bcgo/BCGO_0000002"/>
+        <obo:IAO_0000119>http://www.informatics.jax.org/external/festing/mouse/docs/C3H.shtml
+http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.aspx</obo:IAO_0000119>
+        <obo:IAO_0000115>A mouse strain that Inbred from F130 to F170 depending on substrain original generated from a cross of a Bagg albino female and a DBA male by Strong in 1920. It has Agouti coat color. Most substrains have a good reproductive performance. It is widely used in a wide variety of research areas including cancer, immunology and inflammation, sensorineural, and cardiovascular biology.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000031">
+        <rdfs:label xml:lang="en">black swiss mouse strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.oblibrary.org/obo/bcgo/BCGO_0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bcgo.owl#has_genetic_background_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.oblibrary.org/obo/bcgo/BCGO_0000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>http://wwwcareers.crl.com/en-US/ProdServ/ByType/ResModOver/ResMod/Pages/Black_Swiss_Mouse.aspx</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -476,7 +523,7 @@
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000673"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so_translates_to"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009116"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -492,7 +539,7 @@
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000673"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so_translates_to"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009116"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
