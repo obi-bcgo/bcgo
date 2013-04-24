@@ -87,7 +87,8 @@ http://purl.obolibrary.org/obo/GO_0042101
 http://purl.obolibrary.org/obo/GO_0042571
 http://purl.obolibrary.org/obo/GO_0043565
 http://purl.obolibrary.org/obo/GO_0044030
-
+http://purl.obolibrary.org/obo/GO_0009306
+http://purl.obolibrary.org/obo/GO_0036321
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/GO_0008150 #biological_process
