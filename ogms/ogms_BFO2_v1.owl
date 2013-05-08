@@ -34,7 +34,7 @@ If you are interested in participating in the development of OGMS, please send e
         <dc:creator>Daniel Merico</dc:creator>
         <owl:imports rdf:resource="http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/ontology-metadata.owl"/>
+        <owl:imports rdf:resource="https://bcgo-ontology.googlecode.com/svn/trunk/ogms/ontology-metadata_BFO2_v1.owl"/>
     </owl:Ontology>
     
 
