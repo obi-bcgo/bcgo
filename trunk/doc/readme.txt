@@ -12,4 +12,4 @@ http://purl.obolibrary.org/obo/import_SO.owl		SO_output_option1.owl
 http://purl.obolibrary.org/obo/import_UBERON.owl	UBERON_output_option3.owl
 http://purl.obolibrary.org/obo/import_UO.owl		UO_output_option2.owl and replace UO_0000000 unit by IAO_0000003 measurement unit label, then delete UO_0000000
 http://purl.obolibrary.org/obo/import_OBO.owl		OBO_output_option1.owl
-http://purl.obolibrary.org/obo/import_EFO.owl		EFO_output.owl and replace EFO_0000408 disease by OBI_1110055 disease, EFO_0001367 embryo stage by UBERON_0000068 embryo stage, then delete EFO_0000408 and EFO_0001367. 
+http://purl.obolibrary.org/obo/import_EFO.owl		EFO_output.owl and replace EFO_0000408 disease by OBI_1110055 disease, then delete EFO_0000408. 
