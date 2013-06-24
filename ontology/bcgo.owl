@@ -247,36 +247,6 @@
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000007 -->
-
-    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000007">
-        <rdfs:label xml:lang="en">embryonic day 8.5</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000068"/>
-        <obo:IAO_0000115>A embryo stage that is 8.5 days from the begining of embryo stage</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000008 -->
-
-    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000008">
-        <rdfs:label xml:lang="en">embryonic day 9.5</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000068"/>
-        <obo:IAO_0000115>A embryo stage that is 9.5 days from the begining of embryo stage</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000009 -->
-
-    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000009">
-        <rdfs:label xml:lang="en">embryonic day 10.5</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000068"/>
-        <obo:IAO_0000115>An embryo stage that is 10.5 days from the begining of embryo stage</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
     <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000010 -->
 
     <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000010">
@@ -347,12 +317,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003922"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -365,6 +329,12 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003922"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a native cell that is part of pancreatic bud and is expressing ngn3</obo:IAO_0000115>
@@ -414,17 +384,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cell that has all features and genetic signatures as functional beta cell. It may not be part of pancreas.</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000015 -->
-
-    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000015">
-        <rdfs:label xml:lang="en">mouse postnatal day 60</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004390"/>
-        <obo:IAO_0000115>A mouse postnatal stage that is 60 days after birth.</obo:IAO_0000115>
-        <obo:IAO_0000118>P60</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -569,43 +528,194 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     
 
 
-    <!-- http://purl.obolibrary.org/obo/bcgo.owl#embryonic_day_8 -->
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bcgo.owl#embryonic_day_8">
-        <rdfs:label xml:lang="en">embryonic day 8</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000068"/>
-        <obo:IAO_0000115>An embryo stage that is 8 days from the begining of embryo stage.</obo:IAO_0000115>
-    </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/bcgo.owl#mouse_postnatal_day_0 -->
+    <!-- http://purl.oblibrary.org/obo/bcgo#class_0001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bcgo.owl#mouse_postnatal_day_0">
-        <rdfs:label xml:lang="en">mouse postnatal day 0</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004390"/>
-        <obo:IAO_0000115>A mouse postnatal stage that is 0 day after birth.</obo:IAO_0000115>
-    </owl:Class>
+    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0001">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label>embryonic day 8</rdfs:label>
+        <obo:IAO_0000115>8 days after fertilization</obo:IAO_0000115>
+    </owl:NamedIndividual>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/bcgo.owl#mouse_postnatal_day_12 -->
+    <!-- http://purl.oblibrary.org/obo/bcgo#class_0002 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bcgo.owl#mouse_postnatal_day_12">
-        <rdfs:label xml:lang="en">mouse postnatal day 12</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004390"/>
-        <obo:IAO_0000115>A mouse postnatal stage that is 12 days after birth.</obo:IAO_0000115>
-    </owl:Class>
+    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0002">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label xml:lang="en">embryonic day 8.5</rdfs:label>
+        <obo:IAO_0000115>8.5 days after fertilization</obo:IAO_0000115>
+    </owl:NamedIndividual>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/bcgo.owl#mouse_postnatal_day_4 -->
+    <!-- http://purl.oblibrary.org/obo/bcgo#class_0003 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bcgo.owl#mouse_postnatal_day_4">
-        <rdfs:label xml:lang="en">mouse postnatal day 4</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004390"/>
-        <obo:IAO_0000115>A mouse postnatal stage that is 4 days after birth.</obo:IAO_0000115>
-    </owl:Class>
+    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0003">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label xml:lang="en">embryonic day 8.25</rdfs:label>
+        <obo:IAO_0000115>8.25 days after fertilization</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo#class_0004 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0004">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label xml:lang="en">embryonic day 9.5</rdfs:label>
+        <obo:IAO_0000115>9.5 days after fertilization</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo#class_0005 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0005">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label xml:lang="en">embryonic day 10.5</rdfs:label>
+        <obo:IAO_0000115>10.5 days after fertilization</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo#class_0006 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0006">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label xml:lang="en">embryonic day 11.5</rdfs:label>
+        <obo:IAO_0000115>11.5 days after fertilization</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo#class_0007 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0007">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label xml:lang="en">embryonic day 12.5</rdfs:label>
+        <obo:IAO_0000115>12.5 days after fertilization</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo#class_0008 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0008">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label xml:lang="en">embryonic day 13.5</rdfs:label>
+        <obo:IAO_0000115>13.5 days after fertilization</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo#class_0009 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0009">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label xml:lang="en">embryonic day 14.5</rdfs:label>
+        <obo:IAO_0000115>14.5 days after fertilization</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo#class_0010 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0010">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label xml:lang="en">embryonic day 15.5</rdfs:label>
+        <obo:IAO_0000115>15.5 days after fertilization</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo#class_0011 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0011">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label xml:lang="en">embryonic day 16.5</rdfs:label>
+        <obo:IAO_0000115>16.5 days after fertilization</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo#class_0012 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0012">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label xml:lang="en">embryonic day 17.5</rdfs:label>
+        <obo:IAO_0000115>17.5 days after fertilization</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo#class_0013 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0013">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label xml:lang="en">embryonic day 18.5</rdfs:label>
+        <obo:IAO_0000115>18.5 days after fertilization</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo#class_0014 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0014">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label xml:lang="en">embryonic day 18</rdfs:label>
+        <obo:IAO_0000115>18 days after fertilization</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo#class_0015 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0015">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001169"/>
+        <rdfs:label xml:lang="en">postnatal day 0</rdfs:label>
+        <obo:IAO_0000115>0 day after birth</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo#class_0016 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0016">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001169"/>
+        <rdfs:label xml:lang="en">postnatal day 4</rdfs:label>
+        <obo:IAO_0000115>4 days after birth</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo#class_0017 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0017">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001169"/>
+        <rdfs:label xml:lang="en">postnatal day 12</rdfs:label>
+        <obo:IAO_0000115>12 days after birth</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.oblibrary.org/obo/bcgo#class_0018 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0018">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001169"/>
+        <rdfs:label xml:lang="en">postnatal day 60</rdfs:label>
+        <obo:IAO_0000115>60 days after birth</obo:IAO_0000115>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
