@@ -1,0 +1,23 @@
+Old IRI	New ID	Label	Term Type
+http://purl.obolibrary.org/obo/bcgo.owl#has_genetic_background_of	http://purl.obolibrary.org/obo/BCGO_0000015	has_genetic_background_of	ObjectProperty
+http://purl.obolibrary.org/obo/bcgo.owl#produces_low_amount	http://purl.obolibrary.org/obo/BCGO_0000022	produces_low_amount	ObjectProperty
+http://purl.obolibrary.org/obo/bcgo.owl#produces_high_amount	http://purl.obolibrary.org/obo/BCGO_0000023	produces_high_amount	ObjectProperty
+http://purl.obolibrary.org/obo/bcgo.owl#produces_no	http://purl.obolibrary.org/obo/BCGO_0000024	not_produce	ObjectProperty
+http://purl.oblibrary.org/obo/bcgo#class_0010	http://purl.obolibrary.org/obo/BCGO_0000025	embryonic day 15.5	NamedIndividual
+http://purl.oblibrary.org/obo/bcgo#class_0011	http://purl.obolibrary.org/obo/BCGO_0000026	embryonic day 16.5	NamedIndividual
+http://purl.oblibrary.org/obo/bcgo#class_0002	http://purl.obolibrary.org/obo/BCGO_0000027	embryonic day 8.5	NamedIndividual
+http://purl.oblibrary.org/obo/bcgo#class_0012	http://purl.obolibrary.org/obo/BCGO_0000029	embryonic day 17.5	NamedIndividual
+http://purl.oblibrary.org/obo/bcgo#class_0003	http://purl.obolibrary.org/obo/BCGO_0000032	embryonic day 8.25	NamedIndividual
+http://purl.oblibrary.org/obo/bcgo#class_0013	http://purl.obolibrary.org/obo/BCGO_0000033	embryonic day 18.5	NamedIndividual
+http://purl.oblibrary.org/obo/bcgo#class_0001	http://purl.obolibrary.org/obo/BCGO_0000034	embryonic day 8	NamedIndividual
+http://purl.oblibrary.org/obo/bcgo#class_0014	http://purl.obolibrary.org/obo/BCGO_0000035	embryonic day 18	NamedIndividual
+http://purl.oblibrary.org/obo/bcgo#class_0006	http://purl.obolibrary.org/obo/BCGO_0000036	embryonic day 11.5	NamedIndividual
+http://purl.oblibrary.org/obo/bcgo#class_0015	http://purl.obolibrary.org/obo/BCGO_0000037	postnatal day 0	NamedIndividual
+http://purl.oblibrary.org/obo/bcgo#class_0007	http://purl.obolibrary.org/obo/BCGO_0000038	embryonic day 12.5	NamedIndividual
+http://purl.oblibrary.org/obo/bcgo#class_0016	http://purl.obolibrary.org/obo/BCGO_0000039	postnatal day 4	NamedIndividual
+http://purl.oblibrary.org/obo/bcgo#class_0004	http://purl.obolibrary.org/obo/BCGO_0000040	embryonic day 9.5	NamedIndividual
+http://purl.oblibrary.org/obo/bcgo#class_0017	http://purl.obolibrary.org/obo/BCGO_0000041	postnatal day 12	NamedIndividual
+http://purl.oblibrary.org/obo/bcgo#class_0005	http://purl.obolibrary.org/obo/BCGO_0000042	embryonic day 10.5	NamedIndividual
+http://purl.oblibrary.org/obo/bcgo#class_0018	http://purl.obolibrary.org/obo/BCGO_0000043	postnatal day 60	NamedIndividual
+http://purl.oblibrary.org/obo/bcgo#class_0008	http://purl.obolibrary.org/obo/BCGO_0000044	embryonic day 13.5	NamedIndividual
+http://purl.oblibrary.org/obo/bcgo#class_0009	http://purl.obolibrary.org/obo/BCGO_0000045	embryonic day 14.5	NamedIndividual
