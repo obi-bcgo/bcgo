@@ -111,9 +111,9 @@
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000003 -->
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000003 -->
 
-    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000003"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000003"/>
     
 
 
@@ -173,7 +173,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RS_0002307">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICR</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.oblibrary.org/obo/bcgo/BCGO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000003"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/rs.owl"/>
     </owl:Class>
 </rdf:RDF>

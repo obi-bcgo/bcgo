@@ -115,9 +115,9 @@
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000002 -->
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000002 -->
 
-    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000002">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000002">
         <rdfs:label xml:lang="en">mouse strain</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
@@ -145,9 +145,9 @@
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000003 -->
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000003 -->
 
-    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000003">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000003">
         <rdfs:label xml:lang="en">rat strain</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
@@ -175,9 +175,9 @@
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000004 -->
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000004 -->
 
-    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000004">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000004">
         <rdfs:label xml:lang="en">insulin expressing cell</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
@@ -205,9 +205,9 @@
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000006 -->
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000006 -->
 
-    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000006">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000006">
         <rdfs:label xml:lang="en">insulin expressing mature beta cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0001034"/>
         <rdfs:subClassOf>
@@ -247,9 +247,9 @@
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000010 -->
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000010 -->
 
-    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000010">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000010">
         <rdfs:label xml:lang="en">insulin expressing pancreatic bud cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
         <rdfs:subClassOf>
@@ -279,9 +279,9 @@
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000011 -->
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000011 -->
 
-    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000011">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000011">
         <rdfs:label xml:lang="en">ngn3 expressing cell</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
@@ -310,9 +310,9 @@
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000012 -->
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000012 -->
 
-    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000012">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000012">
         <rdfs:label xml:lang="en">ngn3 expressing pancreatic bud cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
         <rdfs:subClassOf>
@@ -342,11 +342,11 @@
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000013 -->
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000013 -->
 
-    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000013">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000013">
         <rdfs:label xml:lang="en">C57BL/6J mouse strain</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.oblibrary.org/obo/bcgo/BCGO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000002"/>
         <obo:IAO_0000118>C57 black 6</obo:IAO_0000118>
         <obo:IAO_0000115>A mouse strain that is a laboratory mouse generated from long inbreeding with nearly identical genotype. C57BL/6 mouse has a dark brown, nearly black coat, and an easily irritable temperament. It has a good reproductive performance and is the most widely used &quot;genetic background&quot; for genetically modified mice for use as models of human disease.</obo:IAO_0000115>
         <obo:IAO_0000118>black 6</obo:IAO_0000118>
@@ -356,9 +356,9 @@
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000014 -->
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000014 -->
 
-    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000014">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000014">
         <rdfs:label xml:lang="en">functional beta cell like cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
         <rdfs:subClassOf>
@@ -388,11 +388,11 @@
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000028 -->
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000028 -->
 
-    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000028">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000028">
         <rdfs:label xml:lang="en">129X1/SvJ mouse strain</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.oblibrary.org/obo/bcgo/BCGO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000002"/>
         <obo:IAO_0000118>129/SvJ</obo:IAO_0000118>
         <obo:IAO_0000118>129X1</obo:IAO_0000118>
         <obo:IAO_0000115>A mouse strain that is a laboratory mouse generated from inbreeding. It has white-bellied, pink-eyed, light chinchilla (off-white) or albino  or white-bellied, pink-eyed, light chinchilla (light tan). It has a good reproductive performance and is widely used in the production of targeted mutations due to the availability of multiple embryonic stem cell lines derived from them. </obo:IAO_0000115>
@@ -402,11 +402,11 @@ http://jaxmice.jax.org/strain/000691.html</obo:IAO_0000119>
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000030 -->
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000030 -->
 
-    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000030">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000030">
         <rdfs:label xml:lang="en">C3H mouse strain</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.oblibrary.org/obo/bcgo/BCGO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000002"/>
         <obo:IAO_0000119>http://www.informatics.jax.org/external/festing/mouse/docs/C3H.shtml
 http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.aspx</obo:IAO_0000119>
         <obo:IAO_0000115>A mouse strain that Inbred from F130 to F170 depending on substrain original generated from a cross of a Bagg albino female and a DBA male by Strong in 1920. It has Agouti coat color. Most substrains have a good reproductive performance. It is widely used in a wide variety of research areas including cancer, immunology and inflammation, sensorineural, and cardiovascular biology.</obo:IAO_0000115>
@@ -414,11 +414,11 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo/BCGO_0000031 -->
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000031 -->
 
-    <owl:Class rdf:about="http://purl.oblibrary.org/obo/bcgo/BCGO_0000031">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000031">
         <rdfs:label xml:lang="en">black swiss mouse strain</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.oblibrary.org/obo/bcgo/BCGO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bcgo.owl#has_genetic_background_of"/>
@@ -428,7 +428,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001225"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.oblibrary.org/obo/bcgo/BCGO_0000013"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000013"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
