@@ -62,6 +62,12 @@ http://purl.obolibrary.org/obo/PR_000011158
 http://purl.obolibrary.org/obo/PR_000023089
 http://purl.obolibrary.org/obo/PR_000009054 #insulin
 http://purl.obolibrary.org/obo/PR_000007891 #glucagon
+http://purl.obolibrary.org/obo/PR_000015424
+http://purl.obolibrary.org/obo/PR_000012523
+http://purl.obolibrary.org/obo/PR_000013418
+http://purl.obolibrary.org/obo/PR_000009062
+http://purl.obolibrary.org/obo/PR_000001559
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PR_000000001 #protein
