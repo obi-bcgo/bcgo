@@ -10,7 +10,21 @@
      xmlns:uberon="http://purl.obolibrary.org/obo/uberon#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bcgo_strain.owl">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/bcgo_basis.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/OBI_subset.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/externalByHand.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/import_CL.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/import_CLO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/import_ChEBI.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/import_EFO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/import_GO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/import_NCBITaxon.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/import_OBO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/import_PATO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/import_PR.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/import_SO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/import_UBERON.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/import_UO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2010-05-25/ruttenberg-bfo2.owl"/>
     </owl:Ontology>
     
 
@@ -93,15 +107,15 @@
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
         <rdfs:label>in_subset</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000293">
-        <rdfs:label>has_specified_input</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000424">
+        <rdfs:label>expand expression to</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label>textual definition</rdfs:label>
         <rdfs:label>definition</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000424">
-        <rdfs:label>expand expression to</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000293">
+        <rdfs:label>has_specified_input</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
         <rdfs:label>editor note</rdfs:label>
@@ -112,26 +126,26 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
         <rdfs:label>definition source</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299">
-        <rdfs:label>has_specified_output</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#ray_number">
+        <rdfs:label>ray number</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
         <rdfs:label>term editor</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#ray_number">
-        <rdfs:label>ray number</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
-        <rdfs:label>alternative term</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299">
+        <rdfs:label>has_specified_output</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000425">
         <rdfs:label>expand assertion to</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
-        <rdfs:label>has_alternative_id</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <rdfs:label>alternative term</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000008">
         <rdfs:label>taxon_notes</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label>has_alternative_id</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000006">
         <rdfs:label>implements_design_pattern</rdfs:label>
@@ -143,11 +157,11 @@
         <rdfs:label>editor preferred term</rdfs:label>
         <rdfs:label>editor preferred label</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
-        <rdfs:label>example of usage</rdfs:label>
-    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000005">
         <rdfs:label>external_comment</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+        <rdfs:label>example of usage</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000002">
         <rdfs:label>axiom_lost_from_external_ontology</rdfs:label>
@@ -158,10 +172,10 @@
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
         <rdfs:label>label</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
         <rdfs:label>has_related_synonym</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#dubious_for_taxon">
         <rdfs:label>dubious_for_taxon</rdfs:label>
     </owl:AnnotationProperty>
@@ -229,6 +243,54 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000015 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BCGO_0000015">
+        <rdfs:label xml:lang="en">has_genetic_background_of</rdfs:label>
+        <obo:IAO_0000115>strain a has genetic backgroud as strain b is that strain a is derived from strain b and genetic make-up (all its alleles at all loci) of strain a is same to strain b except the mutated gene of interest and a very small amount of other genetic material, generally from one or two other strains. For example, the genetic background of the mutant strains NOD.129S7(B6)-Rag1tm1Mom/J (003729) and NOD.Cg-Rag1tm1Mom Prf1tm1Sdz/SzJ (004848) is NOD. </obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000022 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BCGO_0000022">
+        <rdfs:label xml:lang="en">produces_low_amount</rdfs:label>
+        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000115>a produces b if some process that occurs_in a has_output b and amount of b is low relative to normal cases, where a and b are material entities. Examples: defective beta ccell line produces less amount of insulin</obo:IAO_0000115>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000023 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BCGO_0000023">
+        <rdfs:label xml:lang="en">produces_high_amount</rdfs:label>
+        <obo:IAO_0000115>a produces b if some process that occurs_in a has_output b and amount of b is high relative to generally cases, where a and b are material entities. </obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000024 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BCGO_0000024">
+        <rdfs:label xml:lang="en">not_produce</rdfs:label>
+        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000115>a produces_no b if some process that occurs_in a and has_no_output b, where a and b are material entities. </obo:IAO_0000115>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0001000">
@@ -246,51 +308,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/bcgo.owl#has_genetic_background_of -->
+    <!-- http://purl.obolibrary.org/obo/uberon#existence_starts_at -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bcgo.owl#has_genetic_background_of">
-        <rdfs:label xml:lang="en">has_genetic_background_of</rdfs:label>
-        <obo:IAO_0000115>strain a has genetic backgroud as strain b is that strain a is derived from strain b and genetic make-up (all its alleles at all loci) of strain a is same to strain b except the mutated gene of interest and a very small amount of other genetic material, generally from one or two other strains. For example, the genetic background of the mutant strains NOD.129S7(B6)-Rag1tm1Mom/J (003729) and NOD.Cg-Rag1tm1Mom Prf1tm1Sdz/SzJ (004848) is NOD. </obo:IAO_0000115>
-        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/bcgo.owl#produces_high_amount -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bcgo.owl#produces_high_amount">
-        <rdfs:label xml:lang="en">produces_high_amount</rdfs:label>
-        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000115>a produces b if some process that occurs_in a has_output b and amount of b is high relative to generally cases, where a and b are material entities. </obo:IAO_0000115>
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/bcgo.owl#produces_low_amount -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bcgo.owl#produces_low_amount">
-        <rdfs:label xml:lang="en">produces_low_amount</rdfs:label>
-        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000115>a produces b if some process that occurs_in a has_output b and amount of b is low relative to normal cases, where a and b are material entities. Examples: defective beta ccell line produces less amount of insulin</obo:IAO_0000115>
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/bcgo.owl#produces_no -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bcgo.owl#produces_no">
-        <rdfs:label xml:lang="en">not_produce</rdfs:label>
-        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000115>a produces_no b if some process that occurs_in a and has_no_output b, where a and b are material entities. </obo:IAO_0000115>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/uberon#existence_starts_at"/>
     
 
 
@@ -402,22 +422,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0001034"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000006"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#existence_starts_at"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000092"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -426,6 +430,22 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so_translates_to"/>
                                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000006"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#existence_starts_at"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000092"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -507,6 +527,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003922"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -519,12 +545,6 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003922"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a native cell that is part of pancreatic bud and is expressing ngn3</obo:IAO_0000115>
@@ -553,12 +573,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030073"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -571,6 +585,12 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030073"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cell that has all features and genetic signatures as functional beta cell. It may not be part of pancreas.</obo:IAO_0000115>
@@ -657,8 +677,8 @@ http://www.dkcoin.org/resources/view/id/2096/</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000002"/>
         <obo:IAO_0000119>http://www.betacell.org/resource/view/resource_id/188/</obo:IAO_0000119>
         <obo:IAO_0000118>RES188 mouse strain</obo:IAO_0000118>
-        <obo:IAO_0000118>MIP-GFP mouse strain</obo:IAO_0000118>
         <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118>MIP-GFP mouse strain</obo:IAO_0000118>
         <obo:IAO_0000115>A mouse strain which is hemizygous and shows expression of EGFP in beta lineage cells of the pancreas.</obo:IAO_0000115>
     </owl:Class>
     
@@ -697,7 +717,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bcgo.owl#has_genetic_background_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000015"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -777,7 +797,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000673"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so_translates_to"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009116"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -793,7 +813,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000673"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so_translates_to"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009116"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -801,6 +821,18 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000092"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003922 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003922"/>
     
 
 
@@ -815,99 +847,9 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo#class_0001 -->
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000025 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0001">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
-        <rdfs:label>embryonic day 8</rdfs:label>
-        <obo:IAO_0000115>8 days after fertilization</obo:IAO_0000115>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.oblibrary.org/obo/bcgo#class_0002 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0002">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
-        <rdfs:label xml:lang="en">embryonic day 8.5</rdfs:label>
-        <obo:IAO_0000115>8.5 days after fertilization</obo:IAO_0000115>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.oblibrary.org/obo/bcgo#class_0003 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0003">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
-        <rdfs:label xml:lang="en">embryonic day 8.25</rdfs:label>
-        <obo:IAO_0000115>8.25 days after fertilization</obo:IAO_0000115>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.oblibrary.org/obo/bcgo#class_0004 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0004">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
-        <rdfs:label xml:lang="en">embryonic day 9.5</rdfs:label>
-        <obo:IAO_0000115>9.5 days after fertilization</obo:IAO_0000115>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.oblibrary.org/obo/bcgo#class_0005 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0005">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
-        <rdfs:label xml:lang="en">embryonic day 10.5</rdfs:label>
-        <obo:IAO_0000115>10.5 days after fertilization</obo:IAO_0000115>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.oblibrary.org/obo/bcgo#class_0006 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0006">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
-        <rdfs:label xml:lang="en">embryonic day 11.5</rdfs:label>
-        <obo:IAO_0000115>11.5 days after fertilization</obo:IAO_0000115>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.oblibrary.org/obo/bcgo#class_0007 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0007">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
-        <rdfs:label xml:lang="en">embryonic day 12.5</rdfs:label>
-        <obo:IAO_0000115>12.5 days after fertilization</obo:IAO_0000115>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.oblibrary.org/obo/bcgo#class_0008 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0008">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
-        <rdfs:label xml:lang="en">embryonic day 13.5</rdfs:label>
-        <obo:IAO_0000115>13.5 days after fertilization</obo:IAO_0000115>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.oblibrary.org/obo/bcgo#class_0009 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0009">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
-        <rdfs:label xml:lang="en">embryonic day 14.5</rdfs:label>
-        <obo:IAO_0000115>14.5 days after fertilization</obo:IAO_0000115>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.oblibrary.org/obo/bcgo#class_0010 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0010">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000025">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
         <rdfs:label xml:lang="en">embryonic day 15.5</rdfs:label>
         <obo:IAO_0000115>15.5 days after fertilization</obo:IAO_0000115>
@@ -915,9 +857,9 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo#class_0011 -->
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000026 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0011">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000026">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
         <rdfs:label xml:lang="en">embryonic day 16.5</rdfs:label>
         <obo:IAO_0000115>16.5 days after fertilization</obo:IAO_0000115>
@@ -925,9 +867,19 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo#class_0012 -->
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000027 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0012">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000027">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label xml:lang="en">embryonic day 8.5</rdfs:label>
+        <obo:IAO_0000115>8.5 days after fertilization</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000029 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000029">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
         <rdfs:label xml:lang="en">embryonic day 17.5</rdfs:label>
         <obo:IAO_0000115>17.5 days after fertilization</obo:IAO_0000115>
@@ -935,9 +887,19 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo#class_0013 -->
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000032 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0013">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000032">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label xml:lang="en">embryonic day 8.25</rdfs:label>
+        <obo:IAO_0000115>8.25 days after fertilization</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000033 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000033">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
         <rdfs:label xml:lang="en">embryonic day 18.5</rdfs:label>
         <obo:IAO_0000115>18.5 days after fertilization</obo:IAO_0000115>
@@ -945,9 +907,19 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo#class_0014 -->
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000034 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0014">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000034">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label>embryonic day 8</rdfs:label>
+        <obo:IAO_0000115>8 days after fertilization</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000035 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000035">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
         <rdfs:label xml:lang="en">embryonic day 18</rdfs:label>
         <obo:IAO_0000115>18 days after fertilization</obo:IAO_0000115>
@@ -955,9 +927,19 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo#class_0015 -->
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000036 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0015">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000036">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label xml:lang="en">embryonic day 11.5</rdfs:label>
+        <obo:IAO_0000115>11.5 days after fertilization</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000037 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000037">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001169"/>
         <rdfs:label xml:lang="en">postnatal day 0</rdfs:label>
         <obo:IAO_0000115>0 day after birth</obo:IAO_0000115>
@@ -965,9 +947,19 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo#class_0016 -->
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000038 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0016">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000038">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label xml:lang="en">embryonic day 12.5</rdfs:label>
+        <obo:IAO_0000115>12.5 days after fertilization</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000039 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000039">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001169"/>
         <rdfs:label xml:lang="en">postnatal day 4</rdfs:label>
         <obo:IAO_0000115>4 days after birth</obo:IAO_0000115>
@@ -975,9 +967,19 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo#class_0017 -->
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000040 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0017">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000040">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label xml:lang="en">embryonic day 9.5</rdfs:label>
+        <obo:IAO_0000115>9.5 days after fertilization</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000041 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000041">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001169"/>
         <rdfs:label xml:lang="en">postnatal day 12</rdfs:label>
         <obo:IAO_0000115>12 days after birth</obo:IAO_0000115>
@@ -985,16 +987,46 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     
 
 
-    <!-- http://purl.oblibrary.org/obo/bcgo#class_0018 -->
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000042 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.oblibrary.org/obo/bcgo#class_0018">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000042">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label xml:lang="en">embryonic day 10.5</rdfs:label>
+        <obo:IAO_0000115>10.5 days after fertilization</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000043 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000043">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001169"/>
         <rdfs:label xml:lang="en">postnatal day 60</rdfs:label>
         <obo:IAO_0000115>60 days after birth</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000044 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000044">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label xml:lang="en">embryonic day 13.5</rdfs:label>
+        <obo:IAO_0000115>13.5 days after fertilization</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000045 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000045">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
+        <rdfs:label xml:lang="en">embryonic day 14.5</rdfs:label>
+        <obo:IAO_0000115>14.5 days after fertilization</obo:IAO_0000115>
     </owl:NamedIndividual>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.2.3.1806) http://owlapi.sourceforge.net -->
 
