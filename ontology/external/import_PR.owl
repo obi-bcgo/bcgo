@@ -369,6 +369,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000001559 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001559">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor-associated calcium signal transducer 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tumor-associated calcium signal transducer that is a translation product of the human TACSTD1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor-associated calcium signal transducer 1</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000001800 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001800">
@@ -705,6 +717,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000009062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009062">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulinoma-associated protein 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human INSM1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulinoma-associated protein 1</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000009116 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009116">
@@ -729,6 +753,42 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000012523 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000012523">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreas/duodenum homeobox protein 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human PDX1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreas/duodenum homeobox protein 1</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013418">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreas transcription factor 1 subunit alpha</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human PTF1A gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreas transcription factor 1 subunit alpha</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000015424 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015424">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor SOX-17</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human SOX17 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor SOX-17</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000016043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016043">
@@ -746,7 +806,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000023089">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA ligase</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the Escherichia coli K12 ligA gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the Escherichia coli K-12 ligA gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA ligase</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>

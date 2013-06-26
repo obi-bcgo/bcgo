@@ -40,6 +40,9 @@ http://purl.obolibrary.org/obo/PATO_0001985
 http://purl.obolibrary.org/obo/PATO_0002039
 http://purl.obolibrary.org/obo/PATO_0002094
 http://purl.obolibrary.org/obo/PATO_0000069
+http://purl.obolibrary.org/obo/PATO_0001501
+http://purl.obolibrary.org/obo/PATO_0001701
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PATO_0000001 #PATO:quality
