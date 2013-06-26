@@ -1,15 +1,16 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/bcgo.owl#"
-     xml:base="http://purl.obolibrary.org/obo/bcgo.owl"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/bcgo_strain.owl#"
+     xml:base="http://purl.obolibrary.org/obo/bcgo_strain.owl"
+     xmlns:pato="http://purl.obolibrary.org/obo/pato#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bcgo.owl">
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:uberon="http://purl.obolibrary.org/obo/uberon#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bcgo_strain.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/bcgo_basis.owl"/>
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bcgo/2013-04-24/bcgo.owl"/>
     </owl:Ontology>
     
 
@@ -22,6 +23,151 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#phalanx_number">
+        <rdfs:label>phalanx number</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/pato#different_in_magnitude_relative_to">
+        <rdfs:label>different_in_magnitude_relative_to</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#spatially_disjoint_from">
+        <rdfs:label>spatially_disjoint_from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
+        <rdfs:label>curator note</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#preceding_element_is">
+        <rdfs:label>preceding element is</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty">
+        <rdfs:label>subset_property</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#pharyngeal_arch_number">
+        <rdfs:label>pharyngeal arch number</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#present_in_taxon">
+        <rdfs:label>present_in_taxon</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0010000">
+        <rdfs:label>axiom id</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to">
+        <rdfs:label>increased_in_magnitude_relative_to</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000">
+        <rdfs:label>derives from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#sexually_homologous_to">
+        <rdfs:label>sexually_homologous_to</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#homologous_to">
+        <rdfs:label>homologous_to</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label>has_narrow_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label>has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#is_count_of">
+        <rdfs:label>is count of</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000001">
+        <rdfs:label>external_definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002161">
+        <rdfs:label>never_in_taxon</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label>shorthand</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000293">
+        <rdfs:label>has_specified_input</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>textual definition</rdfs:label>
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000424">
+        <rdfs:label>expand expression to</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <rdfs:label>editor note</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <rdfs:label>has curation status</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label>definition source</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299">
+        <rdfs:label>has_specified_output</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label>term editor</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#ray_number">
+        <rdfs:label>ray number</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <rdfs:label>alternative term</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000425">
+        <rdfs:label>expand assertion to</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label>has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000008">
+        <rdfs:label>taxon_notes</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000006">
+        <rdfs:label>implements_design_pattern</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000007">
+        <rdfs:label>has_relational_adjective</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <rdfs:label>editor preferred term</rdfs:label>
+        <rdfs:label>editor preferred label</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+        <rdfs:label>example of usage</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000005">
+        <rdfs:label>external_comment</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000002">
+        <rdfs:label>axiom_lost_from_external_ontology</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000003">
+        <rdfs:label>homology_notes</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#dubious_for_taxon">
+        <rdfs:label>dubious_for_taxon</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label>imported from</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -36,6 +182,42 @@
     
 
 
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Literal -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#float -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#integer -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#nonNegativeInteger -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -44,6 +226,14 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0001000">
+        <rdfs:label>derives from</rdfs:label>
+    </rdf:Description>
     
 
 
@@ -212,22 +402,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0001034"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000673"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so_translates_to"/>
-                                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -236,6 +410,22 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#existence_starts_at"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000092"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000673"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so_translates_to"/>
+                                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -347,11 +537,11 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000013">
         <rdfs:label xml:lang="en">C57BL/6J mouse strain</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000002"/>
-        <obo:IAO_0000118>C57 black 6</obo:IAO_0000118>
         <obo:IAO_0000115>A mouse strain that is a laboratory mouse generated from long inbreeding with nearly identical genotype. C57BL/6 mouse has a dark brown, nearly black coat, and an easily irritable temperament. It has a good reproductive performance and is the most widely used &quot;genetic background&quot; for genetically modified mice for use as models of human disease.</obo:IAO_0000115>
         <obo:IAO_0000118>black 6</obo:IAO_0000118>
-        <obo:IAO_0000119>http://en.wikipedia.org/wiki/C57BL/6</obo:IAO_0000119>
         <obo:IAO_0000118>C57</obo:IAO_0000118>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/C57BL/6</obo:IAO_0000119>
+        <obo:IAO_0000118>C57 black 6</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -388,16 +578,102 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000016">
+        <rdfs:label>Sox17(GFPCre)Mgn mouse strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000002"/>
+        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118>RES1681 mouse strain</obo:IAO_0000118>
+        <obo:IAO_0000119>http://www.betacell.org/resource/view/resource_id/1681/
+
+http://www.dkcoin.org/resources/view/id/2096/</obo:IAO_0000119>
+        <obo:IAO_0000118>Sox17tm1.3(Cre.GFP)Mgn mouse strain</obo:IAO_0000118>
+        <obo:IAO_0000115>A mouse strain that was generated by using a novel tag-and-exchange  (RMCE) strategy to insert a Cre-GFP (Green fluorescent protein) fusion protein into a Sox17[LCA] allele thereby replacing Sox17 coding sequences.  The Sox17-CreGFP mice may be used to track Sox17-expressing cells and their early progeny, or to conditionally inactivate genes in Sox17-expressing cells.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000017">
+        <rdfs:label>Pdx1(CFP)Mgn mouse strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000002"/>
+        <obo:IAO_0000118>RES1301 mouse strain</obo:IAO_0000118>
+        <obo:IAO_0000115>A mouse strain contains a cyan fluorescent protein (CFP, Cerulean), tagged with 3 copies of an SV40 NLS knocked into the endogenous Pdx1 gene.  This mouse strain enables prepancreatic endoderm to be easily identified in the developing mouse embryo and the isolation of Pdx1(+) cells by FACS.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>http://www.betacell.org/resource/view/resource_id/1301/</obo:IAO_0000119>
+        <obo:IAO_0000118>Pdx1CFP mouse strain</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000018">
+        <rdfs:label>Ptf1atm1Mgn mouse strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000002"/>
+        <obo:IAO_0000119>http://www.betacell.org/resource/view/resource_id/236/</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000115>A mouse strain contains a yellow fluorescent protein (YFP), knocked into the endogenous ptf1a gene. This mouse strain may be used to visualize YFP expression from the ptf1a allele.  Ptf1a is expressed in pancreatic buds beginning at E9.5 and plays a vital role in the growth and lineage specification of pancreatic multipotent progenitor cells (MPCs).  Ptf1a is also expressed in the neuronal precursors of the cerebellum, spinal cord, and retina where it also performs fate determining roles.</obo:IAO_0000115>
+        <obo:IAO_0000118>ptf1aYFP mouse strain</obo:IAO_0000118>
+        <obo:IAO_0000118>RES236 mouse strain</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000019">
+        <rdfs:label>B6.129S-Neurog3tm1(EGFP)Khk/Mmcd mouse strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000002"/>
+        <obo:IAO_0000119>http://www.betacell.org/resource/view/resource_id/176/</obo:IAO_0000119>
+        <obo:IAO_0000115>A mouse strain with targeted mutation at the Neurogenin 3 locus where EGFP replaces entire coding region of Neurogenin3.  The basic phenotype is EGFP expression in developing endocrine cells of pancreas and in glandular regions of the stomach.</obo:IAO_0000115>
+        <obo:IAO_0000118>ngn3-EGFP mouse strain</obo:IAO_0000118>
+        <obo:IAO_0000118>RES176 mouse strain</obo:IAO_0000118>
+        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000020">
+        <rdfs:label>Insm1tm1.1Mgn mouse strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000002"/>
+        <obo:IAO_0000118>RES661 mouse strain</obo:IAO_0000118>
+        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>http://www.betacell.org/resource/view/resource_id/661/</obo:IAO_0000119>
+        <obo:IAO_0000115>A mouse strain contains a GFP-Cre fusion protein which replaces the Insm1 coding sequence. These mice express green fluorescent protein (GFP) under control of the Insm1 gene locus. Insm1 is expressed in pancreatic primordium starting at E9.5. Insm1 is also expressed in neural precursor cells and tumors of may be used for lineage tracing of Insm1-positive cells in both wild-type and Insm1-null mice.</obo:IAO_0000115>
+        <obo:IAO_0000118>Insm1GFP.Cre mouse strain</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000021">
+        <rdfs:label>STOCK Tg(Tnpo1-EGFP)6729Hara/Mmmh mouse strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000002"/>
+        <obo:IAO_0000119>http://www.betacell.org/resource/view/resource_id/188/</obo:IAO_0000119>
+        <obo:IAO_0000118>RES188 mouse strain</obo:IAO_0000118>
+        <obo:IAO_0000118>MIP-GFP mouse strain</obo:IAO_0000118>
+        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000115>A mouse strain which is hemizygous and shows expression of EGFP in beta lineage cells of the pancreas.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BCGO_0000028 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000028">
         <rdfs:label xml:lang="en">129X1/SvJ mouse strain</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000002"/>
-        <obo:IAO_0000118>129/SvJ</obo:IAO_0000118>
-        <obo:IAO_0000118>129X1</obo:IAO_0000118>
         <obo:IAO_0000115>A mouse strain that is a laboratory mouse generated from inbreeding. It has white-bellied, pink-eyed, light chinchilla (off-white) or albino  or white-bellied, pink-eyed, light chinchilla (light tan). It has a good reproductive performance and is widely used in the production of targeted mutations due to the availability of multiple embryonic stem cell lines derived from them. </obo:IAO_0000115>
         <obo:IAO_0000119>http://www.informatics.jax.org/mgihome/nomen/strain_129.shtml
 http://jaxmice.jax.org/strain/000691.html</obo:IAO_0000119>
+        <obo:IAO_0000118>129X1</obo:IAO_0000118>
+        <obo:IAO_0000118>129/SvJ</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -407,9 +683,9 @@ http://jaxmice.jax.org/strain/000691.html</obo:IAO_0000119>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000030">
         <rdfs:label xml:lang="en">C3H mouse strain</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000002"/>
+        <obo:IAO_0000115>A mouse strain that Inbred from F130 to F170 depending on substrain original generated from a cross of a Bagg albino female and a DBA male by Strong in 1920. It has Agouti coat color. Most substrains have a good reproductive performance. It is widely used in a wide variety of research areas including cancer, immunology and inflammation, sensorineural, and cardiovascular biology.</obo:IAO_0000115>
         <obo:IAO_0000119>http://www.informatics.jax.org/external/festing/mouse/docs/C3H.shtml
 http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.aspx</obo:IAO_0000119>
-        <obo:IAO_0000115>A mouse strain that Inbred from F130 to F170 depending on substrain original generated from a cross of a Bagg albino female and a DBA male by Strong in 1920. It has Agouti coat color. Most substrains have a good reproductive performance. It is widely used in a wide variety of research areas including cancer, immunology and inflammation, sensorineural, and cardiovascular biology.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -501,7 +777,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000673"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so_translates_to"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009116"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -517,7 +793,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000673"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so_translates_to"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009116"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
