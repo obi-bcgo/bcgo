@@ -1,0 +1,968 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ontorat_0000001.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ontorat_0000001.owl"
+     xmlns:pato="http://purl.obolibrary.org/obo/pato#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:uberon="http://purl.obolibrary.org/obo/uberon#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ontorat_0000001.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <rdfs:label>editor preferred term</rdfs:label>
+        <rdfs:label>editor preferred label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+        <rdfs:label>example of usage</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <rdfs:label>has curation status</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>textual definition</rdfs:label>
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <rdfs:label>editor note</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label>term editor</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <rdfs:label>alternative term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label>definition source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
+        <rdfs:label>curator note</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label>imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000424 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000424">
+        <rdfs:label>expand expression to</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000425 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000425">
+        <rdfs:label>expand assertion to</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0010000 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0010000">
+        <rdfs:label>axiom id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000293 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000293">
+        <rdfs:label>has_specified_input</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299">
+        <rdfs:label>has_specified_output</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000">
+        <rdfs:label>derives from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002161 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002161">
+        <rdfs:label>never_in_taxon</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000001">
+        <rdfs:label>external_definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000002 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000002">
+        <rdfs:label>axiom_lost_from_external_ontology</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000003 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000003">
+        <rdfs:label>homology_notes</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000005 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000005">
+        <rdfs:label>external_comment</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000006 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000006">
+        <rdfs:label>implements_design_pattern</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000007 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000007">
+        <rdfs:label>has_relational_adjective</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000008 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000008">
+        <rdfs:label>taxon_notes</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato#different_in_magnitude_relative_to -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/pato#different_in_magnitude_relative_to">
+        <rdfs:label>different_in_magnitude_relative_to</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to">
+        <rdfs:label>increased_in_magnitude_relative_to</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/uberon#dubious_for_taxon -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#dubious_for_taxon">
+        <rdfs:label>dubious_for_taxon</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/uberon#homologous_to -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#homologous_to">
+        <rdfs:label>homologous_to</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/uberon#is_count_of -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#is_count_of">
+        <rdfs:label>is count of</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/uberon#phalanx_number -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#phalanx_number">
+        <rdfs:label>phalanx number</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/uberon#pharyngeal_arch_number -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#pharyngeal_arch_number">
+        <rdfs:label>pharyngeal arch number</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/uberon#preceding_element_is -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#preceding_element_is">
+        <rdfs:label>preceding element is</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/uberon#present_in_taxon -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#present_in_taxon">
+        <rdfs:label>present_in_taxon</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/uberon#ray_number -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#ray_number">
+        <rdfs:label>ray number</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/uberon#sexually_homologous_to -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#sexually_homologous_to">
+        <rdfs:label>sexually_homologous_to</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/uberon#spatially_disjoint_from -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#spatially_disjoint_from">
+        <rdfs:label>spatially_disjoint_from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#SubsetProperty -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty">
+        <rdfs:label>subset_property</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label>has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label>has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label>has_narrow_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label>shorthand</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Literal -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#float -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#integer -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#nonNegativeInteger -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000053"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000056 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000056"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cl#lacks_part -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/cl#lacks_part"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000046">
+        <rdfs:label>Sox17-expressing definitive endodermal cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000223"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005439"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000015424"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
+        <obo:IAO_0000118>Sox17 expressing cell from the embryo body proper</obo:IAO_0000118>
+        <obo:IAO_0000115>an endodermal cell that is part of the definitive endoderm and expresses a gene for SOX-17</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000047">
+        <rdfs:label>Sox17-expressing Epcam+ pancreatic epithelial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000066"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000015424"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001559"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003924"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Sox17 expressing cell in ventral pancreatic bud</obo:IAO_0000118>
+        <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
+        <obo:IAO_0000115>an epithelial cell that is derived from endoderm, part of the ventral pancreatic bud, expresses a gene for SOX-17 and has Epcam in the plasma membrane.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000048">
+        <rdfs:label>Pdx1-expressing foregut endodermal cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000223"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003258"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000012523"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Pdx1-expressing endoderm cell</obo:IAO_0000118>
+        <obo:IAO_0000115>an endodermal cell that is part of the foregut endoderm and expresses the gene for pancreas/duodenum homeobox protein 1</obo:IAO_0000115>
+        <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000049">
+        <rdfs:label>Ptf1a-expressing multipotent pancreatic cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003922"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0031016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001402"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000013418"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
+        <obo:IAO_0000115>a non-terminally differentiated cell that is part of the pancreatic bud, participates in pancreas development and expresses the gene for  pancreas transcription factor 1 subunit alpha.</obo:IAO_0000115>
+        <obo:IAO_0000118>Ptf1a-expressing cell</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000050">
+        <rdfs:label>Ptf1a-lacking pancreatic progenitor cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#lacks_part"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000013418"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003922"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Ptf1a-null cell</obo:IAO_0000118>
+        <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
+        <obo:IAO_0000115>a non-terminally differentiated cell that is part of the pancreatic bud but lacks pancreas transcription factor 1 subunit alpha.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000051">
+        <rdfs:label>neurogenin-3-expressing endocrine progenitor cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0031018"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001264"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
+        <obo:IAO_0000118>Ngn3-expressing cell</obo:IAO_0000118>
+        <obo:IAO_0000115>a non-terminally differentiated cell that participates in endocrine pancreas developement and expresses the gene for neurogenin-3.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000052">
+        <rdfs:label>neurogenin-3-lacking pancreatic progenitor cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0031016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001264"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#lacks_part"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
+        <obo:IAO_0000115>a non-terminally differentiated cell that is part of the pancreas, participates in pancreas development and lacks neurogenin-3.</obo:IAO_0000115>
+        <obo:IAO_0000118>Ngn3-null cell</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000053">
+        <rdfs:label>Insm1-expressing endocrine progenitor cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001264"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0031018"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
+        <obo:IAO_0000115>a non-terminally differentiated cell that participates in endocrine pancreas development and expresses a gene for insulinoma-associated protein 1</obo:IAO_0000115>
+        <obo:IAO_0000118>Insm1 expressing pancreatic endocrine cell</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000054">
+        <rdfs:label>Insm1-lacking endocrine progenitor cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#lacks_part"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
+        <obo:IAO_0000115>a non-terminally differentiated cell that is part of the endocrine pancreas and lacks insulinoma-associated protein 1</obo:IAO_0000115>
+        <obo:IAO_0000118>Non-functional Insm1 expressing pancreatic endocrine cell</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000055">
+        <rdfs:label>insulin-expressing immature beta cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000169"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001501"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
+        <obo:IAO_0000115>a type B pancreatic cell that is immature and expresses a gene for insulin</obo:IAO_0000115>
+        <obo:IAO_0000118>insulin-expressing nascent beta cells</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000056">
+        <rdfs:label>insulin-expressing mature beta cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000169"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001701"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>a type B pancreatic cell that is mature and expresses a gene for insulin</obo:IAO_0000115>
+        <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
+        <obo:IAO_0000118>insulin-expressing mature beta cells</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000055"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000066"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000169"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000223"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0031016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031016"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0031018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031018"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001402 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001402"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001501"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001701 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001701"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001559 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001559"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000009054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009054"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000009062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009062"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011158"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000012523 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000012523"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013418"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000015424 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015424"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000006"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000016"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001264"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003258"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003922 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003922"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003924 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003924"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005439"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.1.2018) http://owlapi.sourceforge.net -->
+
