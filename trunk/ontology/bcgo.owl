@@ -10,7 +10,6 @@
      xmlns:uberon="http://purl.obolibrary.org/obo/uberon#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bcgo.owl">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ontorat_0000001.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/OBI_subset.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/externalByHand.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/import_CL.owl"/>
