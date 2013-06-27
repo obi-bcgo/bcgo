@@ -651,9 +651,9 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000015424"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>an epithelial cell that is part of the ventral pancreatic bud, expresses a gene for SOX-17 and has Epcam in the plasma membrane.</obo:IAO_0000115>
         <obo:IAO_0000118>Sox17 expressing cell in ventral pancreatic bud</obo:IAO_0000118>
         <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
-        <obo:IAO_0000115>an epithelial cell that is derived from endoderm, part of the ventral pancreatic bud, expresses a gene for SOX-17 and has Epcam in the plasma membrane.</obo:IAO_0000115>
     </owl:Class>
     
 
