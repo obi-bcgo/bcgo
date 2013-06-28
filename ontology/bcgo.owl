@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/bcgo_strain.owl#"
      xml:base="http://purl.obolibrary.org/obo/bcgo_strain.owl"
      xmlns:pato="http://purl.obolibrary.org/obo/pato#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -28,6 +29,7 @@
         <dc:contributor>Jie Zheng</dc:contributor>
         <dc:contributor>Chris Stoeckert</dc:contributor>
         <dc:contributor>Elisabetta Manduchi</dc:contributor>
+        <dc:description xml:lang="en">Beta Cell Genomics Ontology (BCGO) is an application ontology built for the Beta Cell Genomics database (http://genomics.betacell.org/gbco/) aiming to support database annotation, complicated semantic queries, and automated cell type classification. </dc:description>
     </owl:Ontology>    
 
 
