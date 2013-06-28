@@ -103,7 +103,7 @@ http://purl.obolibrary.org/obo/GO_0031016
 http://purl.obolibrary.org/obo/GO_0031018
 http://purl.obolibrary.org/obo/GO_0009306
 http://purl.obolibrary.org/obo/GO_0036321
-
+http://purl.obolibrary.org/obo/GO_0051594 #detection of glucose
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/GO_0008150 #biological_process
