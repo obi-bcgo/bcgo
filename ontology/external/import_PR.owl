@@ -741,6 +741,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000010047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000010047">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor MafA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human MAFA gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor MafA</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000011158 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011158">

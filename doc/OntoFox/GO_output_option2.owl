@@ -524,8 +524,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006837">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serotonin transport</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0015695"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0015837"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006811"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0015844"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The directed movement of serotonin into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Serotonin (5-hydroxytryptamine) is a monoamine neurotransmitter occurring in the peripheral and central nervous systems.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serotonin transport</obo:IAO_0000111>
@@ -684,6 +683,69 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0009593 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009593">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detection of chemical stimulus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042221"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050896"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The series of events in which a chemical stimulus is received by a cell and converted into a molecular signal.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detection of chemical stimulus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009730 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009730">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detection of carbohydrate stimulus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009593"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009743"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The series of events in which a carbohydrate stimulus is received by a cell and converted into a molecular signal.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detection of carbohydrate stimulus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009732 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009732">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detection of hexose stimulus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009746"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0034287"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The series of events in which a stimulus from a hexose is received and converted into a molecular signal.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detection of hexose stimulus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009743">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to carbohydrate stimulus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042221"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a carbohydrate stimulus.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to carbohydrate stimulus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009746 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009746">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to hexose stimulus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0034284"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a hexose stimulus.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to hexose stimulus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0009914 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009914">
@@ -746,19 +808,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0015695 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0015695">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic cation transport</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006811"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0071702"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The directed movement of organic cations into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Organic cations are atoms or small molecules with a positive charge which contain carbon in covalent linkage.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic cation transport</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0015833 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0015833">
@@ -767,20 +816,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0071702"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The directed movement of peptides, compounds of two or more amino acids where the alpha carboxyl group of one is bound to the alpha amino group of another, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peptide transport</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0015837 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0015837">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amine transport</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044765"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0071702"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0071705"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The directed movement of amines, including polyamines, organic compounds containing one or more amino groups, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amine transport</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -1301,6 +1336,31 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0034284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0034284">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to monosaccharide stimulus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009743"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a monosaccharide stimulus.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to monosaccharide stimulus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0034287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0034287">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detection of monosaccharide stimulus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009730"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0034284"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The series of events in which a stimulus from a monosaccharide is received and converted into a molecular signal.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detection of monosaccharide stimulus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0034641 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0034641">
@@ -1346,6 +1406,18 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044459"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein complex that contains a disulfide-linked heterodimer of T cell receptor (TCR) chains, which are members of the immunoglobulin superfamily, and mediates antigen recognition, ultimately resulting in T cell activation. The TCR heterodimer is associated with the CD3 complex, which consists of the nonpolymorphic polypeptides gamma, delta, epsilon, zeta, and, in some cases, eta (an RNA splice variant of zeta) or Fc epsilon chains.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T cell receptor complex</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042221">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to chemical stimulus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050896"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a chemical stimulus.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to chemical stimulus</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -2085,6 +2157,19 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006996"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A process that is carried out at the cellular level that results in the assembly, arrangement of constituent parts, or disassembly of chromosomes, structures composed of a very long molecule of DNA and associated proteins that carries hereditary information.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromosome organization</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051594 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051594">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detection of glucose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009732"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009746"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The series of events in which a glucose stimulus is received by a cell and converted into a molecular signal.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detection of glucose</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
