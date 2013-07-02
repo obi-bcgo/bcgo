@@ -1,0 +1,5 @@
+= BCGO v0.2 Release =
+
+  * BCGO v0.2 is released on June 28th, 2013
+  * Contains 2413 classes and includes inferred superclass axioms
+  * Available on: http://purl.obolibrary.org/obo/bcgo/2013-06-28/bcgo.owl
