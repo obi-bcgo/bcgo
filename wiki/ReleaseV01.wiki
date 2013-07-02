@@ -1,0 +1,5 @@
+= BCGO v0.1 Release =
+
+ * BCGO v0.1 was released on April 24th, 2013
+ * contains 2387 classes
+ * available on: [http://purl.obolibrary.org/obo/bcgo/2013-04-24/bcgo.owl]
