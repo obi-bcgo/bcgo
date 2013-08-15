@@ -8,7 +8,7 @@ http://purl.obolibrary.org/obo/import_GO.owl		GO_output_option2.owl
 http://purl.obolibrary.org/obo/import_NCBITaxon.owl	NCBITaxon_output_option2.owl
 http://purl.obolibrary.org/obo/import_PATO.owl		PATO_output_option3.owl
 http://purl.obolibrary.org/obo/import_PR.owl		PR_output_option2.owl
-http://purl.obolibrary.org/obo/import_SO.owl		SO_output_option1.owl
+http://purl.obolibrary.org/obo/import_SO.owl		SO_output.owl (before v0.2 release, SO_output_option1.owl was used)
 http://purl.obolibrary.org/obo/import_UBERON.owl	UBERON_output_option3.owl
 http://purl.obolibrary.org/obo/import_UO.owl		UO_output_option2.owl and replace UO_0000000 unit by IAO_0000003 measurement unit label, then delete UO_0000000
 http://purl.obolibrary.org/obo/import_OBO.owl		OBO_output_option1.owl
