@@ -61,17 +61,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0000110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000110">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence_feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An extent of biological sequence.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence_feature</obo:IAO_0000111>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence feature</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000001">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">region</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sequence_feature with an extent greater than zero. A nucleotide region is composed of bases and a polypeptide region is composed of amino acids.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">region</obo:IAO_0000111>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/SO_0000104 -->
