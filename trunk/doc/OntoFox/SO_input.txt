@@ -53,9 +53,11 @@ http://purl.obolibrary.org/obo/SO_0001411
 http://purl.obolibrary.org/obo/SO_0000462
 http://purl.obolibrary.org/obo/SO_0000336
 http://purl.obolibrary.org/obo/SO_0001741
+http://purl.obolibrary.org/obo/SO_0000001
+http://purl.obolibrary.org/obo/SO_0000110
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/SO_0000001 #region
+http://purl.obolibrary.org/obo/SO_0000110 #sequence_feature
 subClassOf http://purl.obolibrary.org/obo/BFO_0000031
 
 [Source term retrieval setting]
