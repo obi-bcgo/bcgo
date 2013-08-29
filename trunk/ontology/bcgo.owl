@@ -112,15 +112,15 @@
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
         <rdfs:label>in_subset</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000424">
-        <rdfs:label>expand expression to</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000293">
+        <rdfs:label>has_specified_input</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label>textual definition</rdfs:label>
         <rdfs:label>definition</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000293">
-        <rdfs:label>has_specified_input</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000424">
+        <rdfs:label>expand expression to</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
         <rdfs:label>editor note</rdfs:label>
@@ -131,26 +131,26 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
         <rdfs:label>definition source</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#ray_number">
-        <rdfs:label>ray number</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299">
+        <rdfs:label>has_specified_output</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
         <rdfs:label>term editor</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299">
-        <rdfs:label>has_specified_output</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
-        <rdfs:label>alternative term</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#ray_number">
+        <rdfs:label>ray number</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000425">
         <rdfs:label>expand assertion to</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
-        <rdfs:label>has_alternative_id</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <rdfs:label>alternative term</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000008">
         <rdfs:label>taxon_notes</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label>has_alternative_id</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000006">
         <rdfs:label>implements_design_pattern</rdfs:label>
@@ -162,11 +162,11 @@
         <rdfs:label>editor preferred term</rdfs:label>
         <rdfs:label>editor preferred label</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
-        <rdfs:label>example of usage</rdfs:label>
-    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000005">
         <rdfs:label>external_comment</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+        <rdfs:label>example of usage</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000002">
         <rdfs:label>axiom_lost_from_external_ontology</rdfs:label>
@@ -177,10 +177,10 @@
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
         <rdfs:label>label</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
         <rdfs:label>has_related_synonym</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#dubious_for_taxon">
         <rdfs:label>dubious_for_taxon</rdfs:label>
     </owl:AnnotationProperty>
@@ -320,6 +320,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000293 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000293">
+        <rdfs:label>has_specified_input</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000299">
+        <rdfs:label>has_specified_output</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0001000">
@@ -386,6 +402,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -416,6 +433,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -449,6 +467,7 @@
         <obo:IAO_0000118>black 6</obo:IAO_0000118>
         <obo:IAO_0000118>C57</obo:IAO_0000118>
         <obo:IAO_0000119>http://en.wikipedia.org/wiki/C57BL/6</obo:IAO_0000119>
+        <obo:IAO_0000117>Person:Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118>C57 black 6</obo:IAO_0000118>
     </owl:Class>
     
@@ -582,6 +601,7 @@ http://www.dkcoin.org/resources/view/id/2096/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">129X1/SvJ mouse strain</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000002"/>
         <obo:IAO_0000115>A mouse strain that is a laboratory mouse generated from inbreeding. It has white-bellied, pink-eyed, light chinchilla (off-white) or albino  or white-bellied, pink-eyed, light chinchilla (light tan). It has a good reproductive performance and is widely used in the production of targeted mutations due to the availability of multiple embryonic stem cell lines derived from them. </obo:IAO_0000115>
+        <obo:IAO_0000117>Person:Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119>http://www.informatics.jax.org/mgihome/nomen/strain_129.shtml
 http://jaxmice.jax.org/strain/000691.html</obo:IAO_0000119>
         <obo:IAO_0000118>129X1</obo:IAO_0000118>
@@ -598,6 +618,7 @@ http://jaxmice.jax.org/strain/000691.html</obo:IAO_0000119>
         <obo:IAO_0000115>A mouse strain that Inbred from F130 to F170 depending on substrain original generated from a cross of a Bagg albino female and a DBA male by Strong in 1920. It has Agouti coat color. Most substrains have a good reproductive performance. It is widely used in a wide variety of research areas including cancer, immunology and inflammation, sensorineural, and cardiovascular biology.</obo:IAO_0000115>
         <obo:IAO_0000119>http://www.informatics.jax.org/external/festing/mouse/docs/C3H.shtml
 http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.aspx</obo:IAO_0000119>
+        <obo:IAO_0000117>Person:Jie Zheng</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -623,7 +644,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>http://wwwcareers.crl.com/en-US/ProdServ/ByType/ResModOver/ResMod/Pages/Black_Swiss_Mouse.aspx</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -646,6 +667,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118>Sox17 expressing cell from the embryo body proper</obo:IAO_0000118>
         <obo:IAO_0000115>an endodermal cell that is part of the definitive endoderm and expresses a gene for SOX-17</obo:IAO_0000115>
     </owl:Class>
@@ -659,14 +681,14 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000066"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003924"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000015424"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000015424"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003924"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -676,6 +698,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>an epithelial cell that is part of the ventral pancreatic bud, expresses a gene for SOX-17 and has Epcam in the plasma membrane.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118>Sox17 expressing cell in ventral pancreatic bud</obo:IAO_0000118>
         <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
     </owl:Class>
@@ -701,6 +724,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         </rdfs:subClassOf>
         <obo:IAO_0000118>Pdx1-expressing endoderm cell</obo:IAO_0000118>
         <obo:IAO_0000115>an endodermal cell that is part of the foregut endoderm and expresses the gene for pancreas/duodenum homeobox protein 1</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
     </owl:Class>
     
@@ -719,6 +743,12 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003922"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001402"/>
             </owl:Restriction>
@@ -729,14 +759,9 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0031016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003922"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
         <obo:IAO_0000115>a non-terminally differentiated cell that is part of the pancreatic bud, participates in pancreas development and expresses the gene for  pancreas transcription factor 1 subunit alpha.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118>Ptf1a-expressing cell</obo:IAO_0000118>
     </owl:Class>
     
@@ -762,6 +787,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <obo:IAO_0000118>Ptf1a-null cell</obo:IAO_0000118>
         <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
         <obo:IAO_0000115>a non-terminally differentiated cell that is part of the pancreatic bud but lacks pancreas transcription factor 1 subunit alpha.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -771,6 +797,12 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000051">
         <rdfs:label>neurogenin-3-expressing endocrine progenitor cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0031018"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -783,15 +815,10 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001264"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0031018"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
         <obo:IAO_0000118>Ngn3-expressing cell</obo:IAO_0000118>
         <obo:IAO_0000115>a non-terminally differentiated cell that participates in endocrine pancreas developement and expresses the gene for neurogenin-3.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -801,6 +828,12 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000052">
         <rdfs:label>neurogenin-3-lacking pancreatic progenitor cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001264"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
@@ -813,15 +846,10 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001264"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
         <obo:IAO_0000115>a non-terminally differentiated cell that is part of the pancreas, participates in pancreas development and lacks neurogenin-3.</obo:IAO_0000115>
         <obo:IAO_0000118>Ngn3-null cell</obo:IAO_0000118>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -839,18 +867,19 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001264"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001264"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
         <obo:IAO_0000115>a non-terminally differentiated cell that participates in endocrine pancreas development and expresses a gene for insulinoma-associated protein 1</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118>Insm1 expressing pancreatic endocrine cell</obo:IAO_0000118>
     </owl:Class>
     
@@ -875,6 +904,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         </rdfs:subClassOf>
         <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
         <obo:IAO_0000115>a non-terminally differentiated cell that is part of the endocrine pancreas and lacks insulinoma-associated protein 1</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118>Non-functional Insm1 expressing pancreatic endocrine cell</obo:IAO_0000118>
     </owl:Class>
     
@@ -887,12 +917,6 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000169"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001501"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000016"/>
             </owl:Restriction>
@@ -903,8 +927,15 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001501"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
         <obo:IAO_0000115>a type B pancreatic cell that is immature and expresses a gene for insulin</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118>insulin-expressing nascent beta cells</obo:IAO_0000118>
     </owl:Class>
     
@@ -917,14 +948,8 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000169"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000006"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0051594"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -935,12 +960,19 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0051594"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a type B pancreatic cell that is mature and expresses a gene for insulin</obo:IAO_0000115>
         <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118>insulin-expressing mature beta cells</obo:IAO_0000118>
     </owl:Class>
     
@@ -1148,6 +1180,58 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     
 
 
+    <!-- http://purl.obolibrary.org/obo/bcgo.owl/class_0084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bcgo.owl/class_0084">
+        <rdfs:label xml:lang="en">high throughput sequence alignment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000973"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000973"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>EFO_0004917 high throughput sequence alignment protocol</obo:IAO_0000119>
+        <obo:IAO_0000115>a data transformation that aligns sequencing reads to reference sequence.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bcgo.owl/class_0085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bcgo.owl/class_0085">
+        <rdfs:label xml:lang="en">sequence feature quantification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000032"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>UPenn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng, Elisabetta Manduchi</obo:IAO_0000117>
+        <obo:IAO_0000115>A data transformation that attaches quantified values to specific sequence features, e.g. transcript, exon, etc.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1165,6 +1249,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
         <rdfs:label xml:lang="en">embryonic day 15.5</rdfs:label>
         <obo:IAO_0000115>15.5 days after fertilization</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
     </owl:NamedIndividual>
     
 
@@ -1175,6 +1260,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
         <rdfs:label xml:lang="en">embryonic day 16.5</rdfs:label>
         <obo:IAO_0000115>16.5 days after fertilization</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
     </owl:NamedIndividual>
     
 
@@ -1184,6 +1270,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000027">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
         <rdfs:label xml:lang="en">embryonic day 8.5</rdfs:label>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000115>8.5 days after fertilization</obo:IAO_0000115>
     </owl:NamedIndividual>
     
@@ -1194,6 +1281,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000029">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
         <rdfs:label xml:lang="en">embryonic day 17.5</rdfs:label>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000115>17.5 days after fertilization</obo:IAO_0000115>
     </owl:NamedIndividual>
     
@@ -1205,6 +1293,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
         <rdfs:label xml:lang="en">embryonic day 8.25</rdfs:label>
         <obo:IAO_0000115>8.25 days after fertilization</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
     </owl:NamedIndividual>
     
 
@@ -1214,6 +1303,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000033">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
         <rdfs:label xml:lang="en">embryonic day 18.5</rdfs:label>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000115>18.5 days after fertilization</obo:IAO_0000115>
     </owl:NamedIndividual>
     
@@ -1225,6 +1315,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
         <rdfs:label>embryonic day 8</rdfs:label>
         <obo:IAO_0000115>8 days after fertilization</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
     </owl:NamedIndividual>
     
 
@@ -1235,6 +1326,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
         <rdfs:label xml:lang="en">embryonic day 18</rdfs:label>
         <obo:IAO_0000115>18 days after fertilization</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
     </owl:NamedIndividual>
     
 
@@ -1244,6 +1336,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000036">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
         <rdfs:label xml:lang="en">embryonic day 11.5</rdfs:label>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000115>11.5 days after fertilization</obo:IAO_0000115>
     </owl:NamedIndividual>
     
@@ -1265,6 +1358,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
         <rdfs:label xml:lang="en">embryonic day 12.5</rdfs:label>
         <obo:IAO_0000115>12.5 days after fertilization</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
     </owl:NamedIndividual>
     
 
@@ -1284,6 +1378,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000040">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
         <rdfs:label xml:lang="en">embryonic day 9.5</rdfs:label>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000115>9.5 days after fertilization</obo:IAO_0000115>
     </owl:NamedIndividual>
     
@@ -1304,6 +1399,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000042">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
         <rdfs:label xml:lang="en">embryonic day 10.5</rdfs:label>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000115>10.5 days after fertilization</obo:IAO_0000115>
     </owl:NamedIndividual>
     
@@ -1324,6 +1420,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000044">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
         <rdfs:label xml:lang="en">embryonic day 13.5</rdfs:label>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000115>13.5 days after fertilization</obo:IAO_0000115>
     </owl:NamedIndividual>
     
@@ -1334,6 +1431,7 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/BCGO_0000045">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001168"/>
         <rdfs:label xml:lang="en">embryonic day 14.5</rdfs:label>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000115>14.5 days after fertilization</obo:IAO_0000115>
     </owl:NamedIndividual>
 </rdf:RDF>
