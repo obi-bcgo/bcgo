@@ -15,6 +15,7 @@
         <dc:contributor>Jie Zheng</dc:contributor>
         <dc:contributor>Chris Stoeckert</dc:contributor>
         <dc:contributor>Elisabetta Manduchi</dc:contributor>
+        <dc:description xml:lang="en">Beta Cell Genomics Ontology (BCGO) is an application ontology built for the Beta Cell Genomics database (http://genomics.betacell.org/gbco/) aiming to support database annotation, complicated semantic queries, and automated cell type classification. </dc:description>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/OBI_subset.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/externalByHand.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bcgo/import_CL.owl"/>
