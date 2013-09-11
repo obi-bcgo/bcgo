@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/bcgo_strain.owl#"
-     xml:base="http://purl.obolibrary.org/obo/bcgo_strain.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/bcgo.owl#"
+     xml:base="http://purl.obolibrary.org/obo/bcgo.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:pato="http://purl.obolibrary.org/obo/pato#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
