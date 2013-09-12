@@ -1,0 +1,3 @@
+Old IRI	New ID	Label	Term Type
+http://purl.obolibrary.org/obo/bcgo.owl/class_0085	http://purl.obolibrary.org/obo/BCGO_0000010	sequence feature quantification	Class
+http://purl.obolibrary.org/obo/bcgo.owl/class_0084	http://purl.obolibrary.org/obo/BCGO_0000011	high throughput sequence alignment	Class
