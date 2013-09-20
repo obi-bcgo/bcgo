@@ -60,9 +60,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_1110055 -->
+    <!-- http://purl.obolibrary.org/obo/OBI_0000202 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_1110055"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000202"/>
     
 
 
@@ -116,7 +116,7 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000270">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asthma</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_1110055"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asthma</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
     </owl:Class>
@@ -172,8 +172,19 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000400">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diabetes mellitus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_1110055"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diabetes mellitus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000408 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000408">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
     </owl:Class>
     
@@ -216,8 +227,19 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000616">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neoplasm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_1110055"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neoplasm</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000647 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000647">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experiment performer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000202"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experiment performer</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
     </owl:Class>
     
@@ -228,6 +250,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001359">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type I diabetes mellitus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000400"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type I diabetes mellitus</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
     </owl:Class>
@@ -251,6 +274,39 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoid neoplasm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000311"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoid neoplasm</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001734 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001734">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data analyst</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000202"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data analyst</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001739 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001739">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">investigator</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000202"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">investigator</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001741 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001741">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">submitter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000202"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">submitter</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
     </owl:Class>
     
@@ -609,5 +665,5 @@
 
 
 
-<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
 

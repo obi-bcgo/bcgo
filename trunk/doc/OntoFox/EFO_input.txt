@@ -22,6 +22,39 @@ copyTo http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000115
 
 
+[Source ontology]
+#comment here
+#List of ontologies: OBI, NCBITaxon, MP, PATO, GO, DOID, IDO, CHEBI, SO, PRO, CL, ENVO, FMA, CARO
+EFO
+
+[Low level source term URIs]
+http://www.ebi.ac.uk/efo/EFO_0001734 #data analyst
+http://www.ebi.ac.uk/efo/EFO_0000647 #experiment performer
+http://www.ebi.ac.uk/efo/EFO_0001739 #investigator
+http://www.ebi.ac.uk/efo/EFO_0001741 #submitter
+
+[Top level source term URIs and target direct superclass URIs]
+http://www.ebi.ac.uk/efo/EFO_0001734 #data analyst
+subClassOf http://purl.obolibrary.org/obo/OBI_0000202 #investigation agent role
+http://www.ebi.ac.uk/efo/EFO_0000647 #experiment performer
+subClassOf http://purl.obolibrary.org/obo/OBI_0000202 #investigation agent role
+http://www.ebi.ac.uk/efo/EFO_0001739 #investigator
+subClassOf http://purl.obolibrary.org/obo/OBI_0000202 #investigation agent role
+http://www.ebi.ac.uk/efo/EFO_0001741 #submitter
+subClassOf http://purl.obolibrary.org/obo/OBI_0000202 #investigation agent role
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000115
+
+
+
+
 
 [Source ontology]
 #comment here

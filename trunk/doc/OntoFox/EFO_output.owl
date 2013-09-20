@@ -60,6 +60,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000202"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OGMS_0000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000015"/>
@@ -228,6 +234,17 @@
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000647 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000647">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experiment performer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000202"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experiment performer</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0001359 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001359">
@@ -257,6 +274,39 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoid neoplasm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000311"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoid neoplasm</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001734 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001734">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data analyst</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000202"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data analyst</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001739 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001739">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">investigator</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000202"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">investigator</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001741 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001741">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">submitter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000202"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">submitter</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
     </owl:Class>
     
