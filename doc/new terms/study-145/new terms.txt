@@ -1,0 +1,60 @@
+strain, subtype of mouse species 
+- genetic background
+
+
+- genotype
+capable_of_producing some protein?
+	= (produces some transcript and translates_to) some protein
+
+
+- reporter
+
+
+- 
+
+
+
+Sox17tm1.3(Cre.GFP)Mgn -> targeted mutation
+
+Sox17
+transcription factor SOX-17
+http://purl.obolibrary.org/obo/PR_000015424
+A protein that is a translation product of the human SOX17 gene or a 1:1 ortholog thereof.
+
+tm - targeted mutation
+
+1 - founder line number 1
+
+
+Pdx1^CFP
+ptf1atm1.1Mgn
+B6.129S-Neurog3tm1(EGFP)Khk/Mmcd
+Insm1^tm1.1Mgn
+STOCK Tg(Tnpo1-EGFP)6729Hara/Mmmh OR 
+STOCK Tg(Tnpo1-EGFP)6729Hara/Mmmh OR B6.Cg-Tg(Ins1-EGFP)1Hara/J? -> transgenic strain
+
+Tg - transgene 
+
+
+ptf1
+pancreas transcription factor 1 subunit alpha
+http://purl.obolibrary.org/obo/PR_000013418
+A protein that is a translation product of the human PTF1A gene or a 1:1 ortholog thereof. [PRO:DNx] 
+
+
+
+
+cell type
+=========
+Sox-17 expressing cell
+Sox17 expressing cell in ventral pancreatic bud
+Ngn3-expressing cell
+Ngn3-null cell
+Insm1 expressing pancreatic endocrine cell
+Non-functional Insm1 expressing pancreatic endocrine cell
+insulin-expressing nascent beta cells
+insulin-expressing mature beta cells
+
+
+
+Ptf1atm1Mgn
