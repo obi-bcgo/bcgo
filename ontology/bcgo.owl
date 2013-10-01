@@ -112,15 +112,15 @@
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
         <rdfs:label>in_subset</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000424">
-        <rdfs:label>expand expression to</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000293">
+        <rdfs:label>has_specified_input</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label>textual definition</rdfs:label>
         <rdfs:label>definition</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000293">
-        <rdfs:label>has_specified_input</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000424">
+        <rdfs:label>expand expression to</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
         <rdfs:label>editor note</rdfs:label>
@@ -131,26 +131,26 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
         <rdfs:label>definition source</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#ray_number">
-        <rdfs:label>ray number</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299">
+        <rdfs:label>has_specified_output</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
         <rdfs:label>term editor</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299">
-        <rdfs:label>has_specified_output</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
-        <rdfs:label>alternative term</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#ray_number">
+        <rdfs:label>ray number</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000425">
         <rdfs:label>expand assertion to</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
-        <rdfs:label>has_alternative_id</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <rdfs:label>alternative term</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000008">
         <rdfs:label>taxon_notes</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label>has_alternative_id</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000006">
         <rdfs:label>implements_design_pattern</rdfs:label>
@@ -162,11 +162,11 @@
         <rdfs:label>editor preferred term</rdfs:label>
         <rdfs:label>editor preferred label</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
-        <rdfs:label>example of usage</rdfs:label>
-    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000005">
         <rdfs:label>external_comment</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+        <rdfs:label>example of usage</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000002">
         <rdfs:label>axiom_lost_from_external_ontology</rdfs:label>
@@ -177,10 +177,10 @@
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
         <rdfs:label>label</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
         <rdfs:label>has_related_synonym</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon#dubious_for_taxon">
         <rdfs:label>dubious_for_taxon</rdfs:label>
     </owl:AnnotationProperty>
@@ -402,6 +402,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000115>Mus musculus that is bred to have some uniform behavioral, morphological, physiological, or genetic characteristics with similarly bred organism.</obo:IAO_0000115>
         <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
     </owl:Class>
     
@@ -434,6 +435,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000115>Rattus norvegicus that is bred to have some uniform behavioral, morphological, physiological, or genetic characteristics with similarly bred organism.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -559,13 +561,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000010047"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000012523"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000012523"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000010047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cell that has all features and genetic signatures as functional beta cell. It may not be part of pancreas.</obo:IAO_0000115>
@@ -582,12 +584,12 @@
         <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000118>Sox17(GFPCre)Mgn mouse strain</obo:IAO_0000118>
         <obo:IAO_0000118>Sox17tm1.3(Cre.GFP)Mgn mouse strain</obo:IAO_0000118>
-        <obo:IAO_0000115>A mouse strain that was generated by using a novel tag-and-exchange  (RMCE) strategy to insert a Cre-GFP (Green fluorescent protein) fusion protein into a Sox17[LCA] allele thereby replacing Sox17 coding sequences.  The Sox17-CreGFP mice may be used to track Sox17-expressing cells and their early progeny, or to conditionally inactivate genes in Sox17-expressing cells.</obo:IAO_0000115>
         <obo:IAO_0000119>http://www.betacell.org/resource/view/resource_id/1681/
 
 http://www.dkcoin.org/resources/view/id/2096/
 
 http://www.mmrrc.org/catalog/sds.php?mmrrc_id=36463</obo:IAO_0000119>
+        <obo:IAO_0000115>A mouse strain that was generated by using a novel tag-and-exchange  (RMCE) strategy to insert a Cre-GFP (Green fluorescent protein) fusion protein into a Sox17[LCA] allele thereby replacing Sox17 coding sequences.  The Sox17-CreGFP mice may be used to track Sox17-expressing cells and their early progeny, or to conditionally inactivate genes in Sox17-expressing cells.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -597,8 +599,8 @@ http://www.mmrrc.org/catalog/sds.php?mmrrc_id=36463</obo:IAO_0000119>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000017">
         <rdfs:label>B6.129S6-Pdx1tm2Mgn/Mmnc mouse strain</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000002"/>
-        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000118>RES1301 mouse strain</obo:IAO_0000118>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000115>A mouse strain contains a cyan fluorescent protein (CFP, Cerulean), tagged with 3 copies of an SV40 NLS knocked into the endogenous Pdx1 gene.  This mouse strain enables prepancreatic endoderm to be easily identified in the developing mouse embryo and the isolation of Pdx1(+) cells by FACS.</obo:IAO_0000115>
         <obo:IAO_0000119>http://www.betacell.org/resource/view/resource_id/1301/
 
@@ -648,7 +650,7 @@ http://www.mmrrc.org/catalog/sds.php?mmrrc_id=29175</obo:IAO_0000119>
         <obo:IAO_0000118>RES661 mouse strain</obo:IAO_0000118>
         <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>http://www.betacell.org/resource/view/resource_id/661/</obo:IAO_0000119>
-        <obo:IAO_0000116>http://www.betacell.org/resource/view/resource_id/661/ provide the definition of &#39;Insm1tm1.1Mgn mouse strain&#39; which might be the early version of &#39;Insm1tm2Mgn mouse strain&#39;. However, we are not clear the difference between two strains. We borrowed the definition of  &#39;Insm1tm1.1Mgn mouse strain&#39;. In the webpage, it has strain name &#39;Mouse Strain RES661&#39; and common name &#39;lnsm1GFP.Cre mouse strain&#39;. We added &#39;lnsm1GFP.Cre mouse strain&#39; as alternative term which is true to &#39;Insm1tm2Mgn mouse strain&#39; too .</obo:IAO_0000116>
+        <obo:IAO_0000116>http://www.betacell.org/resource/view/resource_id/661/ provide the definition of &apos;Insm1tm1.1Mgn mouse strain&apos; which might be the early version of &apos;Insm1tm2Mgn mouse strain&apos;. However, we are not clear the difference between two strains. We borrowed the definition of  &apos;Insm1tm1.1Mgn mouse strain&apos;. In the webpage, it has strain name &apos;Mouse Strain RES661&apos; and common name &apos;lnsm1GFP.Cre mouse strain&apos;. We added &apos;lnsm1GFP.Cre mouse strain&apos; as alternative term which is true to &apos;Insm1tm2Mgn mouse strain&apos; too .</obo:IAO_0000116>
         <obo:IAO_0000115>A mouse strain contains a GFP-Cre fusion protein which replaces the Insm1 coding sequence. These mice express green fluorescent protein (GFP) under control of the Insm1 gene locus. Insm1 is expressed in pancreatic primordium starting at E9.5. Insm1 is also expressed in neural precursor cells and tumors of may be used for lineage tracing of Insm1-positive cells in both wild-type and Insm1-null mice.</obo:IAO_0000115>
         <obo:IAO_0000118>Insm1GFP.Cre mouse strain</obo:IAO_0000118>
     </owl:Class>
@@ -662,8 +664,8 @@ http://www.mmrrc.org/catalog/sds.php?mmrrc_id=29175</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000002"/>
         <obo:IAO_0000119>http://www.betacell.org/resource/view/resource_id/188/</obo:IAO_0000119>
         <obo:IAO_0000118>RES188 mouse strain</obo:IAO_0000118>
-        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118>MIP-GFP mouse strain</obo:IAO_0000118>
+        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000115>A mouse strain which is hemizygous and shows expression of EGFP in beta lineage cells of the pancreas.</obo:IAO_0000115>
     </owl:Class>
     
@@ -690,9 +692,9 @@ http://jaxmice.jax.org/strain/000691.html</obo:IAO_0000119>
         <rdfs:label xml:lang="en">C3H mouse strain</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000002"/>
         <obo:IAO_0000115>A mouse strain that Inbred from F130 to F170 depending on substrain original generated from a cross of a Bagg albino female and a DBA male by Strong in 1920. It has Agouti coat color. Most substrains have a good reproductive performance. It is widely used in a wide variety of research areas including cancer, immunology and inflammation, sensorineural, and cardiovascular biology.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119>http://www.informatics.jax.org/external/festing/mouse/docs/C3H.shtml
 http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.aspx</obo:IAO_0000119>
+        <obo:IAO_0000117>Person:Jie Zheng</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -740,8 +742,8 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005439"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118>Sox17 expressing cell from the embryo body proper</obo:IAO_0000118>
         <obo:IAO_0000115>an endodermal cell that is part of the definitive endoderm and expresses a gene for SOX-17</obo:IAO_0000115>
     </owl:Class>
@@ -761,14 +763,14 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000015424"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003924"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003924"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000015424"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>an epithelial cell that is part of the ventral pancreatic bud, expresses a gene for SOX-17 and has Epcam in the plasma membrane.</obo:IAO_0000115>
@@ -786,14 +788,14 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000223"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003258"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000012523"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000012523"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003258"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118>Pdx1-expressing endoderm cell</obo:IAO_0000118>
@@ -811,14 +813,14 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001402"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000013418"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000013418"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001402"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -834,8 +836,8 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
-        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000115>a non-terminally differentiated cell that is part of the pancreatic bud, participates in pancreas development and expresses the gene for  pancreas transcription factor 1 subunit alpha.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118>Ptf1a-expressing cell</obo:IAO_0000118>
     </owl:Class>
     
@@ -848,14 +850,14 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#lacks_part"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000013418"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003922"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003922"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#lacks_part"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000013418"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118>Ptf1a-null cell</obo:IAO_0000118>
@@ -873,14 +875,14 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001264"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001264"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -904,8 +906,8 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0031016"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#lacks_part"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -916,8 +918,8 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#lacks_part"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0031016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
@@ -935,14 +937,14 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009062"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0031018"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0031018"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -991,6 +993,12 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000169"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001501"/>
             </owl:Restriction>
@@ -999,12 +1007,6 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
@@ -1022,14 +1024,14 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000169"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001701"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0051594"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0051594"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001701"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1121,13 +1123,13 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009116"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009116"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -1251,6 +1253,63 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     <!-- http://purl.obolibrary.org/obo/UBERON_0005439 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005439"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bcgo.owl/class_0120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bcgo.owl/class_0120">
+        <rdfs:label xml:lang="en">Insm1tm2(GFP.Cre)Mgn/Pdx1tm2(CFP)Mgn mouse strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000002"/>
+        <obo:IAO_0000115>A mouse strain that is the result of mating between a Insm1GFPCre/+ mouse and a Pdx1CFP/+ mouse both on a CD-1 background</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Anna Osipovich</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bcgo.owl/class_0121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bcgo.owl/class_0121">
+        <rdfs:label xml:lang="en">Insm1-expressing Pdx1 low-positive pancreatic endocrine progenitor cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000053"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000022"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000012523"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000012523"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000115>A Insm1-expressing endocrine progenitor cell that expresses the gene for pancreas/duodenum homeobox protein 1 at a low level.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bcgo.owl/class_0122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bcgo.owl/class_0122">
+        <rdfs:label xml:lang="en">Insm1-expressing Pdx1 high-positive pancreatic endocrine progenitor cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000053"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000012523"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000023"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000012523"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000115>A Insm1-expressing endocrine progenitor cell that expresses the gene for pancreas/duodenum homeobox protein 1 at a high level.</obo:IAO_0000115>
+    </owl:Class>
     
 
 
@@ -1460,5 +1519,5 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
 
 
 
-<!-- Generated by the OWL API (version 1.3.4.992) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
 
