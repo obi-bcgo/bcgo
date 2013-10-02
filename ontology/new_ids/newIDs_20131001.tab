@@ -1,0 +1,4 @@
+Old IRI	New ID	Label	Term Type
+http://purl.obolibrary.org/obo/bcgo.owl/class_0122	http://purl.obolibrary.org/obo/BCGO_0000057	Insm1-expressing Pdx1 high-positive pancreatic endocrine progenitor cell	Class
+http://purl.obolibrary.org/obo/bcgo.owl/class_0121	http://purl.obolibrary.org/obo/BCGO_0000058	Insm1-expressing Pdx1 low-positive pancreatic endocrine progenitor cell	Class
+http://purl.obolibrary.org/obo/bcgo.owl/class_0120	http://purl.obolibrary.org/obo/BCGO_0000059	Insm1tm2(GFP.Cre)Mgn/Pdx1tm2(CFP)Mgn mouse strain	Class
