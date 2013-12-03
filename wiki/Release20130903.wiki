@@ -1,0 +1,9 @@
+= BCGO 2013-09-03 Release =
+
+  * BCGO 2013-09-03 version is released on September 3th, 2013
+  * Contains 2441 classes and includes inferred superclass axioms
+  * Available on: http://purl.obolibrary.org/obo/bcgo/2013-09-03/bcgo.owl
+  * newly added terms
+||[http://purl.obolibrary.org/obo/BCGO_0000010]||sequence feature quantification||
+||[http://purl.obolibrary.org/obo/BCGO_0000011]||high throughput sequence alignment||
+  * 27 terms were imported from SO to support sequence feature annotation
