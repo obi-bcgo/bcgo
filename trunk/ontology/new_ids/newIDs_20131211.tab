@@ -1,0 +1,3 @@
+Old IRI	New ID	Label	Term Type
+http://purl.obolibrary.org/obo/bcgo.owl/class_0162	http://purl.obolibrary.org/obo/BCGO_0000061	B6.Cg-Tg(Ins1-EGFP)1Hara/J mouse strain	Class
+http://purl.obolibrary.org/obo/bcgo.owl/class_0163	http://purl.obolibrary.org/obo/BCGO_0000062	postnatal day 1	NamedIndividual
