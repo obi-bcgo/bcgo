@@ -55,6 +55,7 @@ http://purl.obolibrary.org/obo/SO_0000336
 http://purl.obolibrary.org/obo/SO_0001741
 http://purl.obolibrary.org/obo/SO_0000001
 http://purl.obolibrary.org/obo/SO_0000110
+http://purl.obolibrary.org/obo/SO_0000276
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/SO_0000110 #sequence_feature

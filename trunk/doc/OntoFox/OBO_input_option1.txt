@@ -9,27 +9,11 @@ BTO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/BTO_0000773 #lymphoblastoid cell line
+http://purl.obolibrary.org/obo/BTO_0003560 #CCE cell
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BTO_0000773 #lymphoblastoid cell line
 subClassOf http://purl.obolibrary.org/obo/CLO_0000044 #immortal cell line
-
-[Source term retrieval setting]
-includeNoIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-copyTo http://purl.obolibrary.org/obo/IAO_0000111
-
-
-[Source ontology]
-#comment here
-BTO
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/BTO_0003560 #CCE cell
-
-[Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BTO_0001581 #embryonic stem cell line
 subClassOf http://purl.obolibrary.org/obo/CLO_0000044 #permanent stem cell line
 
@@ -69,28 +53,11 @@ ERO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/ERO_0001211 #massively parallel signature sequencing	
+http://purl.obolibrary.org/obo/ERO_0001334 #biopsy
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/ERO_0001211 #massively parallel signature sequencing	
 subClassOf http://purl.obolibrary.org/obo/OBI_0000723 #DNA sequencing by ligation
-
-[Source term retrieval setting]
-includeNoIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-copyTo http://purl.obolibrary.org/obo/IAO_0000111
-http://purl.obolibrary.org/obo/IAO_0000115
-
-
-[Source ontology]
-#comment here
-ERO
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/ERO_0001334 #biopsy
-
-[Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/ERO_0001334 #biopsy
 subClassOf http://purl.obolibrary.org/obo/OBI_0600005 #collecting specimen from organism
 
@@ -101,6 +68,7 @@ includeNoIntermediates
 http://www.w3.org/2000/01/rdf-schema#label
 copyTo http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000115
+
 
 ############################################################
 [Source ontology]
@@ -130,51 +98,17 @@ OGMS
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OGMS_0000015 #clinical history
+http://purl.obolibrary.org/obo/OGMS_0000023 #phenotype
+http://purl.obolibrary.org/obo/OGMS_0000063 #disease course
+http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OGMS_0000015 #clinical history
 subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
-
-[Source term retrieval setting]
-includeNoIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-copyTo http://purl.obolibrary.org/obo/IAO_0000111
-http://purl.obolibrary.org/obo/IAO_0000115
-
-
-[Source ontology]
-#comment here
-OGMS
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/OGMS_0000023 #phenotype
-http://purl.obolibrary.org/obo/OGMS_0000063 #disease course
-
-[Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OGMS_0000023 #phenotype
 subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #quality
 http://purl.obolibrary.org/obo/OGMS_0000063 #disease course
 subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological process
-
-[Source term retrieval setting]
-includeNoIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-copyTo http://purl.obolibrary.org/obo/IAO_0000111
-http://purl.obolibrary.org/obo/IAO_0000115
-
-
-[Source ontology]
-#comment here
-OGMS
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
-
-[Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
 subClassOf http://purl.obolibrary.org/obo/OBI_0000011
 
@@ -185,6 +119,31 @@ includeNoIntermediates
 http://www.w3.org/2000/01/rdf-schema#label
 copyTo http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000115
+
+
+############################################################
+[Source ontology]
+#comment here
+REO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/REO_0000280 #molecular label
+http://purl.obolibrary.org/obo/REO_0000171 #molecular label role
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/REO_0000280 #molecular label
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/REO_0000171 #molecular label role
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000115
+
 
 
 ############################################################
@@ -206,6 +165,31 @@ includeNoIntermediates
 http://www.w3.org/2000/01/rdf-schema#label
 copyTo http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000115
+
+
+
+############################################################
+[Source ontology]
+#comment here
+NBO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NBO_0000073 #chewing
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NBO_0000073 #chewing
+subClassOf http://purl.obolibrary.org/obo/GO_0050879
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000115
+
+
+
 
 
 
