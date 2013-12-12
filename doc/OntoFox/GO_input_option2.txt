@@ -104,6 +104,11 @@ http://purl.obolibrary.org/obo/GO_0031018
 http://purl.obolibrary.org/obo/GO_0009306
 http://purl.obolibrary.org/obo/GO_0036321
 http://purl.obolibrary.org/obo/GO_0051594 #detection of glucose
+http://purl.obolibrary.org/obo/GO_0006260 #DNA replication
+http://purl.obolibrary.org/obo/GO_1902494
+http://purl.obolibrary.org/obo/GO_0060047
+http://purl.obolibrary.org/obo/GO_0030017
+http://purl.obolibrary.org/obo/GO_0050879
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/GO_0008150 #biological_process

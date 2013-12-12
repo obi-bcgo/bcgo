@@ -68,6 +68,11 @@ http://purl.obolibrary.org/obo/PR_000013418
 http://purl.obolibrary.org/obo/PR_000009062
 http://purl.obolibrary.org/obo/PR_000001559
 http://purl.obolibrary.org/obo/PR_000010047 #transcription factor MafA
+http://purl.obolibrary.org/obo/PR_000001408
+http://purl.obolibrary.org/obo/PR_000001786
+http://purl.obolibrary.org/obo/PR_000001809
+http://purl.obolibrary.org/obo/PR_000001836
+http://purl.obolibrary.org/obo/PR_000001867
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PR_000000001 #protein

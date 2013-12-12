@@ -64,7 +64,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell line cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell line cell</obo:IAO_0000111>
-        <obo:IAO_0000115>A cell line cell is a cultured cell that is part of a stable and homogeneous population of cells of common biological origin, derived through the passaging of primary cultured cells or the alteration of existing cell line cells</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </owl:Class>
     
@@ -76,7 +75,18 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immortal cell line cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immortal cell line cell</obo:IAO_0000111>
-        <obo:IAO_0000115>a cell line that can be passaged in an infinite number of generations (i.e., immortalized).</obo:IAO_0000115>
+        <obo:IAO_0000115>A cell line cell that is expected to be capable of an unlimited number of divisions, and is thus able to support indefinite propagation in vitro as part of an immortal cell line.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000031">
+        <rdfs:label xml:lang="en">cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100060"/>
+        <obo:IAO_0000111 xml:lang="en">cell line</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </owl:Class>
     
@@ -85,10 +95,10 @@
     <!-- http://purl.obolibrary.org/obo/CLO_0000044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000044">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">permanent stem cell line cell</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immortal stem cell line cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a cell line that is derived from stem cell</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">permanent stem cell line cell</obo:IAO_0000111>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immortal stem cell line cell</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </owl:Class>
     
@@ -97,11 +107,11 @@
     <!-- http://purl.obolibrary.org/obo/CLO_0000081 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000081">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">permanent neuron cell line cell</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immortal neuron cell line cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000156"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a permanent electrically responsive cell line that is derived from neuron</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">permanent neuron cell line cell</obo:IAO_0000111>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a immortal electrically responsive cell line cell that is derived from neuron</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immortal neuron cell line cell</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </owl:Class>
     
@@ -110,10 +120,10 @@
     <!-- http://purl.obolibrary.org/obo/CLO_0000128 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000128">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">permanent animal cell line cell</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immortal animal cell line cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a permanent eukaryotic cell line that is derived from animal cell</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">permanent animal cell line cell</obo:IAO_0000111>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a immortal eukaryotic cell line that is derived from animal cell</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immortal animal cell line cell</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </owl:Class>
     
@@ -122,11 +132,11 @@
     <!-- http://purl.obolibrary.org/obo/CLO_0000147 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000147">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">permanent hematopoietic cell line cell</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immortal hematopoietic cell line cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000128"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000166"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a permanent animal cell line that is derived from hematopoietic cell</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">permanent hematopoietic cell line cell</obo:IAO_0000111>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a immortal animal cell line that is derived from hematopoietic cell</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immortal hematopoietic cell line cell</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </owl:Class>
     
@@ -135,11 +145,11 @@
     <!-- http://purl.obolibrary.org/obo/CLO_0000156 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000156">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">permanent neural cell line cell</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immortal neural cell line cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000128"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000166"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a permanent animal cell line that is derived from neural cell</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">permanent neural cell line cell</obo:IAO_0000111>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a immortal animal cell line that is derived from neural cell</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immortal neural cell line cell</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </owl:Class>
     
@@ -148,10 +158,22 @@
     <!-- http://purl.obolibrary.org/obo/CLO_0000166 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000166">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">permanent somatic cell line cell</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immortal somatic cell line cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a cell line that is derived from somatic cell</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">permanent somatic cell line cell</obo:IAO_0000111>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immortal somatic cell line cell</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000503 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000503">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immortal mouse embryo-derived cell line cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An immortal embryo-derived cell line cell that derives from mouse.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immortal mouse embryo-derived cell line cell</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </owl:Class>
     
@@ -161,7 +183,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001352">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3T3-L1 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000503"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3T3-L1 cell</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </owl:Class>
@@ -194,7 +216,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002405">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CGR8 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000503"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CGR8 cell</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </owl:Class>
@@ -278,9 +300,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CLO_0009828 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009828">
+        <rdfs:label xml:lang="en">immortal cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000031"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell line that is expected to be capable of indefinite propagation in an vitro culture.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">immortal cell line</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000010"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0100060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100060"/>
 </rdf:RDF>
 
 

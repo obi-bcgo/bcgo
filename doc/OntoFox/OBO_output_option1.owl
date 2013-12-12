@@ -72,6 +72,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
@@ -108,6 +114,12 @@
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCE cell</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367"/>
     
 
 
@@ -183,6 +195,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0050879 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050879"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000010"/>
@@ -192,6 +210,18 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000073">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chewing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050879"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chewing</obo:IAO_0000111>
+        <obo:IAO_0000115>&quot;The process of biting and mashing food with the teeth prior to swallowing.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/nbo.owl"/>
+    </owl:Class>
     
 
 
@@ -257,6 +287,30 @@
         <obo:IAO_0000111>treatment</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">A processual entity whose completion is hypothesized (by a healthcare provider) to alleviate the signs and symptoms associated with a disorder</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/REO_0000171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/REO_0000171">
+        <rdfs:label xml:lang="en">molecular label role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115>a reagent role inhering in a molecular entity intended to associate with some molecular target to serve as a proxy for the presence, abundance, or location of this target in a detection of molecular label assay.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">molecular label role</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/reo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/REO_0000280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/REO_0000280">
+        <rdfs:label>molecular label</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000111>molecular label</obo:IAO_0000111>
+        <obo:IAO_0000115>a molecular reagent intended to associate with some molecular target to serve as a proxy for the presence, abundance, or location of this target in a detection of molecular label assay</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/reo.owl"/>
     </owl:Class>
     
 

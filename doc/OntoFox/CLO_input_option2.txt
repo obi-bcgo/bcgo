@@ -19,10 +19,15 @@ http://purl.obolibrary.org/obo/CLO_0008381
 http://purl.obolibrary.org/obo/CLO_0008734
 http://purl.obolibrary.org/obo/CLO_0009218
 http://purl.obolibrary.org/obo/CLO_0000044 #permanent stem cell line 
+http://purl.obolibrary.org/obo/CLO_0009828 #immortal cell line
+http://purl.obolibrary.org/obo/CLO_0000031 #cell line
+http://purl.obolibrary.org/obo/CLO_0000001 #cell line cell
 
 [Top level source term URIs and target direct superclass URIs]
- http://purl.obolibrary.org/obo/CLO_0000001
+http://purl.obolibrary.org/obo/CLO_0000001
 subClassOf http://purl.obolibrary.org/obo/CL_0000010
+http://purl.obolibrary.org/obo/CLO_0000031
+subClassOf http://purl.obolibrary.org/obo/OBI_0100060
 
 
 [Source term retrieval setting]
