@@ -109,6 +109,7 @@ http://purl.obolibrary.org/obo/GO_1902494
 http://purl.obolibrary.org/obo/GO_0060047
 http://purl.obolibrary.org/obo/GO_0030017
 http://purl.obolibrary.org/obo/GO_0050879
+http://purl.obolibrary.org/obo/GO_0050432
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/GO_0008150 #biological_process
