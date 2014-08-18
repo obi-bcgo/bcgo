@@ -108,8 +108,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zone of skin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005162"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sub-region of the skin. Note the distinct between the entire skin of the body, of which there is only 1 in an organism, and zones of skin, of which there can be many. Examples: skin of knee</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zone of skin</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -121,9 +121,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000016">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endocrine pancreas</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002075"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000471"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004119"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The endocrine pancreas is made up of islet cells that produce insulin, glucagon and somatostatin[GO].</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The part of the pancreas that is part of the endocrine system and is made up of islet cells, which produce insulin, glucagon and somatostatin.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endocrine pancreas</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -158,8 +158,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000029">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymph node</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oval or bean shaped bodies (1 - 30 mm in diameter) located along the lymphatic system. Lymph nodes are garrisons of B, T, and other immune cells. Lymph nodes are found all through the body, and act as filters or traps for foreign particles. They contain white blood cells that use oxygen to process. Thus they are important in the proper functioning of the immune system. The lymph node is surrounded by a fibrous capsule, and inside the lymph node the fibrous capsule extends to form trabeculae. The substance of the lymph node is divided into the outer cortex and the inner medulla surrounded by the former all around except for at the hilum, where the medulla comes in direct contact with the surface. Thin reticular fibers, elastin and reticular fibers form a supporting meshwork called reticular network (RN) inside the node, within which the white blood cells (WBCs), most prominently, lymphocytes are tightly packed as follicles in the cortex. Elsewhere, there are only occasional WBCs. The RN provides not just the structural support, but also provide surface for adhesion of the dendritic cells, macrophages and lymphocytes. It allows for exchange of material with blood through the high endothelial venules and provides the growth and regulatory factors necessary for activation and maturation of immune cells[WP].</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005057"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any of the rounded masses of lymphoid tissue that are surrounded by a capsule of connective tissue, are distributed along the lymphatic vessels, and contain numerous lymphocytes which filter the flow of lymph.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymph node</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -209,7 +209,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000045">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ganglion</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003714"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biological tissue mass, most commonly a mass of nerve cell bodies.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ganglion</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -246,8 +246,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000062">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organ</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure that performs a specific function or group of functions [WP]. Organs are commonly observed as visibly distinct structures, but may also exist as loosely associated clusters of cells that work together to perform a specific function or functions[GO].</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure that performs a specific function or group of functions [WP].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organ</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -270,8 +270,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000064">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organ part</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical structure which has as its direct parts two or more types of tissue and is continuous with one or more anatomical structures likewise constituted by two or more portions of tissues distinct from those of their complement. Examples: osteon, cortical bone, neck of femur, bronchopulmonary segment, left lobe of liver, anterior right side of heart, interventricular branch of left coronary artery, right atrium, mitral valve, head of pancreas[FMA].</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure which has as its direct parts two or more types of tissue and is continuous with one or more anatomical structures likewise constituted by two or more portions of tissues distinct from those of their complement. Examples: osteon, cortical bone, neck of femur, bronchopulmonary segment, left lobe of liver, anterior right side of heart, interventricular branch of left coronary artery, right atrium, mitral valve, head of pancreas[FMA].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organ part</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -284,7 +284,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory tract</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003103"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004119"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical structure that is part of the respiratory system. In mammals consists of upper and lower tracts</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure that is part of the respiratory system. In mammals consists of upper and lower tracts</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory tract</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -316,18 +316,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000073 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000073">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regional part of nervous system</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000481"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical structure that is part of a nervous system [Automatically generated definition].</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regional part of nervous system</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0000077 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000077">
@@ -336,6 +324,19 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical structure that develops from the endoderm and the mesoderm.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mixed endoderm/mesoderm-derived structure</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000078">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mixed ectoderm/mesoderm/endoderm-derived structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000077"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical structure that develops from the ectoderm, mesoderm and endoderm.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mixed ectoderm/mesoderm/endoderm-derived structure</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -368,9 +369,9 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0000112 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000112">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile stage</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sexually immature stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile stage</obo:IAO_0000111>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sexually immature stage</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -393,8 +394,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000115">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung epithelium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004815"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The epithelial layer of the lung.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung epithelium</obo:IAO_0000111>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the epithelial layer of the lung.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -420,19 +421,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005162"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fasciculated bundle of neuron projections (GO:0043005), largely or completely lacking synapses.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuron projection bundle</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000125 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000125">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neural nucleus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000073"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spatially aggregated collection of nerve cell bodies in the CNS, consisting of one or more subpopulations that share cell type, chemical phenotype, and connections, and including nearby cells that share the same cell type, chemical phenotype, and connections. (CUMBO)</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neural nucleus</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -495,7 +483,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preputial gland</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001821"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003937"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exocrine gland that are located in front of the genitals of some mammals (including mice) and produce pheromones[WP].</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A modified sebacious gland that is located in front of the genitals of some mammals (including mice) and produces pheromones[WP, modified].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preputial gland</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -506,7 +494,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000451">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prefrontal cortex</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002619"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002791"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The anterior part of the frontal lobes of the brain, lying in front of the motor and premotor areas.nnThis brain region has been implicated in planning complex cognitive behaviors, personality expression, decision making and moderating correct social behavior. The basic activity of this brain region is considered to be orchestration of thoughts and actions in accordance with internal goals.nnThe most typical psychological term for functions carried out by the pre-frontal cortex area is executive function. Executive function relates to abilities to differentiate among conflicting thoughts, determine good and bad, better and best, same and different, future consequences of current activities, working toward a defined goal, prediction of outcomes, expectation based on actions, and social &#39;control&#39; (the ability to suppress urges that, if not suppressed, could lead to socially-unacceptable outcomes).nnMany authors have indicated an integral link between a person&#39;s personality and the functions of the prefrontal cortex. - definition adapted from Wikipedia</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prefrontal cortex</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -517,10 +505,10 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0000463 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000463">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of organism substance</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organism substance</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000465"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of organism substance</obo:IAO_0000111>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organism substance</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -542,9 +530,21 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000468">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multi-cellular organism</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010000"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure that is an individual member of a species and consists of more than one cell.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multi-cellular organism</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000471 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000471">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compound organ component</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000481"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multi-tissue structure that is part of a compound organ.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compound organ component</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -788,9 +788,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000948">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005181"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007100"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a myogenic muscular organ found in the cardiovascular system. It is responsible for pumping blood throughout the blood vessels by repeated, rhythmic contractions. The vertebrate heart is composed of cardiac muscle, which is an involuntary striated muscle tissue found only in this organ, and connective tissue. Primitive fish have a four-chambered heart; however, the chambers are arranged sequentially so that this primitive heart is quite unlike the four-chambered hearts of mammals and birds. The first chamber is the sinus venosus, which collects de-oxygenated blood, from the body, through the hepatic and cardinal veins. From here, blood flows into the atrium and then to the powerful muscular ventricle where the main pumping action takes place. The fourth and final chamber is the conus arteriosus which contains several valves and sends blood to the ventral aorta. The ventral aorta delivers blood to the gills where it is oxygenated and flows, through the dorsal aorta, into the rest of the body. (In tetrapods, the ventral aorta has divided in two; one half forms the ascending aorta, while the other forms the pulmonary artery. In the adult fish, the four chambers are not arranged in a straight row but, instead, form an S-shape with the latter two chambers lying above the former two. This relatively simpler pattern is found in cartilaginous fish and in the more primitive ray-finned fish. In teleosts, the conus arteriosus is very small and can more accurately be described as part of the aorta rather than of the heart proper. The conus arteriosus is not present in any amniotes which presumably having been absorbed into the ventricles over the course of evolution. Similarly, while the sinus venosus is present as a vestigial structure in some reptiles and birds, it is otherwise absorbed into the right atrium and is no longer distinguishable[WP].</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A myogenic muscular circulatory organ found in the vertebrate cardiovascular system composed of chambers of cardiac muscle. It is the primary circulatory organ.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -814,7 +815,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000956">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebral cortex</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002791"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0016548"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The thin layer of gray matter on the surface of the cerebral hemisphere that develops from the telencephalon. It consists of the neocortex (6 layered cortex or isocortex), the hippocampal formation and the olfactory cortex.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebral cortex</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -854,6 +856,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001474"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003464"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003608"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015022"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endochondral longbone connecting the pelvic girdle with posterior zeugopodium skeleton.[VSAO, modified].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femur</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -915,7 +918,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000995">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uterus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013515"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a major female hormone-responsive reproductive sex organ of most mammals including humans. One end, the cervix, opens into the vagina, while the other is connected to one or both fallopian tubes, depending on the species. It is within the uterus that the fetus develops during gestation, usually developing completely in placental mammals such as humans and partially in marsupials such as kangaroos and opossums. Two uteruses usually form initially in a female fetus, and in placental mammals they may partially or completely fuse into a single uterus depending on the species. In many species with two uteruses, only one is functional. Humans and other higher primates such as chimpanzees, along with horses, usually have a single completely fused uterus, although in some individuals the uteruses may not have completely fused[WP].</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A major female hormone-responsive reproductive sex organ of most mammals including humans. One end, the cervix, opens into the vagina, while the other is connected to one or both fallopian tubes, depending on the species. It is within the uterus that the fetus develops during gestation, usually developing completely in placental mammals such as humans and partially in marsupials such as kangaroos and opossums. Two uteruses usually form initially in a female fetus, and in placental mammals they may partially or completely fuse into a single uterus depending on the species. In many species with two uteruses, only one is functional. Humans and other higher primates such as chimpanzees, along with horses, usually have a single completely fused uterus, although in some individuals the uteruses may not have completely fused[WP].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uterus</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -927,7 +930,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000996">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vagina</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013515"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a fibromuscular tubular tract leading from the uterus to the exterior of the body in female placental mammals and marsupials, or to the cloaca in female birds, monotremes, and some reptiles[WP].</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fibromuscular tubular tract leading from the uterus to the exterior of the body in female placental mammals and marsupials, or to the cloaca in female birds, monotremes, and some reptiles[WP].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vagina</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -949,11 +952,11 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0001003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001003">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epidermis</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin epidermis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003102"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007376"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010371"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The outer layer of the skin[WP]. cellular, multilayered epithelium derived from the ectoderm[ZFA].</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epidermis</obo:IAO_0000111>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin epidermis</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -1000,11 +1003,10 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0001044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001044">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">salivary gland</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003408"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saliva-secreting gland</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010047"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saliva-secreting exocrine glands of the oral cavity[GO]. The salivary glands in mammals are exocrine glands, glands with ducts, that produce saliva. They also secrete amylase, an enzyme that breaks down starch into maltose. In other organisms such as insects, salivary glands are often used to produce biologically important proteins like silk or glues, and fly salivary glands contain polytene chromosomes that have been useful in genetic research[WP].</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">salivary gland</obo:IAO_0000111>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saliva-secreting exocrine glands of the oral cavity[GO]</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saliva-secreting gland</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -1027,7 +1029,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001088">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000463"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Excretion in liquid state processed by the kidney.[FMA]</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Excretion that is the output of a kidney</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urine</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -1038,8 +1040,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001091">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calcareous tooth</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003913"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004765"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organ with a cavity which consist of dentine surrounded by enamel. Examples: incisor, molar.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calcareous tooth</obo:IAO_0000111>
@@ -1053,8 +1055,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001103">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diaphragm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001630"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003830"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005181"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thin musculomebranous barrier that separates the abdominal and thoracic cavities. Often used for breathing control</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diaphragm</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -1092,7 +1094,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001134">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skeletal muscle tissue</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002036"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Striated muscle tissue under control of the somatic nervous system. It is one of three major muscle types, the others being cardiac and smooth muscle. As its name suggests, most skeletal muscle is attached to bones by bundles of collagen fibers known as tendons. Skeletal muscle is made up of individual components known as muscle fibers. These fibers are formed from the fusion of developmental myoblasts. The myofibers are long, cylindrical, multinucleated cells composed of actin and myosin myofibrils repeated as a sarcomere, the basic functional unit of the cell and responsible for skeletal muscle&#39;s striated appearance and forming the basic machinery necessary for muscle contraction. The term muscle refers to multiple bundles of muscle fibers held together by connective tissue[WP].</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscle tissue that consists primarily of skeletal muscle fibers.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skeletal muscle tissue</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -1128,7 +1130,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001154">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vermiform appendix</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013765"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a blind-ended tube connected to the cecum, from which it develops embryologically[WP].</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A blind-ended tube connected to the cecum, from which it develops embryologically[WP].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vermiform appendix</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -1140,7 +1142,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001155">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004921"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Last portion of the digestive system in most vertebrates; it extracts water and salt from solid wastes before they are eliminated from the body[WP] In mammals, the colon consists of four sections: the ascending colon, the transverse colon, the descending colon, and the sigmoid colon[WP]. In zebrafish, the posterior intestine has short longitudinally arranged epithelial folds which are similar to the colon of higher vertebrates. &lt;a href=&#39;http://zfin.org/cgi-bin/ZFIN_jump?record=ZDB-PUB-050120-6&#39;&gt;Wallace et al, 2005.&lt;/a&gt;</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Last portion of the digestive system in most vertebrates; it extracts water and salt from solid wastes before they are eliminated from the body[WP] In mammals, the colon consists of four sections: the ascending colon, the transverse colon, the descending colon, and the sigmoid colon[WP]. In zebrafish, the posterior intestine has short longitudinally arranged epithelial folds which are similar to the colon of higher vertebrates[ZFIN].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -1164,8 +1166,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001159">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sigmoid colon</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000168"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The part of the large intestine that is closest to the rectum and anus. It forms a loop that averages about 40 cm. in length, and normally lies within the pelvis, but on account of its freedom of movement it is liable to be displaced into the abdominal cavity.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sigmoid colon</obo:IAO_0000111>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the part of the large intestine that is closest to the rectum and anus. It forms a loop that averages about 40 cm. in length, and normally lies within the pelvis, but on account of its freedom of movement it is liable to be displaced into the abdominal cavity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -1216,7 +1218,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001264">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreas</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002075"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An endoderm derived structure that produces precursors of digestive enzymes and blood glucose regulating enzymes[GO]. The mature pancreas of higher vertebrates and mammals comprises two major functional units: the exocrine pancreas, which is responsible for the production of digestive enzymes to be secreted into the gut lumen, and the endocrine pancreas, which has its role in the synthesis of several hormones with key regulatory functions in food uptake and metabolism. The exocrine portion constitutes the majority of the mass of the pancreas, and contains only two different cell types, the secretory acinar cells and the ductular cells. The endocrine portion, which comprises only 1–2% of the total mass, contains five different cell types, which are organized into mixed functional assemblies referred to as the islets of Langerhans[PMID].</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An endoderm derived structure that produces precursors of digestive enzymes and blood glucose regulating enzymes[GO].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreas</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -1291,7 +1293,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001388">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrocnemius</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004256"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A muscle of the shank. In mammals it has two heads[Kardong]. It runs from its two heads just above the knee to the heel, and is involved in standing, walking, running and jumping. Along with the soleus muscle it forms the calf muscle. [WP].</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The most superficial muscle of the triceps surae group, in the posterior portion of the lower hindleg.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrocnemius</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -1303,7 +1305,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001389">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soleus muscle</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004256"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a powerful muscle in the back part of the lower leg (the calf). It runs from just below the knee to the heel, and is involved in standing and walking. It is closely connected to the gastrocnemius muscle and some anatomists consider them to be a single muscle, the triceps surae. Its name is derived from the solefish whose shape it resembles. The soleus is located in the superficial posterior compartment of the leg. Not all mammals have a soleus muscle; one familiar species that lacks the soleus is the dog.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A deep muscle of the triceps surae group, in the superficial posterior compartment of the leg.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soleus muscle</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -1328,7 +1330,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">knee joint</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003657"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011139"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The knee joint joins the thigh with the leg and consists of two articulations: one between the femur and tibia, and one between the femur and patella. It is the largest and most complicated joint in the human body. The knee is a mobile trocho-ginglymus (i.e. a pivotal hinge joint), which permits flexion and extension as well as a slight medial and lateral rotation. Since in humans the knee supports nearly the whole weight of the body, it is the joint most vulnerable both to acute injury and the development of osteoarthritis. [WP,unvetted].</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The knee joint joins the thigh with the leg and consists of two articulations: one between the femur and tibia, and one between the femur and patella. It is the largest and most complicated joint in the human body. The knee is a mobile trocho-ginglymus (i.e. a pivotal hinge joint), which permits flexion and extension as well as a slight medial and lateral rotation[WP,unvetted].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">knee joint</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -1426,6 +1428,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001723">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tongue</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004119"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013765"/>
@@ -1441,22 +1444,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001736">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">submandibular gland</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001829"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004119"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The paired submandibular glands (submaxillary glands) are salivary glands located beneath the floor of the mouth. In humans, they account for 70% of the salivary volume and weigh about 15 grams. [WP,unvetted].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">submandibular gland</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0001774 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001774">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle of trunk</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001630"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005177"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscle organ which is a part of the trunk. Examples: external intercostal muscle, external oblique, levator ani.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle of trunk</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -1519,7 +1510,8 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lacrimal gland</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002365"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003297"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015154"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The lacrimal glands are paired almond-shaped glands, one for each eye, that secrete the aqueous layer of the tear film. They are situated in the upper, outer portion of each orbit. Inflammation of the lacrimal glands is called dacryoadenitis[WP].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lacrimal gland</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -1533,7 +1525,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sebaceous gland</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002365"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002419"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A holocrine gland that secretes sebum into the hair follicles, or in hairless areas into ducts.[MP].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sebaceous gland</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -1545,9 +1536,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001829">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">major salivary gland</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010047"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001044"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015212"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of the three largest glands of the oral cavity that secrete most of the saliva, including the parotid, submandibular, and sublingual glands.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">major salivary gland</obo:IAO_0000111>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the three largest glands of the oral cavity that secrete most of the saliva, including the parotid, submandibular, and sublingual glands.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -1557,7 +1549,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001831">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parotid gland</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001044"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001829"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004119"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The parotid gland is the largest of the salivary glands. It is found wrapped around the mandibular ramus, and it secretes saliva through Stensen&#39;s duct into the oral cavity, to facilitate mastication and swallowing. [WP,unvetted].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parotid gland</obo:IAO_0000111>
@@ -1570,10 +1564,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001870">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frontal cortex</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anterior portion of the frontal cortex, lying anterior to the central sulcus in humans. It is bounded by the parietal cortex posteriorly and the temporal cortex laterally.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0016529"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anterior portion of the frontal cortex, lying anterior to the central sulcus. It is bounded by the parietal cortex posteriorly and the temporal cortex laterally.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frontal cortex</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -1584,8 +1576,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001872">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parietal lobe</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003022"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0016526"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parietal lobe is the one of five lobes of the cerebral hemisphere which occupies the dorsal-posterior portion of the hemisphere. It is bounded by the central sulcus on its anterior border and and by the longitudinal cerebral fissure on its medial border. Posteriorly it shares an arbitrary border with the occipital lobe.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parietal lobe</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -1622,7 +1613,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001876">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amygdala</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002420"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011300"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0016529"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subcortical brain region lying anterior to the hippocampal formation in the temporal lobe and anterior to the temporal horn of the lateral ventricle in some species. It is usually subdivided into several groups. Functionally, it is not considered a unitary structure (MM).</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amygdala</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -1660,10 +1651,11 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0001897 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001897">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thalamus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dorsal plus ventral thalamus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002784"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015212"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A midline paired symmetrical structure within the brains of vertebrates, including humans. It is situated between the cerebral cortex and midbrain, both in terms of location and neurological connections. Its function includes relaying sensation, special sense and motor signals to the cerebral cortex, along with the regulation of consciousness, sleep and alertness. The thalamus surrounds the third ventricle. It is the main product of the embryonic diencephalon.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thalamus</obo:IAO_0000111>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dorsal plus ventral thalamus</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -1685,7 +1677,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001906">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subthalamic nucleus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007692"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002308"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The subthalamic nucleus is the lens-shaped nucleus located in the ventral part of the subthalamus on the inner aspect of the internal capsule that is concerned with the integration of somatic motor function[GO].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subthalamic nucleus</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -1698,9 +1690,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001911">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammary gland</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002365"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003297"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005398"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The specialized accessory gland of the skin of female mammals that secretes milk. In the human female, it is a compound tubuloalveolar gland composed of 15 to 25 lobes arranged radially about the nipple and separated by connective and adipose tissue, each lobe having its own excretory (lactiferous) duct opening on the nipple. The lobes are subdivided into lobules, with the alveolar ducts and alveoli being the secretory portion of the gland[BTO]. The mouse forms five to six pairs of mammary glands that extend from the neck to the groin.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specialized accessory gland of the skin of mammals that secretes milk. The gland is typically only developed in females, and regresses in males.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammary gland</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -1737,7 +1729,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001954">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammon&#39;s horn</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002619"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002791"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A part of the brain consisting of a three layered cortex located in the forebrain bordering the medial surface of the lateral ventricle. The term hippocampus is often used synonymously with hippocampal formation which consists of the hippocampus proper or Cornu Ammonis, the dentate gyrus and the subiculum.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammon&#39;s horn</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -1804,10 +1796,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001997">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olfactory epithelium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000483"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004807"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010371"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005384"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010499"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epithelium inside the nasal cavity that is responsible for detecting odors[WP].</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sensory epithelium inside the nasal cavity that is responsible for detecting odors[WP].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olfactory epithelium</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -1817,11 +1808,10 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0002020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002020">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gray matter of neuraxis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000477"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gray matter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011215"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heterogeneous cluster of neural somas in the brain and the spinal cord.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gray matter of neuraxis</obo:IAO_0000111>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gray matter</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -1897,7 +1887,9 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004119"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiration organ present in all air-breathing animals whose principal function is to transport oxygen from the atmosphere into the bloodstream, and to release carbon dioxide from the bloodstream into the atmosphere[WP]. In all air-breathing vertebrates the lungs are developed from the ventral wall of the oesophagus as a pouch which divides into two sacs. In amphibians and many reptiles the lungs retain very nearly this primitive sac-like character, but in the higher forms the connection with the esophagus becomes elongated into the windpipe and the inner walls of the sacs become more and more divided, until, in the mammals, the air spaces become minutely divided into tubes ending in small air cells, in the walls of which the blood circulates in a fine network of capillaries. In mammals the lungs are more or less divided into lobes, and each lung occupies a separate cavity in the thorax[GO].</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005181"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015212"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiration organ that develops as an oupocketing of the esophagus.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -1946,8 +1938,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002072">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypodermis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002384"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004923"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lowermost layer of the integumentary system in vertebrates. Types of cells that are found in the hypodermis are fibroblasts, adipose cells, and macrophages. It is derived from the mesoderm, but unlike the dermis, it is not derived from the dermatome region of the mesoderm. The hypodermis is used mainly for fat storage[WP].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypodermis</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -1960,7 +1952,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002075">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viscus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005177"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organ that is located within the body cavity (or in its extension, in the scrotum); it consists of organ parts that are embryologically derived from endoderm, splanchnic mesoderm or intermediate mesoderm; together with other organs, the viscus constitutes the respiratory, gastrointestinal, urinary, reproductive and immune systems, or is the central organ of the cardiovascular system. Examples: heart, lung, esophagus, kidney, ovary, spleen. // An internal organ of the body; especially: one (as the heart, liver, or intestine) located in the great cavity of the trunk proper.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organ that is located within the body cavity (or in its extension, in the scrotum); it consists of organ parts that are embryologically derived from endoderm, splanchnic mesoderm or intermediate mesoderm; together with other organs, the viscus constitutes the respiratory, gastrointestinal, urinary, reproductive and immune systems, or is the central organ of the cardiovascular system. Examples: heart, lung, esophagus, kidney, ovary, spleen.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viscus</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -1971,12 +1963,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002106">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spleen</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002075"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005057"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013765"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organ found in virtually all vertebrate animals with important roles in regard to red blood cells and the immune system. In humans, it is located in the left upper quadrant of the abdomen. It removes old red blood cells and holds a reserve in case of hemorrhagic shock, especially in animals like horses (not in humans), while recycling iron. It synthesizes antibodies in its white pulp and removes, from blood and lymph node circulation, antibody-coated bacteria along with antibody-coated blood cells.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0017672"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organ found in virtually all vertebrate animals with important roles in regard to red blood cells and the immune system.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spleen</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -2014,13 +2005,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0002110 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002110">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gallbladder</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002075"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gall bladder</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004119"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013765"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a small organ that aids digestion and stores bile produced by the liver[WP]. Organ with organ cavity which is continuous proximally with the cystic duct and distally terminates in the fundus of the gallbladder[FMA].</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gallbladder</obo:IAO_0000111>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0017672"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organ that aids digestion and stores bile produced by the liver[WP].</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gall bladder</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -2033,7 +2023,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000489"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006554"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A paired organ which has the production of urine as its primary function.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015212"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A paired organ of the urinary tract which has the production of urine as its primary function.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -2069,7 +2060,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002124">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medulla of thymus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000077"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000481"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000471"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medullary portion of thymus. The reticulum is coarser than in the cortex, the lymphoid cells are relatively fewer in number, and there are found peculiar nest-like bodies, the concentric corpuscles of Hassall. These concentric corpuscles are composed of a central mass, consisting of one or more granular cells, and of a capsule formed of epithelioid cells. They are the remains of the epithelial tubes, which grow out from the third branchial pouches of the embryo to form the thymus. Each follicle is surrounded by a vascular plexus, from which vessels pass into the interior, and radiate from the periphery toward the center, forming a second zone just within the margin of the medullary portion. In the center of the medullary portion there are very few vessels, and they are of minute size.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medulla of thymus</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -2110,7 +2101,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vomeronasal organ</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000020"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The vomeronasal organ (VNO), or Jacobson&#39;s organ, is an auxiliary olfactory sense organ that is found in many animals. It was discovered by Ludwig Jacobson in 1813. During embryological development, it forms from the nasal (olfactory) placode, at the anterior edge of the neural plate. It is a chemoreceptor organ which is completely separated from the nasal cavity the majority of the time, being enclosed in a separate bony or cartilaginous capsule which opens into the base of the nasal cavity. It is a tubular crescent shape and split into two pairs, separated by the nasal septum. It is the first processing stage of the accessory olfactory system, after which chemical stimuli go to the accessory olfactory bulb, then to targets in the amygdala and hypothalamus. The vomeronasal organ is mainly used to detect pheromones, chemical messengers that carry information between individuals of the same species, hence is sometimes referred to as the &#39;sixth sense. &#39; The VNO has two separate types of neuronal receptors, V1R and V2R, which are seven-transmembrane receptors that are coupled to G proteins. The receptors are distinct from each other and form the large family of receptors in the main olfactory system. Evidence shows that the VNO responds to nonvolatile cues which stimulate the receptor neurons. Information is then transferred to the accessory olfactory bulb as well as other centres of the brain such as the anterior part of the hypothalamus. Its presence in many animals has been widely studied and the importance of the vomeronasal system to the role of reproduction and social behavior (through influence on anterior hypothalamus) has been shown in many studies. Its presence and functionality in humans is widely controversial, though most studies agree the organ regresses during fetal development. [WP,unvetted].</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organ thought to supplement the olfactory system in receiving pheromonic communication. The sensory part of the organ is in two long, thin sacs, situated on either side of the nasal septum at its base.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vomeronasal organ</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -2122,7 +2113,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002264">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olfactory bulb</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002791"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bulbous anterior projection of the olfactory lobe that is the place of termination of the olfactory nerves and is especially well developed in lower vertebrates (as fishes)[BTO]. Segment of neural tree organ which is continuous with a set of olfactory nerves and an olfactory tract. In most vertebrates, the olfactory bulb is the most rostral (forward) part of the brain. In humans, however, the olfactory bulb is on the inferior (bottom) side of the brain. The olfactory bulb is supported and protected by the cribriform plate which in mammals, separates it from the olfactory epithelium, and which is perforated by olfactory nerve axons. The bulb is divided into two distinct structures, the main olfactory bulb, and the accessory olfactory bulb[WP].</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015212"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bulbous anterior projection of the olfactory lobe that is the place of termination of the olfactory nerves and is especially well developed in lower vertebrates (as fishes)[BTO]..</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olfactory bulb</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -2146,23 +2138,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002308">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleus of brain</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000125"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002616"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleus of neuraxis which is located within the brain. Example: pontobulbar nucleus, globose nucleus[FMA]. brain structure consisting of a relatively compact cluster of neurons. It is one of the two most common forms of nerve cell organization, the other being layered structures such as the cerebral cortex or cerebellar cortex. In anatomical sections, a nucleus shows up as a region of gray matter, often bordered by white matter. The vertebrate brain contains hundreds of distinguishable nuclei, varying widely in shape and size. A nucleus may itself have a complex internal structure, with multiple types of neurons arranged in clumps (subnuclei) or layers.[Wikipedia]</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleus of brain</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0002316 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002316">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white matter</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003714"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011215"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neural tissue consisting of myelinated axons connecting grey matter areas of the central nervous system.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white matter</obo:IAO_0000111>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A neural nucleus that is part of the brain.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleus of brain</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -2187,7 +2165,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corpus callosum</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002473"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005340"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The corpus callosum is a thick bundle of nerve fibers comprising a commissural plate connecting the two cerebral hemispheres. It consists of contralateral axon projections that provides communications between the right and left cerebral hemispheres[GO].</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thick bundle of nerve fibers comprising a commissural plate connecting the two cerebral hemispheres. It consists of contralateral axon projections that provides communications between the right and left cerebral hemispheres[GO].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corpus callosum</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -2273,6 +2251,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002369">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adrenal gland</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006858"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015212"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Either of a pair of complex endocrine organs near the anterior medial border of the kidney consisting of a mesodermal cortex that produces glucocorticoid, mineralocorticoid, and androgenic hormones and an ectodermal medulla that produces epinephrine and norepinephrine[BTO].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adrenal gland</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -2363,9 +2342,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002407">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pericardium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004457"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005983"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006914"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0012275"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The outer membrane/wall of the developing heart, surrounding the myocardium. </obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pericardium</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -2377,9 +2354,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002419">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin gland</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003297"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006003"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gland that is part of a skin of body [Automatically generated definition].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin gland</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -2392,9 +2369,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002420">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basal ganglion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002020"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011300"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003528"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual member of a collection of basal ganglia. Basal ganglia are subcortical masses of gray matter in the forebrain and midbrain that are richly interconnected and so viewed as a functional system. The nuclei usually included are the caudate nucleus (caudoputamen in rodents), putamen, globus pallidus, substantia nigra (pars compacta and pars reticulata) and the subthalamic nucleus. Some also include the nucleus accumbens and ventral pallidum[NIF,modified].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basal ganglion</obo:IAO_0000111>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">one of a group of nuclei in the brains of vertebrates, situated at the base of the forebrain and strongly connected with the cerebral cortex, thalamus and other areas.ganglion in the head. The main components of the basal ganglia are the striatum, pallidum, substantia nigra, and subthalamic nucleus[WP]. Subcortical masses of gray matter in the forebrain and midbrain that are richly interconnected and so viewed as a functional system. The nuclei usually included are the caudate nucleus (caudoputamen in rodents), putamen, globus pallidus, substantia nigra (pars compacta and pars reticulata) and the subthalamic nucleus. Some also include the nucleus accumbens and ventral pallidum[NIF].</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -2406,6 +2383,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">limb bone</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002513"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004375"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015061"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bone that is part of a limb [Automatically generated definition].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">limb bone</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -2431,7 +2409,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intercerebral commissure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005970"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class of unpaired telencephalic white matter structures consisting of fiber pathways which project across the midsagittal plane and which serve to interconnect telencephalic structures lying within the contralateral cerebral hemisphere[FMA].</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A commissure that connects the two cerebral hemispheres. Examples: anterior commissure, corpus callosum.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intercerebral commissure</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -2443,7 +2421,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002513">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endochondral bone</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001474"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004765"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010363"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Replacement bone that forms within cartilage.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endochondral bone</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -2468,8 +2446,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002544">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000475"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subdivision of the autopod that has as part a series of phalanges together with associated vasculature, musculature, integument and nerves. It is continuous with the metapodial subdivision of the autopod, but does not include the metapodials. In species such as humans, fully formed digits are distinct, whereas in other species the digits may be connected by interdigital webbing, or may be completely unseparated (for example, in cetaceans).</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digit</obo:IAO_0000111>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">one of several most distal parts of a limb, such as fingers or toes, present in many vertebrates[WP].</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -2479,22 +2457,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002616">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regional part of brain</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000073"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000481"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A multi-tissue structure that is part of a brain [Automatically generated definition].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regional part of brain</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0002619 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002619">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regional part of cerebral cortex</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002791"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A regional part of brain that is part of a cerebral cortex [Automatically generated definition].</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regional part of cerebral cortex</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -2504,8 +2470,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002623">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebral peduncle</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002316"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011215"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The cerebral peduncle, by most classifications, is everything in the mesencephalon except the tectum. The region includes the midbrain tegmentum, crus cerebri, substantia nigra and pretectum. By this definition, the cerebral peduncles are also known as the basis pedunculi, while the large ventral bundle of efferent fibers is referred to as the crus cerebri or the pes pedunculi There are numerous nerve tracts located within this section of the brainstem. Of note, in the cerebral peduncular loop fibers from motor areas of the brain project to the cerebral peduncle and then project to various thalamic nuclei. In as much as the peduncles are an anatomic landmark, for details regarding the function of this area interested readers are referred to the individual referenced articles. On a broad scale, though, this area contains many nerve tracts conveying motor information to and from the brain to the rest of the body. Important fibers running through the cerebral peduncles include the corticospinal tract and the corticobulbar tract, among others. [WP,unvetted].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebral peduncle</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -2594,20 +2560,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002967">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cingulate gyrus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000200"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003022"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gyrus in the medial part of the brain. It partially wraps around the corpus callosum and is limited above by the cingulate sulcus. The cortical part of the cingulate gyrus is referred to as cingulate cortex.[Wikipedia]. The cingulate gyrus receives inputs from the anterior nucleus of the thalamus and the neocortex, as well as from somatosensory areas of the cerebral cortex. It projects to the entorhinal cortex via the cingulum. It functions as an integral part of the limbic system, which is involved with emotion formation and processing, learning, and memory. Also, executive control needed to suppress inappropriate unconscious priming is known to involve the anterior cingulate gyrus. It is also involved in respiratory control.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cingulate gyrus</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0003022 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003022">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lobe parts of cerebral cortex</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002619"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lobe parts of cerebral cortex</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -2617,7 +2571,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003102">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface structure</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000481"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure that overlaps the outer epithelial layer and is adjacent to the space surrounding the organism.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface structure</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -2630,7 +2584,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003103">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compound organ</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010000"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure that has as its parts two or more multi-tissue structures of at least two different types and which through specific morphogenetic processes forms a single distinct structural unit demarcated by bona fide boundaries from other distinct anatomical structures of different types.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compound organ</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -2706,7 +2659,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003258">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endoderm of foregut</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000925"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000483"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000490"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005911"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An endoderm that is part of a foregut [Automatically generated definition].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endoderm of foregut</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -2732,8 +2687,20 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gland of diencephalon</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gland that is part of a diencephalon [Automatically generated definition].</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any gland that is part of the diencephalon. Examples: pineal gland, neurohypophysis.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gland of diencephalon</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003297">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gland of integumental system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gland that is part of a integumental system [Automatically generated definition].</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gland of integumental system</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -2764,11 +2731,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003457">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head bone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001474"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bone that is part of a head [Automatically generated definition].</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head bone</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0003462 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003462">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">facial bone</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001474"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003457"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010313"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bone that is part of a facial skeleton [Automatically generated definition].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">facial bone</obo:IAO_0000111>
@@ -2783,6 +2762,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb bone</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002428"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010740"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015022"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bone that is part of a hindlimb region. Examples: any pes phalanx, femur. Counter-examples: ischium, pubis (they are part of the pelvic girdle)</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb bone</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -2810,6 +2790,18 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001981"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A blood vessel that is part of the arterial system. Includes artery, arteriole and aorta.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arterial blood vessel</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003528 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003528">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain grey matter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002020"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gray matter that is part of a brain [Automatically generated definition].</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain grey matter</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -2866,18 +2858,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0003714 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003714">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neural tissue</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portion of tissue which consists of neurons, neuroglia and vasculature. Examples: Neural tissue of brain, neural tissue of peripheral ganglion, neural tissue of nerve[FMA].</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neural tissue</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0003729 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003729">
@@ -2891,19 +2871,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0003830 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003830">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thoracic segment muscle</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001774"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005177"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A muscle organ that is part of a thorax [Automatically generated definition].</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thoracic segment muscle</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0003889 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003889">
@@ -2911,8 +2878,22 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000025"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005156"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0014404"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015212"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Two very fine tubes lined with ciliated epithelia, leading from the ovaries of female mammals into the uterus, via the utero-tubal junction[WP]. Embryos have two pairs of ducts to let gametes out of the body; one pair (the Mullerian ducts) develops in females into the Fallopian tubes, uterus and vagina, while the other pair (the Wolffian ducts) develops in males into the epididymis and vas deferens.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fallopian tube</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003913 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003913">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tooth-like structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003102"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004765"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hard bony, calcareous, or chitinous organ found in the mouth or pharynx of an animal and used in procuring or masticating food.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tooth-like structure</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -2947,12 +2928,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0003922 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003922">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreatic bud</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreatic epithelial bud</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005291"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005911"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007499"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The embryonic pancreas develops from two separate anlagen in the foregut epithelium, one dorsal and two ventral pancreatic buds[PMID]. In humans, an embryonic structure that is an outgrowth of the duodenum during embryogenesis - joins together to form the adult pancreas[WP].</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreatic bud</obo:IAO_0000111>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The embryonic pancreas develops from two separate anlagen in the foregut epithelium, one dorsal and two ventral pancreatic buds[PMID].</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreatic epithelial bud</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -2976,8 +2957,21 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sex gland</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005156"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">any of the organized aggregations of cells that function as secretory or excretory organs and are associated with reproduction</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any of the organized aggregations of cells that function as secretory or excretory organs and are associated with reproduction</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sex gland</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003947 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003947">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain ventricle/choroid plexus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The brain ventricles or their associated choroid plexuses</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain ventricle/choroid plexus</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -2988,7 +2982,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004086">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain ventricle</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003947"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain ventricle</obo:IAO_0000111>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">one of the system of communicating cavities in the brain that are continuous with the central canal of the spinal cord, that like it are derived from the medullary canal of the embryo, that are lined with an epithelial ependyma, and that contain a serous fluid</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -3001,8 +2995,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004111">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical conduit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000477"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any tube, opening or passage that connects two distinct anatomical spaces.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical conduit</obo:IAO_0000111>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">any opening in the body.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -3061,7 +3055,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004256">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb zeugopod muscle</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001630"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0014892"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A muscle organ that is part of a hindlimb zeugopod (lower leg) [Automatically generated definition].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb zeugopod muscle</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -3072,14 +3066,15 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0004363 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004363">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aortic arch</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pharyngeal arch artery</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000077"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001981"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002050"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003469"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015787"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of a series of paired embryological vascular structures formed within a pharyngeal arch; in the adult, some of these vessels give rise to the great vessels[MP]</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aortic arch</obo:IAO_0000111>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pharyngeal arch artery</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -3138,8 +3133,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004742">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dentary</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000078"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004768"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008907"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0012360"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015212"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The dentary is a dermal bone that forms the antero-lateral part of the lower jaw in fishes and amphibians, extending to the whole lower jaw in mammals[VHOG,modified].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dentary</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -3174,26 +3171,27 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0004802 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004768 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004802">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory tract epithelium</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004807"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005911"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An epithelium that is part of a respiratory tract [Automatically generated definition].</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory tract epithelium</obo:IAO_0000111>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004768">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone of lower jaw</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004119"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0012360"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any bone that is part of the lower jaw skeleton. This includes (when present): the dentary/mandible, the articular, the splenial, the suprangular</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone of lower jaw</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0004807 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004802 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004807">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory system epithelium</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004802">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory tract epithelium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000483"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An epithelium that is part of a respiratory system [Automatically generated definition].</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory system epithelium</obo:IAO_0000111>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005911"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An epithelium that is part of a respiratory tract [Automatically generated definition].</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory tract epithelium</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -3265,6 +3263,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005020">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mucosa of tongue</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003729"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004119"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mucosa that is part of a tongue [Automatically generated definition].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mucosa of tongue</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -3311,10 +3310,10 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0005172 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005172">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abdomen organ</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abdomen element</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005177"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organ that is in the abdomen. Examples: spleen, intestine, kidney, abdominal mammary gland.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abdomen organ</obo:IAO_0000111>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organ or element that is in the abdomen. Examples: spleen, intestine, kidney, abdominal mammary gland.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abdomen element</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -3323,10 +3322,22 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0005177 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005177">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trunk organ</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trunk region element</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organ that part of the trunk region. The trunk region can be further subdividied into thoracic (including chest and thoracic cavity) and abdominal (including abdomen and pelbis) regions.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trunk organ</obo:IAO_0000111>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organ or element that part of the trunk region. The trunk region can be further subdividied into thoracic (including chest and thoracic cavity) and abdominal (including abdomen and pelbis) regions.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trunk region element</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005181">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thoracic segment organ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005177"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organ that part of the thoracic segment region. This region can be further subdividied chest and thoracic cavity regions.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thoracic segment organ</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -3364,21 +3375,22 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dorsal telencephalic commissure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005970"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fiber tracts that connect the dorsal region of the two cerebral hemispheres and span the longitudinal fissure, including the corpus callosum and hippocampal commissure[MP].</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dorsal telencephalic commissure</obo:IAO_0000111>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the fiber tracts that connect the dorsal region of the two cerebral hemispheres and span the longitudinal fissure, including the corpus callosum and hippocampal commissure[MP].</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0005398 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005384 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005398">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female reproductive gland</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003937"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0014404"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sex gland that is part of a female reproductive system.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female reproductive gland</obo:IAO_0000111>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005384">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nasal cavity epithelium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000483"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004802"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010371"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An epithelium that is part of a nasal cavity [Automatically generated definition].</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nasal cavity epithelium</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -3485,14 +3497,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0005983 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0006003 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005983">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart layer</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004923"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart layer</obo:IAO_0000111>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the laminar structure of the heart</obo:IAO_0000115>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006003">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integumentary adnexa</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure embedded in or located in the integument that is part of the integumental system. Examples: hair, follicles, skin glands, claws, nails, feathers.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integumentary adnexa</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -3510,14 +3521,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0006569 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0006799 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006569">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diencephalic nucleus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002308"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002784"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nucleus of brain that is part of a diencephalon.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diencephalic nucleus</obo:IAO_0000111>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006799">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glandular epithelium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000483"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epithelium composed of secretory cells.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glandular epithelium</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -3543,7 +3553,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006914">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">squamous epithelium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000483"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an epithelium characterised by its most superficial layer consisting of squamous epithelial cells.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An epithelium characterised by its most superficial layer consisting of squamous epithelial cells.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">squamous epithelium</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -3566,10 +3576,10 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0007100 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007100">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circulatory organ</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary circulatory organ</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003103"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hollow, muscular organ, which, by contracting rhythmically, keeps up the circulation of the blood[GO].</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circulatory organ</obo:IAO_0000111>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hollow, muscular organ, which, by contracting rhythmically, keeps up the circulation of the blood or analogs[GO,modified].</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary circulatory organ</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -3581,7 +3591,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tracheobronchial tree</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004119"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the structure from the trachea, bronchi, and bronchioles that forms the airways that supply air to the lungs. The lining of the tracheobronchial tree consists of ciliated columnar epithelial cells.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The structure from the trachea, bronchi, and bronchioles that forms the airways that supply air to the lungs. The lining of the tracheobronchial tree consists of ciliated columnar epithelial cells.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tracheobronchial tree</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -3591,11 +3601,11 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0007376 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007376">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">outer epithelial layer</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000483"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">outer epithelium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003102"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The epidermis is the entire outer epithelial layer of an animal, it may be a single layer that produces an extracellular material (e.g. the cuticle of arthropods) or a complex stratified squamous epithelium, as in the case of many vertebrate species[GO]. The epidermis of a more complex invertebrate is just one-layer deep, and may be protected by a non-cellular cuticle. The epidermis of a higher vertebrate has many layers, and the outer layers are reinforced with keratin and then die[WP].</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">outer epithelial layer</obo:IAO_0000111>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010371"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The epidermis is the entire outer epithelial layer of an animal, it may be a single layer that produces an extracellular material (e.g. the cuticle of arthropods) or a complex stratified squamous epithelium, as in the case of many vertebrate species[GO].</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">outer epithelium</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -3627,26 +3637,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0007692 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007692">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleus of thalamus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002784"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006569"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nucleus of brain that is part of a thalamus.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleus of thalamus</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0007827 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007827">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">external nose</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003102"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subdivision of face, the exterior of the nose, which consists of a root, dorsum, tip, columella, and right and left alae.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">External part of the olfactory apparatus.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">external nose</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -3671,7 +3668,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0009663">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">telencephalic nucleus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002308"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002791"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nucleus of brain that is part of a telencephalon.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">telencephalic nucleus</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -3789,6 +3786,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0010363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010363">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endochondral element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004765"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A skeletal element that has the potential to participate in endochondral ossification, and may participate in intramembranous ossification.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endochondral element</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0010371 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010371">
@@ -3843,11 +3852,11 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0011215 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0011215">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell part cluster of neuraxis</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">central nervous system cell part cluster</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005162"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A multi cell component structure that is part of a central nervous system.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell part cluster of neuraxis</obo:IAO_0000111>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">central nervous system cell part cluster</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -3857,9 +3866,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0011300">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gray matter of telencephalon</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003528"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A portion of gray matter of neuraxis that is part of a telencephalon.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A portion of gray matter that is part of a telencephalon.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gray matter of telencephalon</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -3931,9 +3940,10 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0013765 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0013765">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digestive system organ</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digestive system element</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digestive system organ</obo:IAO_0000111>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any of the organs or elements that are part of the digestive system. Examples: tongue, esophagus, spleen, crop, lunge feeding organ, tooth elements.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digestive system element</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
@@ -3970,6 +3980,143 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0014402"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A part of the body present only in females.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female anatomical structure</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0014892 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014892">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skeletal muscle organ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001630"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A muscle organ that consists of skeletal muscle tissue ensheathed in epimysium, that develops from myotome and that is innervated by some somatic motor neuron. Skeletal muscles are typically attached (via a tendon) to a bone but there are exceptions (e.g. intrinsic tongue muscles).</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skeletal muscle organ</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0015022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0015022">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb endochondral element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015061"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hindlimb bone or its cartilage or pre-cartilage precursor.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb endochondral element</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0015061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0015061">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">limb endochondral element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010363"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A limb bone or its cartilage or pre-cartilage precursor.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">limb endochondral element</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0015152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0015152">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gland of orbital region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010313"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gland of orbital region</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0015154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0015154">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lateral gland of orbital region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015152"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015212"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lateral gland of orbital region</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0015212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0015212">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lateral structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structure that is placed on one side of the left-right axis of a bilaterian.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lateral structure</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0015787 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0015787">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">upper respiratory conduit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004111"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004119"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any anatomical conduit which is part of the upper respiratory tract</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">upper respiratory conduit</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0016526 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0016526">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lobe of cerebral hemisphere</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subdivision of telencephalon which is one of a number of subdivisions of each hemisphere separated by both real landmarks (sulci and fissures) and arbitrary boundaries[FMA,modified].</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lobe of cerebral hemisphere</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0016529 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0016529">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cortex of cerebral lobe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011300"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cortex of cerebral lobe</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0016548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0016548">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">central nervous system gray matter layer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004923"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A layer of of the central nervous system that is part of gray matter.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">central nervous system gray matter layer</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0017672 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0017672">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abdominal viscera</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002075"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abdominal viscera</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
 </rdf:RDF>

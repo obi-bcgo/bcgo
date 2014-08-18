@@ -154,6 +154,9 @@ http://purl.obolibrary.org/obo/UBERON_0000016
 http://purl.obolibrary.org/obo/UBERON_0003258
 http://purl.obolibrary.org/obo/UBERON_0003922
 http://purl.obolibrary.org/obo/UBERON_0003924
+http://purl.obolibrary.org/obo/UBERON_0006799
+http://purl.obolibrary.org/obo/UBERON_0003457
+http://purl.obolibrary.org/obo/UBERON_0006003
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/UBERON_0001062 #anatomical entity

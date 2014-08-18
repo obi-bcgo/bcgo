@@ -549,6 +549,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serotonin transport</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006811"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0015844"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0015850"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The directed movement of serotonin into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Serotonin (5-hydroxytryptamine) is a monoamine neurotransmitter occurring in the peripheral and central nervous systems.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serotonin transport</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -573,8 +574,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006996">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organelle organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009987"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016043"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044763"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of an organelle within a cell. An organelle is an organized structure of distinctive morphology and function. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton. Excludes the plasma membrane.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organelle organization</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -609,11 +610,11 @@
     <!-- http://purl.obolibrary.org/obo/GO_0007126 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007126">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meiosis</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meiotic nuclear division</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006996"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009987"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044763"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell cycle process comprising the steps by which a cell progresses through the nuclear division phase of a meiotic cell cycle. A meiotic cell cycle is the specialized nuclear and cell division in which a single diploid cell undergoes two nuclear divisions following a single round of DNA replication in order to produce four daughter cells that contain half the number of chromosomes as the diploid cell. Meiotic division occurs during the formation of gametes from diploid organisms and at the beginning of haplophase in those organisms that alternate between diploid and haploid generations.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meiosis</obo:IAO_0000111>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of the two nuclear divisions that occur as part of the meiotic cell cycle.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meiotic nuclear division</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -878,6 +879,19 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0071705"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The directed movement of monoamines, organic compounds that contain one amino group that is connected to an aromatic ring by an ethylene group (-CH2-CH2-), into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monoamine transport</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0015850 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0015850">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic hydroxy compound transport</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044765"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0071702"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The directed movement of an organic hydroxy compound (organic alcohol) into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. An organic hydroxy compound is an organic compound having at least one hydroxy group attached to a carbon atom.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic hydroxy compound transport</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -1202,6 +1216,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006323"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044710"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051276"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1902589"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The progressive compaction of dispersed interphase chromatin into threadlike chromosomes prior to mitotic or meiotic nuclear division, or during apoptosis, in eukaryotic cells.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromosome condensation</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -2141,6 +2156,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0050432 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050432">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">catecholamine secretion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032940"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051937"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The regulated release of catecholamines by a cell. The catecholamines are a group of physiologically important biogenic amines that possess a catechol (3,4-dihydroxyphenyl) nucleus and are derivatives of 3,4-dihydroxyphenylethylamine.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">catecholamine secretion</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0050776 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050776">
@@ -2296,6 +2324,19 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009746"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The series of events in which a glucose stimulus is received by a cell and converted into a molecular signal.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detection of glucose</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051937 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051937">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">catecholamine transport</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0015844"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0015850"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The directed movement of catecholamines, a group of physiologically important biogenic amines that possess a catechol (3,4-dihydroxyphenyl) nucleus and are derivatives of 3,4-dihydroxyphenylethylamine.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">catecholamine transport</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -2504,6 +2545,19 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043234"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein complex which is capable of catalytic activity.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">catalytic complex</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_1902589 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1902589">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single-organism organelle organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006996"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044763"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organelle organization which involves only one organism.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single-organism organelle organization</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
