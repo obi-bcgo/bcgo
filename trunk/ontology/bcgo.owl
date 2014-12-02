@@ -1569,6 +1569,97 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000076">
+        <rdfs:label>characterization of cell differentiation objective</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000219"/>
+        <obo:IAO_0000115>A cellular feature identification objective that aims to examine or characterize cell development or differentiation.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <dc:source>Beta Cell Biology Consoritum</dc:source>
+        <obo:IAO_0000119>Penn group</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000077">
+        <rdfs:label>characterization of differentiation of insulin-producing cells objective</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000076"/>
+        <obo:IAO_0000115>A characterization of cell differentiation objective that aims to examine the influence of specific protocols with regard to generating insulin-producing cells from putative progenitors or other mechanisms (e.g., transdifferentiation).</obo:IAO_0000115>
+        <dc:source>Beta Cell Biology Consoritum</dc:source>
+        <obo:IAO_0000119>Penn group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000078">
+        <rdfs:label>characterization of islet/beta-cell stimulation/injury objective</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000219"/>
+        <obo:IAO_0000119>Penn group</obo:IAO_0000119>
+        <obo:IAO_0000115>A cellular feature identification objective that aims to address the effects of compounds, hormones, or cell manipulations on the ability of islets and/or beta-cells to secrete insulin or respond to glucose levels.</obo:IAO_0000115>
+        <dc:source>Beta Cell Biology Consoritum</dc:source>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000079">
+        <rdfs:label>characterization of pancreas development and growth objective</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000015"/>
+        <obo:IAO_0000119>Penn group</obo:IAO_0000119>
+        <obo:IAO_0000115>A biological feature identification objective that aims to examine changes in gene expression and/or epigenome during pancreas development or regeneration.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <dc:source>Beta Cell Biology Consoritum</dc:source>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000080">
+        <rdfs:label>characterization of cell stimulation or injury objective</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000219"/>
+        <obo:IAO_0000115>A cellular feature identification objective that aims to address the effects of compounds, hormones, or cell manipulations on the ability of tissues or specific cell types to perform their normal functions or respond to insult.</obo:IAO_0000115>
+        <dc:source>Beta Cell Biology Consoritum</dc:source>
+        <obo:IAO_0000119>Penn group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000081">
+        <rdfs:label>targets and roles of transcriptional regulators objective</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000131"/>
+        <obo:IAO_0000115>A molecular feature identification objective that aims to identify genes and processes regulated by transcription factors, co-activators, and other types of transcriptional regulators.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn group</obo:IAO_0000119>
+        <dc:source>Beta Cell Biology Consoritum</dc:source>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000082">
+        <rdfs:label>tissue expression survey objective</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000015"/>
+        <obo:IAO_0000119>Penn group</obo:IAO_0000119>
+        <obo:IAO_0000115>A biological feature identification objective that aims to address the question of what genes are expressed in a given tissue or cell type or the expression of genes across multiple cells and tissues.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <dc:source>Beta Cell Biology Consoritum</dc:source>
+    </owl:Class>
+
+
+
     <!-- http://purl.obolibrary.org/obo/BTO_0001581 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BTO_0001581">
