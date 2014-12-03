@@ -18,9 +18,8 @@ includeNoIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-copyTo http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000115
-
+http://purl.obolibrary.org/obo/IAO_0000118
 
 [Source ontology]
 #comment here
@@ -56,6 +55,8 @@ http://purl.obolibrary.org/obo/SO_0001741
 http://purl.obolibrary.org/obo/SO_0000001
 http://purl.obolibrary.org/obo/SO_0000110
 http://purl.obolibrary.org/obo/SO_0000276
+http://purl.obolibrary.org/obo/SO_0000165 #enhancer
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/SO_0000110 #sequence_feature
@@ -66,6 +67,5 @@ includeComputedIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-copyTo http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000115
 http://purl.obolibrary.org/obo/IAO_0000118

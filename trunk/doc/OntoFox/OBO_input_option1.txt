@@ -22,7 +22,6 @@ includeNoIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-copyTo http://purl.obolibrary.org/obo/IAO_0000111
 
 
 ############################################################
@@ -42,7 +41,6 @@ includeNoIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-copyTo http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000115
 
 
@@ -54,19 +52,22 @@ ERO
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/ERO_0001211 #massively parallel signature sequencing	
 http://purl.obolibrary.org/obo/ERO_0001334 #biopsy
+http://purl.obolibrary.org/obo/ERO_0000378 #surgery
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/ERO_0001211 #massively parallel signature sequencing	
 subClassOf http://purl.obolibrary.org/obo/OBI_0000723 #DNA sequencing by ligation
 http://purl.obolibrary.org/obo/ERO_0001334 #biopsy
 subClassOf http://purl.obolibrary.org/obo/OBI_0600005 #collecting specimen from organism
+http://purl.obolibrary.org/obo/ERO_0000378 #surgery
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
 
 [Source term retrieval setting]
 includeNoIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-copyTo http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000115
 
 
@@ -87,7 +88,6 @@ includeNoIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-copyTo http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000115
 
 
@@ -117,7 +117,6 @@ includeNoIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-copyTo http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000115
 
 
@@ -141,7 +140,6 @@ includeNoIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-copyTo http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000115
 
 
@@ -163,7 +161,6 @@ includeNoIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-copyTo http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000115
 
 
@@ -185,13 +182,25 @@ includeNoIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-copyTo http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000115
 
 
+############################################################
+[Source ontology]
+#comment here
+OBA
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/VT_0005215 #islet of Langerhans morphology trait
 
 
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/VT_0005215 #islet of Langerhans morphology trait
+subClassOf http://purl.obolibrary.org/obo/PATO_0000051 #morphology
 
+[Source term retrieval setting]
+includeNoIntermediates
 
-
-
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115

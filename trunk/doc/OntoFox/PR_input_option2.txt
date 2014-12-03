@@ -73,6 +73,15 @@ http://purl.obolibrary.org/obo/PR_000001786
 http://purl.obolibrary.org/obo/PR_000001809
 http://purl.obolibrary.org/obo/PR_000001836
 http://purl.obolibrary.org/obo/PR_000001867
+http://purl.obolibrary.org/obo/PR_000007602 #hepatocyte nuclear factor 3-alpha
+http://purl.obolibrary.org/obo/PR_000007603 #hepatocyte nuclear factor 3-beta
+http://purl.obolibrary.org/obo/PR_000008652 #hepatocyte nuclear factor 1-alpha
+http://purl.obolibrary.org/obo/PR_000008654 #hepatocyte nuclear factor 4-alpha
+http://purl.obolibrary.org/obo/PR_000011152 #neurogenic differentiation factor 1
+http://purl.obolibrary.org/obo/PR_000011242 #homeobox protein Nkx-2.2
+http://purl.obolibrary.org/obo/PR_000011250 #homeobox protein Nkx-6.1
+http://purl.obolibrary.org/obo/PR_000011639 #hepatocyte nuclear factor 6
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PR_000000001 #protein
@@ -85,6 +94,4 @@ includeComputedIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-copyTo http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000115
-mapTo http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition

@@ -8,17 +8,33 @@ EFO
 
 [Low level source term URIs]
 http://www.ebi.ac.uk/efo/EFO_0000493 #family history
+http://www.ebi.ac.uk/efo/EFO_0000369 #compound based treatment
+http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+http://www.ebi.ac.uk/efo/EFO_0002756 #fasting
+http://www.ebi.ac.uk/efo/EFO_0002547 #NOD mouse
+http://www.ebi.ac.uk/efo/EFO_0002529 #INS-1
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://www.ebi.ac.uk/efo/EFO_0000493 #family history
 subClassOf http://purl.obolibrary.org/obo/OGMS_0000015 #clinical history
+http://www.ebi.ac.uk/efo/EFO_0000369 #compound based treatment
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process 
+http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+subClassOf http://purl.obolibrary.org/obo/OBI_0000181 #population 
+http://www.ebi.ac.uk/efo/EFO_0002756 #fasting
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological process
+http://www.ebi.ac.uk/efo/EFO_0002547 #NOD mouse
+subClassOf http://purl.obolibrary.org/obo/BCGO_0000002 #mouse strain
+http://www.ebi.ac.uk/efo/EFO_0002529 #INS-1
+subClassOf http://purl.obolibrary.org/obo/CLO_0000019 #immortal cell line cell
+
 
 [Source term retrieval setting]
 includeNoIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-copyTo http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000115
 
 
@@ -49,7 +65,6 @@ includeNoIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-copyTo http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000115
 
 
@@ -82,7 +97,6 @@ includeComputedIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-copyTo http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000115
 
 
@@ -104,7 +118,6 @@ includeNoIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-copyTo http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000115
 
 
@@ -134,5 +147,4 @@ includeAllIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-copyTo http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000115

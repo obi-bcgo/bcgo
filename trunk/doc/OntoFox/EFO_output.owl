@@ -22,7 +22,6 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
         <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
     
 
 
@@ -48,15 +47,45 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000002"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000016"/>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CLO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000003"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000181"/>
     
 
 
@@ -83,8 +112,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000220">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute lymphoblastic leukemia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001642"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute lymphoblastic leukemia</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -95,8 +123,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute myeloid leukemia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000565"/>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002427"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute myeloid leukemia</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -106,8 +133,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000224">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute promyelocytic leukemia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000222"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute promyelocytic leukemia</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -117,8 +143,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000270">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asthma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asthma</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -128,8 +153,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000309">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkitts lymphoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001642"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkitts lymphoma</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -139,8 +163,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000311">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000616"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -151,8 +174,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic myelogenous leukemia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000565"/>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002427"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic myelogenous leukemia</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -162,8 +184,17 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000365">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colorectal adenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000311"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colorectal adenocarcinoma</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000369 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000369">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compound based treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -173,8 +204,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000400">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diabetes mellitus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diabetes mellitus</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -184,8 +214,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000408">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -195,8 +224,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000493">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family history</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000015"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family history</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -206,8 +234,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000549">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000616"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulinoma</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -217,8 +244,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000565">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukemia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001642"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukemia</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -228,8 +254,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000616">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neoplasm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neoplasm</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -239,8 +264,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000647">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experiment performer</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000202"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experiment performer</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -251,8 +275,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type I diabetes mellitus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000400"/>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type I diabetes mellitus</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -262,8 +285,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001360">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type II diabetes mellitus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000400"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type II diabetes mellitus</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -273,8 +295,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001642">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoid neoplasm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000311"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoid neoplasm</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -284,8 +305,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001734">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data analyst</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000202"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data analyst</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -295,8 +315,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001739">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">investigator</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000202"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">investigator</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -306,8 +325,17 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001741">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">submitter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000202"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">submitter</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001799 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001799">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethnic group</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -317,8 +345,17 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002427">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myeloid neoplasm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001642"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myeloid neoplasm</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0002529 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002529">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INS-1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -328,8 +365,17 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002543">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse prenatal</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse prenatal</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0002547 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002547">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOD mouse</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000002"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -339,8 +385,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002582">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theiler stage 11</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theiler stage 11</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -350,8 +395,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002583">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theiler stage 17</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theiler stage 17</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -361,8 +405,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002584">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theiler stage 21</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theiler stage 21</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -372,8 +415,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002585">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theiler stage 22</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theiler stage 22</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -383,8 +425,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002586">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theiler stage 24</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theiler stage 24</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -394,8 +435,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002587">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theiler stage 26</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theiler stage 26</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -405,8 +445,17 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002588">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theiler stage 28</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004390"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theiler stage 28</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0002756 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002756">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fasting</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -416,8 +465,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002927">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">International Unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">International Unit</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -427,8 +475,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004390">
         <rdfs:label>mouse postnatal</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
-        <obo:IAO_0000111>mouse postnatal</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -438,8 +485,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004391">
         <rdfs:label>Theiler stage 27</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004390"/>
-        <obo:IAO_0000111>Theiler stage 27</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -449,8 +495,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004393">
         <rdfs:label>Theiler stage 1</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111>Theiler stage 1</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -460,8 +505,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004394">
         <rdfs:label>Theiler stage 2</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111>Theiler stage 2</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -471,8 +515,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004395">
         <rdfs:label>Theiler stage 3</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111>Theiler stage 3</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -482,8 +525,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004396">
         <rdfs:label>Theiler stage 4</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111>Theiler stage 4</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -493,8 +535,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004397">
         <rdfs:label>Theiler stage 5</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111>Theiler stage 5</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -504,8 +545,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004398">
         <rdfs:label>Theiler stage 6</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111>Theiler stage 6</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -515,8 +555,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004399">
         <rdfs:label>Theiler stage 7</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111>Theiler stage 7</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -526,8 +565,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004400">
         <rdfs:label>Theiler stage 8</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111>Theiler stage 8</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -537,8 +575,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004401">
         <rdfs:label>Theiler stage 9</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111>Theiler stage 9</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -548,8 +585,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004402">
         <rdfs:label>Theiler stage 10</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111>Theiler stage 10</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -559,8 +595,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004403">
         <rdfs:label>Theiler stage 12</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111>Theiler stage 12</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -570,8 +605,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004404">
         <rdfs:label>Theiler stage 13</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111>Theiler stage 13</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -581,8 +615,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004405">
         <rdfs:label>Theiler stage 14</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111>Theiler stage 14</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -592,8 +625,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004406">
         <rdfs:label>Theiler stage 15</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111>Theiler stage 15</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -603,8 +635,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004407">
         <rdfs:label>Theiler stage 16</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111>Theiler stage 16</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -614,8 +645,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004408">
         <rdfs:label>Theiler stage 18</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111>Theiler stage 18</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -625,8 +655,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004409">
         <rdfs:label>Theiler stage 19</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111>Theiler stage 19</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -636,8 +665,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004410">
         <rdfs:label>Theiler stage 20</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111>Theiler stage 20</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -647,8 +675,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004411">
         <rdfs:label>Theiler stage 23</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111>Theiler stage 23</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -658,8 +685,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004412">
         <rdfs:label>Theiler stage 25</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002543"/>
-        <obo:IAO_0000111>Theiler stage 25</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
 </rdf:RDF>
 

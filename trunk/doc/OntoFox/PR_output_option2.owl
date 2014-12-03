@@ -20,12 +20,10 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</obo:IAO_0000111>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
         <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
     
 
 
@@ -63,7 +61,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16670"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -75,7 +72,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD19 molecule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CD19 gene or a 1:1 ortholog thereof. It is composed of an N-terminal extracellular domain containing two Ig-like C2-type (immunoglobulin-like) domains, followed by a single-pass transmembrane segment and a cytoplasmic C-terminal tail. CD19 expression is restricted to members of the B cell lineage. It functions as a co-receptor for B-cell antigen receptor (BCR), regulating signal transduction.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD19 molecule</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -87,7 +83,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD34 molecule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CD34 gene or a 1:1 ortholog thereof. It is a leukocyte membrane protein expressed specifically by lymphohematopoietic progenitor cells. It contains a single-pass transmembrane domain and that show distinct expression on early hematopoietic precursors and vascular-associated tissue. Acts as a scaffold that presents selectin carbohydrate ligands in a clustered, tissue specific manner to allow for higher avidity interactions between leukocytes and endothelial cells during the inflammatory process. In common with related sialomucins (endoglycan and podocalyxin), the extracellular region is dominated by an N-terminal mucin-like domain, which is densely substituted with sialylated O-linked carbohydrates. The mucin-like region is followed by a cysteine-containing and presumably globular domain. This domain may fold into an immunoglobulin-like structure as the positions of 2 of the cysteines are conserved in the C2 set of the immunoglobulin superfamily. The cytoplasmic domain is around 73-76 residues long and highly conserved.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD34 molecule</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -99,7 +94,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD4 molecule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CD4 gene or a 1:1 ortholog thereof. CD4 is an accessory protein for MHC class-II antigen/T-cell receptor interaction. It is the primary receptor for HIV-1. CD4 has four immunoglobulin-like domains in its extracellular region that share the same structure, but can differ in sequence.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD4 molecule</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -111,7 +105,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">receptor-type tyrosine-protein phosphatase C</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human PTPRC gene or a 1:1 ortholog thereof. It is composed of an extracellular domain, a single transmembrane segment and two tandem intracytoplasmic protein-tyrosine phosphatase domains. Contains 1 to 3 copies of the Fibronectin type III domain (PF00041) followed by two copies of the Protein-tyrosine phosphatase (PF00102) domain. Receptor-type tyrosine-protein phosphatase C (CD45) regulates signal transduction and lymphocyte activation by specific association with receptor molecules on T and B cells. Multiple isoforms of CD45 (180-235 kDa) can be generated asa result of alternative splicing of three variable exons 4(A), 5(B) and 6(C), encoding sequences at the N-terminal extracellular domain of the molecule.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">receptor-type tyrosine-protein phosphatase C</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -123,7 +116,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integrin alpha-M</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An integrin alpha with A domain that is a translation product of the human ITGAM gene or a 1:1 ortholog thereof. They constitute subunits of the integrin alpha-M/beta-2 receptor. This receptor is implicated in various adhesive interactions of monocytes, macrophages and granulocytes as well as in mediating the uptake of complement-coated particles. It is also a receptor for fibrinogen, factor X and ICAM1.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integrin alpha-M</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -135,7 +127,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">receptor-type tyrosine-protein phosphatase C isoform CD45RA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001006"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A receptor-type tyrosine-protein phosphatase C that is a translation product of a mature transcript of the PTPRC gene, that includes the region encoded by the variable exon 4(A), and lacks the region encoded by exons 5(B) and 6(C).</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">receptor-type tyrosine-protein phosphatase C isoform CD45RA</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -147,7 +138,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD3 epsilon</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A CD3 subunit that is a translation product of the human CD3E gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD3 epsilon</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -159,7 +149,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neural cell adhesion molecule 1</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A neural cell adhesion molecule NCAM that is a translation product of the human NCAM1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neural cell adhesion molecule 1</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -171,7 +160,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD2 molecule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CD2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD2 molecule</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -183,7 +171,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-cell surface glycoprotein CD8 alpha chain</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CD8A gene or a 1:1 ortholog thereof. CD8 is a transmembrane that is a co-receptor for MHC class-I antigen/T-cell receptor interaction. The most common form of CD8 is composed of a CD8 alpha and a CD8 beta chain.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-cell surface glycoprotein CD8 alpha chain</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -195,7 +182,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemokine receptor CCR1/3/1L</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rhodopsin-like G-protein coupled receptor that is a translation product of the CCR1, CCR3, or CCR1L1 genes (the last found so far only in mouse).</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemokine receptor CCR1/3/1L</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -204,10 +190,9 @@
     <!-- http://purl.obolibrary.org/obo/PR_000001254 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001254">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemokine receptor CCR1</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-C chemokine receptor type 1</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001197"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemokine receptor CCR1/3/1L that is a translation product of the human CCR1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemokine receptor CCR1</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -216,10 +201,9 @@
     <!-- http://purl.obolibrary.org/obo/PR_000001255 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001255">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemokine receptor CCR3</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-C chemokine receptor type 3</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001197"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemokine receptor CCR1/3/1L that is a translation product of the human CCR3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemokine receptor CCR3</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -231,7 +215,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane-spanning 4-domains subfamily A member 1</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human MS4A1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane-spanning 4-domains subfamily A member 1</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -243,7 +226,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD44 molecule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CD44 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD44 molecule</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -255,7 +237,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carcinoembryonic antigen-related cell adhesion molecule 8</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CEACAM8 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carcinoembryonic antigen-related cell adhesion molecule 8</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -267,7 +248,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD69 molecule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CD69 gene or a 1:1 ortholog thereof. A type II transmembrane protein with a C-type lectin binding domain in the extracellular portion of the molecule. Involved in lymphocyte proliferation and functions as a signal transmitting receptor in lymphocytes, natural killer (NK) cells, and platelets.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD69 molecule</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -279,7 +259,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ectonucleotide pyrophosphatase/phosphodiesterase family member 3</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ENPP3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ectonucleotide pyrophosphatase/phosphodiesterase family member 3</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -291,7 +270,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endoglin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ENG gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endoglin</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -303,7 +281,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunoglobulin gamma Fc receptor II/III/IV</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein with a core domain architecture consisting of an extracellular domain containing two copies of the Immunoglobulin domain (PF00047), followed by a single-pass transmembrane region and a small intracellular domain. The active protein is a low affinity receptor for immunoglobulin gamma chain Fc region. Human II-a, II-b, and II-c represent a recent gene expansion and are equally related to mouse II, III, and IV. Human III-A and III-B are closely related and closer to mouse IV than to mouse III.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunoglobulin gamma Fc receptor II/III/IV</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -315,7 +292,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-2 receptor subunit beta</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human IL2RB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-2 receptor subunit beta</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -326,7 +302,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001408">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADP-ribosyl cyclase 1</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADP-ribosyl cyclase 1</obo:IAO_0000111>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ADP-ribosyl cyclase that is a translation product of the human CD38 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
@@ -339,7 +314,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cadherin-5</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cadherin that is a translation product of the human CDH5 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cadherin-5</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -351,7 +325,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-(1,3)-fucosyltransferase FUT4</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fucosyltransferase that is a translation product of the human FUT4 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-(1,3)-fucosyltransferase FUT4</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -363,7 +336,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low affinity immunoglobulin gamma Fc region receptor II</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001355"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An immunoglobulin gamma Fc receptor II/III/IV that is a translation product of the mouse Fcgr2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low affinity immunoglobulin gamma Fc region receptor II</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -375,7 +347,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low affinity immunoglobulin gamma Fc region receptor III</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001355"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An immunoglobulin gamma Fc receptor II/III/IV that is a translation product of the mouse Fcgr3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low affinity immunoglobulin gamma Fc region receptor III</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -384,10 +355,9 @@
     <!-- http://purl.obolibrary.org/obo/PR_000001559 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001559">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor-associated calcium signal transducer 1</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelial cell adhesion molecule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tumor-associated calcium signal transducer that is a translation product of the human TACSTD1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor-associated calcium signal transducer 1</obo:IAO_0000111>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tumor-associated calcium signal transducer that is a translation product of the human EPCAM gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -399,7 +369,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prominin-1</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A prominin that is a translation product of the human PROM1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prominin-1</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -410,7 +379,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001800">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5&#39;-nucleotidase</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5&#39;-nucleotidase</obo:IAO_0000111>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human NT5E gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
@@ -423,7 +391,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD59-like glycoprotein</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the CD59 or closely related gene. This gene is present as a single copy in human and has undergone a lineage-specific duplication in mouse. CD59 antigen has a core architecture consisting of one UPAR/Ly-6 domain (PF00021), a small domain of about 70 amino acids and containing 5 conserved disulfide bonds. It is both N- and O-glycosylated and is a GPI-anchored protein that releases soluble forms in some tissues.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD59-like glycoprotein</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -435,7 +402,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD7 molecule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CD7 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD7 molecule</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -447,7 +413,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-cell surface glycoprotein CD5</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CD5 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-cell surface glycoprotein CD5</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -459,7 +424,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thy-1 membrane glycoprotein</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human THY1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thy-1 membrane glycoprotein</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -471,7 +435,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-3 receptor class 2 alpha chain</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human IL3RA gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-3 receptor class 2 alpha chain</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -483,7 +446,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-5 receptor subunit alpha</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human IL5RA gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-5 receptor subunit alpha</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -495,7 +457,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-7 receptor subunit alpha</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human IL7R gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-7 receptor subunit alpha</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -507,7 +468,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KLRB1-like protein</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the KLRB1 gene or its closely related paralogs (KLRB1A-F). There are lineage-specific expansions in mouse and rat.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KLRB1-like protein</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -519,7 +479,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukosialin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human SPN gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukosialin</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -531,7 +490,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD14 molecule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CD14 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD14 molecule</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -543,7 +501,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD33 molecule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CD33 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD33 molecule</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -555,7 +512,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neprilysin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human MME gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neprilysin</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -567,7 +523,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paired box protein PAX-5</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human PAX5 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paired box protein PAX-5</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -579,7 +534,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signal transducer CD24</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CD24 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signal transducer CD24</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -591,7 +545,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor PU.1</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human SPI1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor PU.1</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -603,7 +556,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transferrin receptor protein 1</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human TFRC gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transferrin receptor protein 1</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -615,7 +567,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor necrosis factor ligand superfamily member 5</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CD40LG gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor necrosis factor ligand superfamily member 5</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -627,7 +578,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urokinase plasminogen activator surface receptor</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human PLAUR gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urokinase plasminogen activator surface receptor</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -639,7 +589,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mast/stem cell growth factor receptor</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A CSF-1/PDGF receptor-type tyrosine-protein kinase that is a translation product of the human KIT gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mast/stem cell growth factor receptor</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -651,7 +600,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vascular endothelial growth factor receptor 2</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vascular endothelial growth factor receptor that is a translation product of the human KDR gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vascular endothelial growth factor receptor 2</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -663,7 +611,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphocyte antigen 6G</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ly-6-like protein that is a translation product of the mouse Ly6g gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphocyte antigen 6G</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -675,7 +622,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphocyte antigen 76</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the mouse Ly76 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphocyte antigen 76</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -687,7 +633,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD9 molecule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tetraspanin that is a translation product of the human CD9 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD9 molecule</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -699,7 +644,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCAAT/enhancer-binding protein alpha</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CEBPA gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCAAT/enhancer-binding protein alpha</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -711,7 +655,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA nucleotidylexotransferase</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human DNTT gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA nucleotidylexotransferase</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -723,7 +666,28 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high affinity immunoglobulin epsilon receptor subunit alpha</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001355"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An immunoglobulin gamma Fc receptor II/III/IV that is a translation product of the human FCER1A gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high affinity immunoglobulin epsilon receptor subunit alpha</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007602 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007602">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocyte nuclear factor 3-alpha</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human FOXA1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007603 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007603">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocyte nuclear factor 3-beta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human FOXA2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -735,7 +699,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">erythroid transcription factor</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human GATA1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">erythroid transcription factor</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -747,7 +710,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endothelial transcription factor GATA-2</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human GATA2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endothelial transcription factor GATA-2</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -759,7 +721,28 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucagon</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human GCG gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucagon</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008652">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocyte nuclear factor 1-alpha</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human HNF1A gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008654 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008654">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocyte nuclear factor 4-alpha</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human HNF4A gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -771,7 +754,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human INS gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -783,7 +765,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulinoma-associated protein 1</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human INSM1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulinoma-associated protein 1</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -795,7 +776,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin gene enhancer protein ISL-1</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ISL1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin gene enhancer protein ISL-1</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -807,7 +787,17 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor MafA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human MAFA gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor MafA</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011152">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurogenic differentiation factor 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human NEUROD1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -819,7 +809,39 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurogenin-3</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human NEUROG3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurogenin-3</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011242">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homeobox protein Nkx-2.2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human NKX2-2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011250">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homeobox protein Nkx-6.1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human NKX6-1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011639 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011639">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocyte nuclear factor 6</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ONECUT1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -831,7 +853,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreas/duodenum homeobox protein 1</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human PDX1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreas/duodenum homeobox protein 1</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -843,7 +864,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreas transcription factor 1 subunit alpha</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human PTF1A gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreas transcription factor 1 subunit alpha</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -855,7 +875,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor SOX-17</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human SOX17 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor SOX-17</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -867,7 +886,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-cell acute lymphocytic leukemia protein 1</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human TAL1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-cell acute lymphocytic leukemia protein 1</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -879,7 +897,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA ligase</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the Escherichia coli K-12 ligA gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA ligase</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
 </rdf:RDF>
