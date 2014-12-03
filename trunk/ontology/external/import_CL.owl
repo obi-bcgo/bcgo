@@ -132,6 +132,12 @@
     </owl:ObjectProperty>
     
 
+    
+    <!-- http://purl.obolibrary.org/obo/RO_0002215 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002215"/>
+    
+    
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
