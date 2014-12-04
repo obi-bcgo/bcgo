@@ -460,6 +460,31 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0006304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006304">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA modification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006259"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043412"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The covalent alteration of one or more nucleotide sites in DNA, resulting in a change in its properties.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006306">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA methylation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006304"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043414"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0060255"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The covalent transfer of a methyl group to either N-6 of adenine or C-5 or N-4 of cytosine.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0006323 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006323">
@@ -476,8 +501,20 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006338">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromatin remodeling</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016043"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016568"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dynamic structural changes to eukaryotic chromatin occurring throughout the cell division cycle. These changes range from the local changes necessary for transcriptional regulation to global changes necessary for chromosome segregation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006464">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular protein modification process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0036211"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044267"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The covalent alteration of one or more amino acids occurring in proteins, peptides and nascent polypeptides (co-translational, post-translational modifications) occurring at the level of an individual cell. Includes the modification of charged tRNAs that are destined to occur in a protein (pre-translation modification).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -910,6 +947,31 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0016568 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016568">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromatin modification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016043"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The alteration of DNA, protein, or sometimes RNA, in chromatin, which may result in changing the chromatin structure.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016570">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histone modification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006464"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016568"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044710"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1902589"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The covalent alteration of one or more amino acid residues within a histone protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0017145 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0017145">
@@ -942,6 +1004,12 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process that modulates the frequency, rate or extent of the chemical reactions and pathways within a cell or an organism.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019538 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019538"/>
     
 
 
@@ -1392,6 +1460,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0036211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0036211">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein modification process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019538"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043412"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The covalent alteration of one or more amino acids occurring in proteins, peptides and nascent polypeptides (co-translational, post-translational modifications). Includes the modification of charged tRNAs that are destined to occur in a protein (pre-translation modification).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0036321 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0036321">
@@ -1606,6 +1686,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0043412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043412">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macromolecule modification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043170"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The covalent alteration of one or more monomeric units in a polypeptide, polynucleotide, polysaccharide, or other biological macromolecule, resulting in a change in its properties.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0043414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043414">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macromolecule methylation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043412"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044260"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The covalent attachment of a methyl residue to one or more monomeric units in a polypeptide, polynucleotide, polysaccharide, or other biological macromolecule.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0043565 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043565">
@@ -1670,6 +1774,18 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043170"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044237"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways involving macromolecules, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass, as carried out by individual cells.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0044267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044267">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular protein metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019538"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044260"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways involving a specific protein, rather than of proteins in general, occurring at the level of an individual cell. Includes cellular protein modification.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -2190,7 +2306,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051052">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of DNA metabolic process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019219"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019222"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0060255"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving DNA.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -2293,6 +2409,17 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart contraction</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003013"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The multicellular organismal process in which the heart decreases in volume in a characteristic way to propel blood through the body.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0060255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0060255">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of macromolecule metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019222"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving macromolecules, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
