@@ -114,6 +114,8 @@ http://purl.obolibrary.org/obo/GO_0007565 #female pregnancy
 http://purl.obolibrary.org/obo/GO_0044342 #type B pancreatic cell proliferation
 http://purl.obolibrary.org/obo/GO_0048863 #stem cell differentiation
 http://purl.obolibrary.org/obo/GO_0060290 #transdifferentiation
+http://purl.obolibrary.org/obo/GO_0016570
+http://purl.obolibrary.org/obo/GO_0006306
 
 
 [Top level source term URIs and target direct superclass URIs]
