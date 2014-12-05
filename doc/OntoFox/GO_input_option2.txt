@@ -114,8 +114,14 @@ http://purl.obolibrary.org/obo/GO_0007565 #female pregnancy
 http://purl.obolibrary.org/obo/GO_0044342 #type B pancreatic cell proliferation
 http://purl.obolibrary.org/obo/GO_0048863 #stem cell differentiation
 http://purl.obolibrary.org/obo/GO_0060290 #transdifferentiation
-http://purl.obolibrary.org/obo/GO_0016570
-http://purl.obolibrary.org/obo/GO_0006306
+http://purl.obolibrary.org/obo/GO_0016570 #histone modification
+http://purl.obolibrary.org/obo/GO_0006306 #DNA methylation
+http://purl.obolibrary.org/obo/GO_0010817
+http://purl.obolibrary.org/obo/GO_0019538
+http://purl.obolibrary.org/obo/GO_0023061
+http://purl.obolibrary.org/obo/GO_0042886
+http://purl.obolibrary.org/obo/GO_0006950 #response to stress
+http://purl.obolibrary.org/obo/GO_0006915 #apoptotic process
 
 
 [Top level source term URIs and target direct superclass URIs]
