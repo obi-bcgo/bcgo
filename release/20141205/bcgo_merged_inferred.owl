@@ -22,7 +22,7 @@
         <dc:contributor>Elisabetta Manduchi</dc:contributor>
         <dc:creator>Jie Zheng</dc:creator>
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bcgo/2014-12-05/bcgo.owl"/>
-        <rdfs:comment xml:lang="en">The ontology is built based on OBI developmental version SVN repository revision $Revision: 3949 (After Release at 2014-08-18) </rdfs:comment>
+        <rdfs:comment xml:lang="en">The ontology is built based on OBI developmental version SVN repository revision $Revision: 3949 (After 2014-08-18 release) </rdfs:comment>
         <rdfs:comment xml:lang="en">Versions of ontologies used by BCGO
 ChEBI		version 108
 CL			2013-10-15
