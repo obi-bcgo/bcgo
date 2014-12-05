@@ -15,6 +15,22 @@ http://purl.obolibrary.org/obo/import_OBO.owl		OBO_output_option1.owl
 http://purl.obolibrary.org/obo/import_EFO.owl		EFO_output.owl and replace EFO_0000408 disease by OBI_1110055 disease, then delete EFO_0000408. 
 
 
+Version of ontologies on Dec 04, 2014
+-------------------------------------
+OBI		2014-08-18
+ChEBI		version 108
+CL		2013-10-15
+CLO		2013-11-06	
+GO		2014-11-22
+NCBITaxon	2013-01-24
+PATO		2013-10-10
+PR		42.0. (date:  08:07:2014 20:43)
+SO		May 11 15:18:44 PDT 2004. version: $Revision: 1.45 (14:04:2011 13:58) 
+UBERON		n/a
+UO		2013-06-27
+EFO		version 2.43 (15th December 2013 ) 
+OBO		
+
 
 
 Version of ontologies on Dec 11, 2013
