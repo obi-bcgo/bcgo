@@ -347,6 +347,18 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000003"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/rs.owl"/>
     </owl:Class>
+    
+    
+    
+    <!-- http://purl.obolibrary.org/obo/VT_0005215 -->
+    
+    
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VT_0005215">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">islet of Langerhans morphology trait</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
+        <obo:IAO_0000115>Any measurable or observable characteristic related to the shape, structure, color or pattern of the cellular masses consisting of several to several hundred cells in the interstitial tissue of the pancreas; they are composed of five different cell types that make up the endocrine portion of the pancreas. </obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obofoundry.org/obo/oba.owl"/>
+    </owl:Class>
 </rdf:RDF>
 
 
