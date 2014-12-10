@@ -1,6 +1,9 @@
 BCGO_basis.owl imports following OWL files generated from Ontodog or OntoFox:
 
 http://purl.obolibrary.org/obo/OBI_subset.owl		OBI_subset.owl (OBI_output.owl removed terms defined in external resources except IAO, (replace OGMS_0000022 by OGMS_0000063 since wrong ID was used in OBI, issue was fixed, not need to make this change anymore), need to replace PATO_0001237 and PATO_0001238 by PATO_0002182 since these two terms were merged in PATO and the term is not in PATO anymore. No need to worry about it now since the terms were not used in defining any OBI or IAO terms)
+
+Few terms are not in released version of OBI uploaded into the Ontobee server, these terms imported manually.
+
 http://purl.obolibrary.org/obo/import_ChEBI.owl		ChEBI_output_option2.owl
 http://purl.obolibrary.org/obo/import_CL.owl		CL_subset.owl (CL_output_option3.owl removed classes defined in external resources and remove or replace GO_0005623 'cell' by CL_0000000 'cell' which was defined as equivalent class in CL found on Dec 11, 2013)
 http://purl.obolibrary.org/obo/import_CLO.owl		CLO_output_option2.owl
