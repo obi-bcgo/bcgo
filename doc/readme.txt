@@ -1,6 +1,6 @@
 BCGO_basis.owl imports following OWL files generated from Ontodog or OntoFox:
 
-http://purl.obolibrary.org/obo/OBI_subset.owl		OBI_subset.owl (OBI_output.owl removed terms defined in external resources except IAO, (replace OGMS_0000022 by OGMS_0000063 since wrong ID was used in OBI, issue was fixed, not need to make this change anymore), need to replace PATO_0001237 and PATO_0001238 by PATO_0002182 since these two terms were merged in PATO and the term is not in PATO anymore. No need to worry about it now since the terms were not used in defining any OBI or IAO terms)
+http://purl.obolibrary.org/obo/OBI_subset.owl		OBI_subset.owl (OBI_output.owl removed terms defined in external resources except IAO, replace PATO_0001237 by PATO_0002182 ('molecular entity') since subClass OBI term is 'DNA residue methylation'. Term PATO_0001237 and PATO_0001238 were merged to term PATO_0001241 and the URIs cannot be found in PATO anymore. If there are other subClasses, may need to simple the replacement by using PATO_0001241.  
 
 Few terms are not in released version of OBI uploaded into the Ontobee server, these terms imported manually.
 
