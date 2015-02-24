@@ -5,6 +5,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bcgo/externalByHand.owl"/>
     
@@ -35,6 +36,23 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <!-- http://www.w3.org/2006/vcard/ns#givenName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/vcard/ns#givenName">
+        <rdfs:label xml:lang="en">first name</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">called Given Name invCard</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- http://www.w3.org/2006/vcard/ns#familyName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/vcard/ns#familyName">
+        <rdfs:label xml:lang="en">has last name</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Called Family Name in vCard</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
     
 
 
@@ -359,6 +377,73 @@
         <obo:IAO_0000115>Any measurable or observable characteristic related to the shape, structure, color or pattern of the cellular masses consisting of several to several hundred cells in the interstitial tissue of the pancreas; they are composed of five different cell types that make up the endocrine portion of the pancreas. </obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obofoundry.org/obo/oba.owl"/>
     </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/IAO_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000010"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000060"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBCS_0000164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBCS_0000164">
+        <rdfs:label xml:lang="en">Extraction of Differential Gene Expression software</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000060"/>
+        <obo:IAO_0000119>Storey J.D. (2007) The optimal discovery procedure: A new approach to simultaneous significance testing, Journal of the Royal Statistical Society, Series B, 69: 347-368.
+Storey J.D., Dai J.Y., and Leek J.T. (2007) The optimal discovery procedure for large-scale significance testing, with applications to comparative microarray experiments, Biostatistics, 8: 414-432.
+Leek J.T,. Monsen E.C., Dabney A.R., and Storey J.D. (2006) EDGE: Extraction and analysis of differential gene expression, Bioinformatics, 22: 507-508.
+Storey J.D., Xiao W., Leek J.T., Tompkins R.G., and Davis R.W. (2005) Significance analysis of time course microarray experiments, Proceedings of the National Academy of Sciences, 102: 12837-12842.
+</obo:IAO_0000119>
+        <obo:IAO_0000118>EDGE</obo:IAO_0000118>
+        <obo:IAO_0000117>Elisabetta Manduchi</obo:IAO_0000117>
+        <dc:source>Beta Cell Biology Consortium</dc:source>
+        <obo:IAO_0000115>A software that is used for the differential gene expression significance analysis of DNA microarray experiments for both standard and time course experiments. The outputs consist of bothe p-values and q-values.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obofoundry.org/obo/obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBCS_0000165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBCS_0000165">
+        <rdfs:label xml:lang="en">Patterns from Gene Expression software</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000060"/>
+        <obo:IAO_0000116>The input consists of (replicated) intensities from a collection of array experiments from two or more conditions (or from a collection of direct comparisons on 2-channel arrays). The output consists of patterns, one for each row identifier in the data file. One condition is used as a reference to which the other types are compared. The length of a pattern equals the number of non-reference sample types. The symbols in the patterns are integers, where positive integers represent up-regulation as compared to the reference sample type and negative integers represent down-regulation. The patterns are based on the false discovery rates for each position in the pattern, so that the number of positive and negative symbols that appear in each position of the pattern is as descriptive as the data variability allows. The patterns generated are easily interpretable in that integers are used to represent different levels of up- or down-regulation as compared to the reference sample type. </obo:IAO_0000116>
+        <obo:IAO_0000115>A software that can be used to produce lists of differentially expressed genes with confidence measures attached. These lists are generated via a False Discovery Rate (FDR) method of controlling the false positives. Patterns from Gene Expression (PaGE) is more than a differential expression analysis tool.  PaGE is a tool to attach descriptive, dependable, and easily interpretable expression patterns to genes across multiple conditions, each represented by a set of replicated array experiments. 
+</obo:IAO_0000115>
+        <obo:IAO_0000117>Elisabetta Manduchi</obo:IAO_0000117>
+        <obo:IAO_0000118>PaGE</obo:IAO_0000118>
+        <obo:IAO_0000119>PMID:15797908
+Grant G.R., Liu J., Stoeckert C.J.Jr. (2005) A practical false discovery rate approach to identifying patterns of differential expression in microarray data, Bioinformatics, 21(11): 2684-2690.</obo:IAO_0000119>
+        <dc:source>Beta Cell Biology Consortium</dc:source>
+        <obo:IAO_0000412 rdf:resource="http://purl.obofoundry.org/obo/obcs.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBCS_0000166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBCS_0000166">
+        <rdfs:label xml:lang="en">GLobal Identifier of Target Regions software</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000010"/>
+        <dc:source>Beta Cell Biology Consortium</dc:source>
+        <obo:IAO_0000118>GLITR</obo:IAO_0000118>
+        <obo:IAO_0000117>Elisabetta Manduchi, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000115>A software that is used to identify  transcription factor binding sites in a genome that have been enriched with aligned reads generated from ChIP-Seq technology.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:19553195
+Tuteja G., White P., Schug J., Kaestner K.H. (2009) Extracting transcription factor targets from ChIP-Seq data. Nucleic Acids Res., 37(17): e113. doi: 10.1093/nar/gkp536.
+</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obofoundry.org/obo/obcs.owl"/>
+    </owl:Class>
+    
+    
 </rdf:RDF>
 
 

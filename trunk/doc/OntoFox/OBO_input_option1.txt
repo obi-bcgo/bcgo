@@ -1,6 +1,27 @@
 [URI of the OWL(RDF/XML) output file]
 http://purl.obolibrary.org/obo/bcgo/import_OBO.owl
 
+
+############################################################
+[Source ontology]
+#comment here
+#List of ontologies: OBI, NCBITaxon, MP, PATO, GO, DOID, IDO, CHEBI, SO, PRO, CL, ENVO, FMA, CARO
+IAO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/IAO_0000590 #written name
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/IAO_0000590 #written name
+subClassOf http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+
+
 ############################################################
 [Source ontology]
 #comment here
@@ -92,6 +113,28 @@ includeNoIntermediates
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
+
+
+############################################################
+[Source ontology]
+#comment here
+OBCS
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBCS_0000164 #Extraction of Differential Gene Expression software
+http://purl.obolibrary.org/obo/OBCS_0000165 #Patterns from Gene Expression software
+http://purl.obolibrary.org/obo/OBCS_0000166 #GLobal Identifier of Target Regions software
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OBCS_0000164 #Extraction of Differential Gene Expression software
+subClassOf http://purl.obolibrary.org/obo/BCGO_0000060 #differential expression software
+http://purl.obolibrary.org/obo/OBCS_0000165 #Patterns from Gene Expression software
+subClassOf http://purl.obolibrary.org/obo/BCGO_0000060 #differential expression software
+http://purl.obolibrary.org/obo/OBCS_0000166 #GLobal Identifier of Target Regions software
+subClassOf http://purl.obolibrary.org/obo/IAO_0000010 #software
+
+[Source term retrieval setting]
+includeAllAnnotationProperties
 
 
 ############################################################
