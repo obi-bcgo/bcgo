@@ -15,7 +15,6 @@ http://purl.obolibrary.org/obo/CLO_0002708
 http://purl.obolibrary.org/obo/CLO_0003612
 http://purl.obolibrary.org/obo/CLO_0007043
 http://purl.obolibrary.org/obo/CLO_0007050
-http://purl.obolibrary.org/obo/CLO_0008381
 http://purl.obolibrary.org/obo/CLO_0008734
 http://purl.obolibrary.org/obo/CLO_0009218
 http://purl.obolibrary.org/obo/CLO_0000044 #permanent stem cell line 

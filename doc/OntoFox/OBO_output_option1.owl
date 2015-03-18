@@ -73,11 +73,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BTO_0000632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000632">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulinoma cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/REO_0000383"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell of a usually benign tumor of the insulin-secreting cells of the pancreas.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BTO_0000773 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000773">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoblastoid cell line</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000044"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human cell line from tissue infected with Epstein-Barr virus, resembling a lymphoblast.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
     </owl:Class>
     
@@ -93,11 +105,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BTO_0003081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0003081">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreatic ductal adenocarcinoma cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/REO_0000383"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BTO_0003560 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0003560">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCE cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001581"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCE is a mouse embryonic stem cell line derived from 129/Sv mouse strain and has been provided for research use only.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
     </owl:Class>
     
@@ -109,9 +132,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CLO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CLO_0000044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000044"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
     
 
 
@@ -216,22 +251,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000300 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000300"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000590 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000590">
-        <rdfs:label xml:lang="en">written name</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NBO_0000073 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000073">
@@ -322,6 +341,17 @@
         <rdfs:label>molecular label</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
         <obo:IAO_0000115>a molecular reagent intended to associate with some molecular target to serve as a proxy for the presence, abundance, or location of this target in a detection of molecular label assay</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/reo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/REO_0000383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/REO_0000383">
+        <rdfs:label>cancer cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <obo:IAO_0000115>a cell that is the output of some malignant cell transformation process whereby a cell in vivo becomes capable of causing cancer in an organism.  Such cells are typically able to proliferate indefinitely if cultured in vitro.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/reo.owl"/>
     </owl:Class>
     

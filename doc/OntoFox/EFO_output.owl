@@ -19,9 +19,14 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.ebi.ac.uk/efo/definition"/>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
         <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/definition"/>
     
 
 
@@ -59,9 +64,15 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLO_0000019 -->
+    <!-- http://purl.obolibrary.org/obo/CLO_0000128 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000128"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000548"/>
     
 
 
@@ -112,6 +123,11 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000220">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute lymphoblastic leukemia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001642"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A leukemia/lymphoma found predominately in children and adolescents and characterized by a high number of lymphoblasts and solid tumor lesions. Frequent sites involve LYMPH NODES, skin, and bones. It most commonly presents as leukemia.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A neoplasm characterized by abnormalities of the lymphoid cell precursors leading to excessive lymphoblasts in the marrow and other organs. It is the most common cancer in children and accounts for the vast majority of all childhood leukemias.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leukemia with an acute onset, characterized by the presence of lymphoblasts in the bone marrow and the peripheral blood.  It includes the acute B lymphoblastic leukemia and acute T lymphoblastic leukemia.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leukemia with an acute onset, characterized by the presence of lymphoblasts in the bone marrow and the peripheral blood.  It includes the precursor B lymphoblastic leukemia and precursor T lymphoblastic leukemia.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">When the disease process is confined to a mass lesion with no or minimal evidence of blood and less than 25% marrow involvement, the diagnosis is lymphoblastic lymphoma; with blood and greater than 25% marrow involvement, ALL is the appropriate term.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -123,6 +139,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute myeloid leukemia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000565"/>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002427"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clonal expansion of myeloid blasts in bone marrow, blood, and other tissue. Myeloid leukemias develop from changes in cells that normally produce NEUTROPHILS; BASOPHILS; EOSINOPHILS; and MONOCYTES.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -133,6 +150,8 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000224">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute promyelocytic leukemia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000222"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An acute myeloid leukemia (AML) in which abnormal promyelocytes predominate.  It is characterized by the t(15;17)(q22;q12) translocation.  There are two variants: the typical and micro granular (hypo granular) variant.  This AML is particularly sensitive to treatment with all trans-retinoic acid and has a favorable prognosis.  (WHO, 2001) -- 2003</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An acute myeloid leukemia (AML) in which abnormal promyelocytes predominate.  It is characterized by the t(15;17)(q22;q12) translocation.  There are two variants: the typical and microgranular variant.  This AML is particularly sensitive to treatment with all trans-retinoic acid and has a favorable prognosis.  (WHO, 2001)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -143,6 +162,10 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000270">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asthma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bronchial disease that is characterized by chronic inflammation and narrowing of the airways, which is caused by a combination of environmental and genetic factors resulting in recurring periods of wheezing (a whistling sound while breathing), chest tightness, shortness of breath, mucus production and coughing. The symptoms appear due to a variety of triggers such as allergens, irritants, respiratory infections, weather changes, excercise, stress, reflux disease, medications, foods and emotional anxiety.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chronic respiratory disease manifested as difficulty breathing due to the narrowing of bronchial passageways.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A form of bronchial disorder with three distinct components: airway hyper-responsiveness (RESPIRATORY HYPERSENSITIVITY), airway INFLAMMATION, and intermittent AIRWAY OBSTRUCTION. It is characterized by spasmodic contraction of airway smooth muscle, WHEEZING, and dyspnea (DYSPNEA, PAROXYSMAL).</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tendency of the smooth muscle of the tracheobronchial tree to contract more intensely in response to a given stimulus than it does in the response seen in normal individuals. This condition is present in virtually all symptomatic patients with asthma. The most prominent manifestation of this smooth muscle contraction is a decrease in airway caliber that can be readily measured in the pulmonary function laboratory.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -153,6 +176,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000309">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkitts lymphoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001642"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A form of undifferentiated malignant LYMPHOMA usually found in central Africa, but also reported in other parts of the world. It is commonly manifested as a large osteolytic lesion in the jaw or as an abdominal mass. B-cell antigens are expressed on the immature cells that make up the tumor in virtually all cases of Burkitt lymphoma. The Epstein-Barr virus (HERPESVIRUS 4, HUMAN) has been isolated from Burkitt lymphoma cases in Africa and it is implicated as the causative agent in these cases; however, most non-African cases are EBV-negative.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -163,6 +187,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000311">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000616"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A malignant neoplasm in which new abnormal tissue grow by excessive cellular division and proliferation more rapidly than normal and continues to grow after the stimuli that initiated the new growth cease.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -174,6 +199,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic myelogenous leukemia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000565"/>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002427"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clonal hematopoetic disorder caused by an acquired genetic defect in PLURIPOTENT STEM CELLS. It starts in MYELOID CELLS of the bone marrow, invades the blood and then other organs. The condition progresses from a stable, more indolent, chronic phase (LEUKEMIA, MYELOID, CHRONIC PHASE) lasting up to 7 years, to an advanced phase composed of an accelerated phase (LEUKEMIA, MYELOID, ACCELERATED PHASE) and BLAST CRISIS.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -184,6 +210,9 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000365">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colorectal adenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000311"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A malignant tumor usually arising from the epithelium lining the large intestinal mucosa.  Colon carcinoma is one of the most common malignancies in both males and females, and is especially common in North America and Europe.  Grossly, most colon carcinomas are polypoid or ulcerating lesions. Microscopically, adenocarcinoma is the most frequently seen morphologic subtype.  Prognosis depends on the stage of the disease (depth of invasion, metastasis to regional/distal lymph nodes or other anatomic sites). -- 2004</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An adenocarcinoma arising from the colon.  It is more frequently seen in populations with a Western type diet and in patients with a history of chronic inflammatory bowel disease.  Signs and symptoms include intestinal bleeding, anemia, and change in bowel habits.  According to the degree of cellular differentiation, colonic adenocarcinomas are divided into well differentiated, moderately, and poorly differentiated.  Morphologic variants include the mucinous adenocarcinoma and signet-ring adenocarcinoma.  Lymphatic or hematogenous spread can occur early in the process and lead to systemic disease.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumors or cancer of the COLON or the RECTUM or both. Risk factors for colorectal cancer include chronic ULCERATIVE COLITIS; FAMILIAL POLYPOSIS COLI; exposure to ASBESTOS; and irradiation of the CERVIX UTERI.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -194,6 +223,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000369">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compound based treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A treatment process in which a chemical compound is administered to the subject under investigation.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -204,6 +234,8 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000400">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diabetes mellitus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A heterogeneous group of disorders characterized by HYPERGLYCEMIA and GLUCOSE INTOLERANCE.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A metabolic disorder characterized by abnormally high blood sugar levels due to diminished production of insulin or insulin resistance/desensitization.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -214,6 +246,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000408">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease is a disposition that describes states of disease associated with a particular sample and/or organism.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -224,6 +257,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000493">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family history</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000015"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family history is a form of clinicaly history specifically about relevant aspects of genetic preconditions or family member&#39;s clinical history.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -234,6 +268,8 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000549">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000616"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A benign tumor of the PANCREATIC BETA CELLS. Insulinoma secretes excess INSULIN resulting in HYPOGLYCEMIA.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A usually benign, well circumscribed neoplasm arising from the beta cells of the pancreas.  Patients exhibit symptoms related to hypoglycemia due to inappropriate secretion of insulin.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -244,6 +280,9 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000565">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukemia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001642"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cancer that affects the blood or bone marrow characterized by an abnormal proliferation of blood cells.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A malignant (clonal) hematologic disorder, involving hematopoietic stem cells and characterized by the presence of primitive or atypical myeloid or lymphoid cells in the bone marrow and the blood.  Leukemias are classified as acute or chronic based on the degree of cellular differentiation and the predominant cell type present.  Leukemia is usually associated with anemia, fever, hemorrhagic episodes, and splenomegaly.  Common leukemias include acute myeloid leukemia, chronic myelogenous leukemia, acute lymphoblastic or precursor lymphoblastic leukemia, and chronic lymphocytic leukemia.  Treatment is vital to patient survival; untreated, the natural course of acute leukemias is normally measured in weeks or months, while that of chronic leukemias is more often measured in months or years.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A progressive, malignant disease of the blood-forming organs, characterized by distorted proliferation and development of leukocytes and their precursors in the blood and bone marrow. Leukemias were originally termed acute or chronic based on life expectancy but now are classified according to cellular maturity. Acute leukemias consist of predominately immature cells; chronic leukemias are composed of more mature cells. (From The Merck Manual, 2006)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -254,6 +293,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000616">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neoplasm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A benign or malignant tissue growth resulting from uncontrolled cell proliferation.  Benign neoplastic cells resemble normal cells without exhibiting significant cytologic atypia, while malignant cells exhibit overt signs such as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism, and anaplasia.  Representative examples of benign neoplasms include papillomas, cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas, lymphomas, and leukemias.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -264,6 +304,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000647">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experiment performer</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000202"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual who does some experimental process.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -275,6 +316,9 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type I diabetes mellitus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000400"/>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subtype of DIABETES MELLITUS that is characterized by INSULIN deficiency. It is manifested by the sudden onset of severe HYPERGLYCEMIA, rapid progression to DIABETIC KETOACIDOSIS, and DEATH unless treated with insulin. The disease may occur at any age, but is most common in childhood or adolescence.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An autoimmune disease of endocrine system and is_a diabetes mellitus that results from autoimmune destruction of insulin-producing beta cells of the pancreas.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diabetes mellitus characterized by insulin deficiency, sudden onset, severe hyperglycemia, rapid progression to ketoacidosis, and death unless treated with insulin. The disease may occur at any age, but is most common in childhood or adolescence.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -285,6 +329,8 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001360">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type II diabetes mellitus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000400"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subclass of DIABETES MELLITUS that is not INSULIN-responsive or dependent (NIDDM). It is characterized initially by INSULIN RESISTANCE and HYPERINSULINEMIA; and eventually by GLUCOSE INTOLERANCE; HYPERGLYCEMIA; and overt diabetes. Type II diabetes mellitus is no longer considered a disease exclusively found in adults. Patients seldom develop KETOSIS but often exhibit OBESITY.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of diabetes mellitus that is characterized by insulin resistance or desensitization and increased blood glucose levels. This is a chronic disease that can develop gradually over the life of a patient and can be linked to both environmental factors and heredity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -295,6 +341,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001642">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoid neoplasm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000311"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant lymphoma composed of large B lymphoid cells whose nuclear size can exceed normal macrophage nuclei, or more than twice the size of a normal lymphocyte. The pattern is predominantly diffuse. Most of these lymphomas represent the malignant counterpart of B-lymphocytes at midstage in the process of differentiation.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -335,6 +382,8 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001799">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethnic group</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A group of people with a common cultural heritage that sets them apart from others in a variety of social relationships. (MSH); A social group characterized by a distinctive social and cultural tradition maintained from generation to generation, a common history and origin and a sense of identification with the group; members of the group have distinctive features in their way of life, shared experiences and often a common genetic heritage; these features may be reflected in their experience of health and disease. (NCI); Ethnicity - an arbitrary classification of the social group a person belongs to, and either identifies with or is identified with by others, as a result of a complex of cultural, biological, geographical and other factors such as linguistic, dietary and religion traditions; ancestry, background, allegiance, or association; and physical characteristics traditionally associated with race. Increasingly the concept is used synonymously with race but this use trend has a pragmatic basis rather than scientific. (NCI); The concept of ethnic origin is an attempt to classify people, not according to their current ethnicity, but according to where their ancestors came from. Ethnic origin has become a popular classification in statistics, where the concept of race has been largely discarded. (from Wikipedia) (NCI); a group of people with a common cultural heritage that sets them apart from others in a variety of social relationships. (CSP)</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ethnic group is a population whose members have a common heritage that is real or presumed such as common culture, language, religion, behaviour or biological trait.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -354,7 +403,8 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002529">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INS-1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000128"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pancreatic beta -cell line of rat origin.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -445,6 +495,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002588">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theiler stage 28</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004390"/>
+        <obo:IAO_0000115>Theiler stage 28 is a mouse postnatal stage characterised by postnatal development after a mouse is newly born.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -455,6 +506,18 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002756">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fasting</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstaining from food.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0002829 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002829">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIN6</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000128"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The murine MIN6 cell line derived from in vivo immortalized insulin-secreting pancreatic beta cells.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -465,6 +528,16 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002927">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">International Unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0002966 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002966">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreatic cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -485,6 +558,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004391">
         <rdfs:label>Theiler stage 27</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004390"/>
+        <obo:IAO_0000115>Theiler stage 27 is a newborn mouse.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     

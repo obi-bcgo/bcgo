@@ -104,7 +104,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001006">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">receptor-type tyrosine-protein phosphatase C</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human PTPRC gene or a 1:1 ortholog thereof. It is composed of an extracellular domain, a single transmembrane segment and two tandem intracytoplasmic protein-tyrosine phosphatase domains. Contains 1 to 3 copies of the Fibronectin type III domain (PF00041) followed by two copies of the Protein-tyrosine phosphatase (PF00102) domain. Receptor-type tyrosine-protein phosphatase C (CD45) regulates signal transduction and lymphocyte activation by specific association with receptor molecules on T and B cells. Multiple isoforms of CD45 (180-235 kDa) can be generated asa result of alternative splicing of three variable exons 4(A), 5(B) and 6(C), encoding sequences at the N-terminal extracellular domain of the molecule.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human PTPRC gene or a 1:1 ortholog thereof. It is composed of an extracellular domain, a single transmembrane segment and two tandem intracytoplasmic protein-tyrosine phosphatase domains. Contains 1 to 3 copies of the Fibronectin type III domain (Pfam:PF00041) followed by two copies of the Protein-tyrosine phosphatase (Pfam:PF00102) domain. Receptor-type tyrosine-protein phosphatase C (CD45) regulates signal transduction and lymphocyte activation by specific association with receptor molecules on T and B cells. Multiple isoforms of CD45 (180-235 kDa) can be generated asa result of alternative splicing of three variable exons 4(A), 5(B) and 6(C), encoding sequences at the N-terminal extracellular domain of the molecule.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -280,7 +280,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001355">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunoglobulin gamma Fc receptor II/III/IV</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein with a core domain architecture consisting of an extracellular domain containing two copies of the Immunoglobulin domain (PF00047), followed by a single-pass transmembrane region and a small intracellular domain. The active protein is a low affinity receptor for immunoglobulin gamma chain Fc region. Human II-a, II-b, and II-c represent a recent gene expansion and are equally related to mouse II, III, and IV. Human III-A and III-B are closely related and closer to mouse IV than to mouse III.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein with a core domain architecture consisting of an extracellular domain containing two copies of the Immunoglobulin domain (Pfam:PF00047), followed by a single-pass transmembrane region and a small intracellular domain. The active protein is a low affinity receptor for immunoglobulin gamma chain Fc region. Human II-a, II-b, and II-c represent a recent gene expansion and are equally related to mouse II, III, and IV. Human III-A and III-B are closely related and closer to mouse IV than to mouse III.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -390,7 +390,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001809">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD59-like glycoprotein</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the CD59 or closely related gene. This gene is present as a single copy in human and has undergone a lineage-specific duplication in mouse. CD59 antigen has a core architecture consisting of one UPAR/Ly-6 domain (PF00021), a small domain of about 70 amino acids and containing 5 conserved disulfide bonds. It is both N- and O-glycosylated and is a GPI-anchored protein that releases soluble forms in some tissues.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the CD59 or closely related gene. This gene is present as a single copy in human and has undergone a lineage-specific duplication in mouse. CD59 antigen has a core architecture consisting of one UPAR/Ly-6 domain (Pfam:PF00021), a small domain of about 70 amino acids and containing 5 conserved disulfide bonds. It is both N- and O-glycosylated and is a GPI-anchored protein that releases soluble forms in some tissues.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -864,6 +864,28 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreas transcription factor 1 subunit alpha</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human PTF1A gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013824 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013824">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recombining binding protein suppressor of hairless</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human RBPJ gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013825 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013825">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recombining binding protein suppressor of hairless-like protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human RBPJL gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     

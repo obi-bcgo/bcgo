@@ -122,6 +122,14 @@ http://purl.obolibrary.org/obo/GO_0023061
 http://purl.obolibrary.org/obo/GO_0042886
 http://purl.obolibrary.org/obo/GO_0006950 #response to stress
 http://purl.obolibrary.org/obo/GO_0006915 #apoptotic process
+http://purl.obolibrary.org/obo/GO_0015106
+http://purl.obolibrary.org/obo/GO_0042589
+http://purl.obolibrary.org/obo/GO_0060986
+http://purl.obolibrary.org/obo/GO_0007159
+http://purl.obolibrary.org/obo/GO_0022407
+http://purl.obolibrary.org/obo/GO_0034109
+http://purl.obolibrary.org/obo/GO_1903706
+http://purl.obolibrary.org/obo/GO_0022610
 
 
 [Top level source term URIs and target direct superclass URIs]

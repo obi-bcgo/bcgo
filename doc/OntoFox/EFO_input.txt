@@ -2,7 +2,7 @@
 http://purl.obolibrary.org/obo/bcgo/import_EFO.owl
 
 [Source ontology]
-#comment here
+#MIREOT
 #List of ontologies: OBI, NCBITaxon, MP, PATO, GO, DOID, IDO, CHEBI, SO, PRO, CL, ENVO, FMA, CARO
 EFO
 
@@ -13,7 +13,13 @@ http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
 http://www.ebi.ac.uk/efo/EFO_0002756 #fasting
 http://www.ebi.ac.uk/efo/EFO_0002547 #NOD mouse
 http://www.ebi.ac.uk/efo/EFO_0002529 #INS-1
-
+http://www.ebi.ac.uk/efo/EFO_0002966 #pancreatic cell
+http://www.ebi.ac.uk/efo/EFO_0002927 #International Unit
+http://www.ebi.ac.uk/efo/EFO_0001734 #data analyst
+http://www.ebi.ac.uk/efo/EFO_0000647 #experiment performer
+http://www.ebi.ac.uk/efo/EFO_0001739 #investigator
+http://www.ebi.ac.uk/efo/EFO_0001741 #submitter
+http://www.ebi.ac.uk/efo/EFO_0002829 #MIN6
 
 [Top level source term URIs and target direct superclass URIs]
 http://www.ebi.ac.uk/efo/EFO_0000493 #family history
@@ -27,29 +33,11 @@ subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological process
 http://www.ebi.ac.uk/efo/EFO_0002547 #NOD mouse
 subClassOf http://purl.obolibrary.org/obo/BCGO_0000002 #mouse strain
 http://www.ebi.ac.uk/efo/EFO_0002529 #INS-1
-subClassOf http://purl.obolibrary.org/obo/CLO_0000019 #immortal cell line cell
-
-
-[Source term retrieval setting]
-includeNoIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-
-
-[Source ontology]
-#comment here
-#List of ontologies: OBI, NCBITaxon, MP, PATO, GO, DOID, IDO, CHEBI, SO, PRO, CL, ENVO, FMA, CARO
-EFO
-
-[Low level source term URIs]
-http://www.ebi.ac.uk/efo/EFO_0001734 #data analyst
-http://www.ebi.ac.uk/efo/EFO_0000647 #experiment performer
-http://www.ebi.ac.uk/efo/EFO_0001739 #investigator
-http://www.ebi.ac.uk/efo/EFO_0001741 #submitter
-
-[Top level source term URIs and target direct superclass URIs]
+subClassOf http://purl.obolibrary.org/obo/CLO_0000128 #immortal animal cell line cell
+http://www.ebi.ac.uk/efo/EFO_0002966 #pancreatic cell
+subClassOf http://purl.obolibrary.org/obo/CL_0000548 #animal cell
+http://www.ebi.ac.uk/efo/EFO_0002927 #International Unit
+subClassOf http://purl.obolibrary.org/obo/IAO_0000003
 http://www.ebi.ac.uk/efo/EFO_0001734 #data analyst
 subClassOf http://purl.obolibrary.org/obo/OBI_0000202 #investigation agent role
 http://www.ebi.ac.uk/efo/EFO_0000647 #experiment performer
@@ -58,7 +46,8 @@ http://www.ebi.ac.uk/efo/EFO_0001739 #investigator
 subClassOf http://purl.obolibrary.org/obo/OBI_0000202 #investigation agent role
 http://www.ebi.ac.uk/efo/EFO_0001741 #submitter
 subClassOf http://purl.obolibrary.org/obo/OBI_0000202 #investigation agent role
-
+http://www.ebi.ac.uk/efo/EFO_0002829 #MIN6
+subClassOf http://purl.obolibrary.org/obo/CLO_0000128 #immortal animal cell line cell
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -66,27 +55,36 @@ includeNoIntermediates
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
-
-
+http://www.ebi.ac.uk/efo/definition
+mapTo http://purl.obolibrary.org/obo/IAO_0000115
 
 
 
 [Source ontology]
-#comment here
+#disease
 #List of ontologies: OBI, NCBITaxon, MP, PATO, GO, DOID, IDO, CHEBI, SO, PRO, CL, ENVO, FMA, CARO
 EFO
 
 [Low level source term URIs]
-http://www.ebi.ac.uk/efo/EFO_0000549 #insulinoma	
+http://www.ebi.ac.uk/efo/EFO_0000549 #insulinoma
+#http://purl.obolibrary.org/obo/DOID_3892
 http://www.ebi.ac.uk/efo/EFO_0000270 #asthma	
-http://www.ebi.ac.uk/efo/EFO_0000309 #Burkitts lymphoma	
+#http://purl.obolibrary.org/obo/DOID_2841 
+http://www.ebi.ac.uk/efo/EFO_0000309 #Burkitts lymphoma
 http://www.ebi.ac.uk/efo/EFO_0000400 #diabetes mellitus	
-http://www.ebi.ac.uk/efo/EFO_0001359 #type I diabetes mellitus	
+#http://purl.obolibrary.org/obo/DOID_9351 
+http://www.ebi.ac.uk/efo/EFO_0001359 #type I diabetes mellitus
+#http://purl.obolibrary.org/obo/DOID_9352 #type 2 diabetes mellitus
 http://www.ebi.ac.uk/efo/EFO_0001360 #type II diabetes mellitus	
-http://www.ebi.ac.uk/efo/EFO_0000339 #chronic myelogenous leukemia	
+#http://purl.obolibrary.org/obo/DOID_9744 #type 1 diabetes mellitus
+http://www.ebi.ac.uk/efo/EFO_0000339 #chronic myelogenous leukemia
+#http://purl.obolibrary.org/obo/HP_0005506
 http://www.ebi.ac.uk/efo/EFO_0000365 #colorectal adenocarcinoma	
-http://www.ebi.ac.uk/efo/EFO_0000220 #acute lymphoblastic leukemia	
+#http://purl.obolibrary.org/obo/DOID_0050861
+http://www.ebi.ac.uk/efo/EFO_0000220 #acute lymphoblastic leukemia
+#http://purl.obolibrary.org/obo/DOID_9952 #acute lymphocytic leukemia
 http://www.ebi.ac.uk/efo/EFO_0000224 #acute promyelocytic leukemia	
+#http://purl.obolibrary.org/obo/DOID_0060318 #acute promyelocytic leukemia
 
 [Top level source term URIs and target direct superclass URIs]
 http://www.ebi.ac.uk/efo/EFO_0000408 #disease
@@ -98,31 +96,13 @@ includeComputedIntermediates
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
+http://www.ebi.ac.uk/efo/definition
+mapTo http://purl.obolibrary.org/obo/IAO_0000115
 
 
 
 [Source ontology]
-#comment here
-#List of ontologies: OBI, NCBITaxon, MP, PATO, GO, DOID, IDO, CHEBI, SO, PRO, CL, ENVO, FMA, CARO
-EFO
-
-[Low level source term URIs]
-http://www.ebi.ac.uk/efo/EFO_0002927 #International Unit
-
-[Top level source term URIs and target direct superclass URIs]
-http://www.ebi.ac.uk/efo/EFO_0002927 #International Unit
-subClassOf http://purl.obolibrary.org/obo/IAO_0000003
-
-[Source term retrieval setting]
-includeNoIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-
-
-[Source ontology]
-#comment here
+#life cycle stage
 #List of ontologies: OBI, NCBITaxon, MP, PATO, GO, DOID, IDO, CHEBI, SO, PRO, CL, ENVO, FMA, CARO
 EFO
 
@@ -148,3 +128,5 @@ includeAllIntermediates
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
+http://www.ebi.ac.uk/efo/definition
+mapTo http://purl.obolibrary.org/obo/IAO_0000115
