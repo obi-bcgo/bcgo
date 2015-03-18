@@ -44,7 +44,7 @@ http://purl.obolibrary.org/obo/PATO_0001501
 http://purl.obolibrary.org/obo/PATO_0001701
 http://purl.obolibrary.org/obo/PATO_0001410
 http://purl.obolibrary.org/obo/PATO_0002478
-
+http://purl.obolibrary.org/obo/PATO_0000033 #concentration of
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PATO_0000001 #PATO:quality

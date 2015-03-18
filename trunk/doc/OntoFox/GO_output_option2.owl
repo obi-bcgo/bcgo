@@ -489,8 +489,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006323">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA packaging</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006259"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016043"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051276"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process in which DNA and associated proteins are formed into a compact, orderly structure.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -553,11 +553,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0006812 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006812">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cation transport</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006811"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The directed movement of cations, atoms or small molecules with a net positive charge, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0006837 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006837">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serotonin transport</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006811"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006812"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0015696"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0015844"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0015850"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The directed movement of serotonin into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Serotonin (5-hydroxytryptamine) is a monoamine neurotransmitter occurring in the peripheral and central nervous systems.</obo:IAO_0000115>
@@ -640,6 +652,17 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female meiotic division</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006996"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell cycle process by which the cell nucleus divides as part of a meiotic cell cycle in the female germline.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0007159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007159">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukocyte cell-cell adhesion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016337"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The attachment of a leukocyte to another cell via adhesion molecules.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -775,24 +798,12 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0009593 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009593">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detection of chemical stimulus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042221"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050896"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The series of events in which a chemical stimulus is received by a cell and converted into a molecular signal.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0009730 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009730">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detection of carbohydrate stimulus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009593"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009743"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050896"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The series of events in which a carbohydrate stimulus is received by a cell and converted into a molecular signal.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -815,7 +826,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009743">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to carbohydrate</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042221"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050896"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a carbohydrate stimulus.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -891,12 +902,36 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0015106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0015106">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bicarbonate transmembrane transporter activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catalysis of the transfer of bicarbonate from one side of a membrane to the other. Bicarbonate is the hydrogencarbonate ion, HCO3-.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0015671 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0015671">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen transport</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044765"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The directed movement of oxygen (O2) into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0015696 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0015696">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ammonium transport</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006811"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006812"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0071705"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The directed movement of ammonium into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Ammonium is the cation NH4+ which is formed from N2 by root-nodule bacteria in leguminous plants and is an excretory product in ammonotelic animals.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -944,7 +979,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016023">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytoplasmic membrane-bounded vesicle</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0031410"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0031982"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0031988"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043231"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A membrane-bounded vesicle found in the cytoplasm of the cell.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -958,6 +993,17 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular component organization</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A process that results in the assembly, arrangement of constituent parts, or disassembly of a cellular component.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016337 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016337">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single organismal cell-cell adhesion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098602"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The attachment of one cell to another cell via adhesion molecules, where both cells are part of the same organism.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -1105,12 +1151,34 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0022407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0022407">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of cell-cell adhesion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050794"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process that modulates the frequency, rate or extent of attachment of a cell to another cell.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0022414 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0022414">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproductive process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biological process that directly contributes to the process of producing new individuals by one or two organisms. The new individuals inherit some proportion of their genetic material from the parent or parents.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0022610 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0022610">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological adhesion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The attachment of a cell or organism to a substrate or other organism.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -1154,6 +1222,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030073">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin secretion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009306"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030072"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The regulated release of proinsulin from secretory granules (B granules) in the B cells of the pancreas; accompanied by cleavage of proinsulin to form mature insulin.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -1222,7 +1291,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030217">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T cell differentiation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030098"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0046649"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042110"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process in which a precursor cell type acquires characteristics of a more mature T-cell. A T cell is a type of lymphocyte whose definin characteristic is the expression of a T cell receptor complex.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -1278,9 +1347,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030261">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromosome condensation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006259"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006323"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006996"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044710"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051276"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1902589"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The progressive compaction of dispersed interphase chromatin into threadlike chromosomes prior to mitotic or meiotic nuclear division, or during apoptosis, in eukaryotic cells.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -1317,6 +1387,30 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032991"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044424"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecular complex containing both protein and RNA molecules.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0030659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030659">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytoplasmic vesicle membrane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0031090"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044433"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The lipid bilayer surrounding a cytoplasmic vesicle.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0030667 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030667">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secretory granule membrane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030659"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0031090"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The lipid bilayer surrounding a secretory granule.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -1368,6 +1462,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0031090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031090">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organelle membrane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044422"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A membrane that is one of the two lipid bilayers of an organelle envelope or the outermost membrane of single membrane bound organelle.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0031323 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031323">
@@ -1399,6 +1505,18 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vesicle</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043226"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any small, fluid-filled, spherical organelle enclosed by membrane or protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0031988 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031988">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane-bounded vesicle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0031982"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043227"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any small, fluid-filled, spherical organelle enclosed by a lipid bilayer.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -1457,6 +1575,17 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002562"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016447"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process in which immunoglobulin gene segments are recombined within a single locus utilizing the conserved heptamer and nonomer recombination signal sequences (RSS). For immunoglobulin heavy chains V, D, and J gene segments are joined, and for immunoglobulin light chains V and J gene segments are joined.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0034109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0034109">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homotypic cell-cell adhesion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016337"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The attachment of a cell to a second cell of the identical type via adhesion molecules.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -1556,12 +1685,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0042221 -->
+    <!-- http://purl.obolibrary.org/obo/GO_0042110 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042221">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to chemical</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050896"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a chemical stimulus.</obo:IAO_0000115>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042110">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T cell activation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0046649"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0070486"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The change in morphology and behavior of a mature or immature T cell resulting from exposure to a mitogen, cytokine, chemokine, cellular ligand, or an antigen for which it is specific.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -1609,6 +1739,17 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005773"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030141"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary lysosomal granule found in neutrophil granulocytes. Contains a wide range of hydrolytic enzymes and is released into the extracellular fluid.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042589 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042589">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zymogen granule membrane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030667"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The lipid bilayer surrounding a zymogen granule.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -1684,6 +1825,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0043227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043227">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane-bounded organelle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043226"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organized structure of distinctive morphology and function, bounded by a single or double lipid bilayer membrane. Includes the nucleus, mitochondria, plastids, vacuoles, and vesicles. Excludes the plasma membrane.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0043229 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043229">
@@ -1700,7 +1852,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043231">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intracellular membrane-bounded organelle</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043226"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043227"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043229"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organized structure of distinctive morphology and function, bounded by a single or double lipid bilayer membrane and occurring within the cell. Includes the nucleus, mitochondria, plastids, vacuoles, and vesicles. Excludes the plasma membrane.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -1886,6 +2038,18 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane part</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any constituent part of a membrane, a double layer of lipid molecules that encloses all cells, and, in eukaryotes, many organelles; may be a single or double lipid bilayer; also includes associated proteins.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0044433 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044433">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytoplasmic vesicle part</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044444"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044446"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any constituent part of cytoplasmic vesicle, a vesicle formed of membrane or protein, found in the cytoplasm of a cell.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -2097,7 +2261,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045580">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of T cell differentiation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0045619"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051249"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050863"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process that modulates the frequency, rate or extent of T cell differentiation.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -2323,6 +2487,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0050863 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050863">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of T cell activation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022407"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051249"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process that modulates the frequency, rate or extent of T cell activation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0050878 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050878">
@@ -2408,6 +2584,17 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of lymphocyte activation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002694"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process that modulates the frequency, rate or extent of lymphocyte activation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051276">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromosome organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006996"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A process that is carried out at the cellular level that results in the assembly, arrangement of constituent parts, or disassembly of chromosomes, structures composed of a very long molecule of DNA and associated proteins that carries hereditary information. This term covers covalent modifications at the molecular level as well as spatial relationships among the major components of a chromosome.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -2503,6 +2690,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0060986 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0060986">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endocrine hormone secretion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0046879"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The regulated release of a hormone into the circulatory system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0065007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0065007">
@@ -2542,6 +2740,18 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">somatostatin secretion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030072"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The regulated release of somatostatin from secretory granules in the D cells of the pancreas.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0070486 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0070486">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukocyte aggregation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007159"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0034109"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The adhesion of one leukocyte to one or more other leukocytes via adhesion molecules.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -2627,6 +2837,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0098602 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098602">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single organism cell adhesion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022610"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044699"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The attachment, via cell adhesion molecules, of a cell to either another cell of the same organism, or to an underlying substrate of the same organism such as the extracellular matrix.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_1901360 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1901360">
@@ -2654,9 +2876,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1902105">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of leukocyte differentiation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002682"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0045595"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_2000026"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1903706"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process that modulates the frequency, rate or extent of leukocyte differentiation.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -2693,6 +2914,18 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006996"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044763"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organelle organization which involves only one organism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_1903706 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1903706">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of hemopoiesis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002682"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_2000026"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process that modulates the frequency, rate or extent of hemopoiesis.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     

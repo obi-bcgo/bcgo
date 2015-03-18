@@ -50,12 +50,11 @@ http://purl.obolibrary.org/obo/CL_0005019
 http://purl.obolibrary.org/obo/CL_1000415
 http://purl.obolibrary.org/obo/CL_0000010 #cultured cell
 http://purl.obolibrary.org/obo/CL_0000001
-# http://purl.obolibrary.org/obo/CL_0002275 #pancreatic PP cell
-# http://purl.obolibrary.org/obo/CL_0002064 #pancreatic acinar cell
-# http://purl.obolibrary.org/obo/CL_0002079 #pancreatic ductal cell
+http://purl.obolibrary.org/obo/CL_0002275 #pancreatic PP cell
+http://purl.obolibrary.org/obo/CL_0002064 #pancreatic acinar cell
+http://purl.obolibrary.org/obo/CL_0002079 #pancreatic ductal cell
 # http://purl.obolibrary.org/obo/CL_1000322 #pancreatic goblet cell
 # http://purl.obolibrary.org/obo/CL_0002410 #pancreatic stellate cell
-
 
 
 [Top level source term URIs and target direct superclass URIs]

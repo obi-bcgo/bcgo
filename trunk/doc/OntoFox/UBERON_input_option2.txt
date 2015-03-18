@@ -157,6 +157,14 @@ http://purl.obolibrary.org/obo/UBERON_0003924
 http://purl.obolibrary.org/obo/UBERON_0006799
 http://purl.obolibrary.org/obo/UBERON_0003457
 http://purl.obolibrary.org/obo/UBERON_0006003
+http://purl.obolibrary.org/obo/UBERON_0014374 #embryoid body
+http://purl.obolibrary.org/obo/UBERON_0000017
+http://purl.obolibrary.org/obo/UBERON_0000058
+http://purl.obolibrary.org/obo/UBERON_0001064
+http://purl.obolibrary.org/obo/UBERON_0001263
+http://purl.obolibrary.org/obo/UBERON_0002394
+http://purl.obolibrary.org/obo/UBERON_0013697
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/UBERON_0001062 #anatomical entity

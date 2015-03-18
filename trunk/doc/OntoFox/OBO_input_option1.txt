@@ -1,27 +1,6 @@
 [URI of the OWL(RDF/XML) output file]
 http://purl.obolibrary.org/obo/bcgo/import_OBO.owl
 
-
-############################################################
-[Source ontology]
-#comment here
-#List of ontologies: OBI, NCBITaxon, MP, PATO, GO, DOID, IDO, CHEBI, SO, PRO, CL, ENVO, FMA, CARO
-IAO
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/IAO_0000590 #written name
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/IAO_0000590 #written name
-subClassOf http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
-
-[Source term retrieval setting]
-includeNoIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-
-
 ############################################################
 [Source ontology]
 #comment here
@@ -30,19 +9,31 @@ BTO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/BTO_0000773 #lymphoblastoid cell line
+http://purl.obolibrary.org/obo/BTO_0001581 #embryonic stem cell line
 http://purl.obolibrary.org/obo/BTO_0003560 #CCE cell
+http://purl.obolibrary.org/obo/BTO_0000632 #insulinoma cell
+http://purl.obolibrary.org/obo/BTO_0003081 #pancreatic ductal adenocarcinoma cell
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BTO_0000773 #lymphoblastoid cell line
-subClassOf http://purl.obolibrary.org/obo/CLO_0000044 #immortal cell line
+subClassOf http://purl.obolibrary.org/obo/CLO_0000019 #immortal cell line cell
 http://purl.obolibrary.org/obo/BTO_0001581 #embryonic stem cell line
-subClassOf http://purl.obolibrary.org/obo/CLO_0000044 #permanent stem cell line
+subClassOf http://purl.obolibrary.org/obo/CLO_0000044 #immortal stem cell line cell
+http://purl.obolibrary.org/obo/BTO_0003560 #CCE cell
+subClassOf http://purl.obolibrary.org/obo/BTO_0001581 #embryonic stem cell line
+http://purl.obolibrary.org/obo/BTO_0000632 #insulinoma cell
+subClassOf http://purl.obolibrary.org/obo/REO_0000383 #cancer cell
+http://purl.obolibrary.org/obo/BTO_0003081 #pancreatic ductal adenocarcinoma cell
+subClassOf http://purl.obolibrary.org/obo/REO_0000383 #cancer cell
+
 
 [Source term retrieval setting]
 includeNoIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
 
 
 ############################################################
@@ -174,12 +165,15 @@ REO
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/REO_0000280 #molecular label
 http://purl.obolibrary.org/obo/REO_0000171 #molecular label role
+http://purl.obolibrary.org/obo/REO_0000383 #cancer cell
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/REO_0000280 #molecular label
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
 http://purl.obolibrary.org/obo/REO_0000171 #molecular label role
 subClassOf http://purl.obolibrary.org/obo/BFO_0000023
+http://purl.obolibrary.org/obo/REO_0000383 #cancer cell
+subClassOf http://purl.obolibrary.org/obo/CL_0000000 #cell
 
 [Source term retrieval setting]
 includeNoIntermediates

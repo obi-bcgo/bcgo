@@ -637,16 +637,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLO_0008381 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008381">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PANC-1 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CLO_0008734 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008734">
