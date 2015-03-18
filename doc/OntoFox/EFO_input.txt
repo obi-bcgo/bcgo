@@ -35,7 +35,7 @@ subClassOf http://purl.obolibrary.org/obo/BCGO_0000002 #mouse strain
 http://www.ebi.ac.uk/efo/EFO_0002529 #INS-1
 subClassOf http://purl.obolibrary.org/obo/CLO_0000128 #immortal animal cell line cell
 http://www.ebi.ac.uk/efo/EFO_0002966 #pancreatic cell
-subClassOf http://purl.obolibrary.org/obo/CL_0000548 #animal cell
+subClassOf http://purl.obolibrary.org/obo/CL_0000000 #cell
 http://www.ebi.ac.uk/efo/EFO_0002927 #International Unit
 subClassOf http://purl.obolibrary.org/obo/IAO_0000003
 http://www.ebi.ac.uk/efo/EFO_0001734 #data analyst
