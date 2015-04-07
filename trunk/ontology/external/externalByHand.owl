@@ -472,6 +472,19 @@ Tuteja G., White P., Schug J., Kaestner K.H. (2009) Extracting transcription fac
     </owl:Class>
     
     
+    
+    <!-- http://purl.obolibrary.org/obo/OBCS_0000167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBCS_0000167">
+        <rdfs:label xml:lang="en">peak calling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Peak_calling</obo:IAO_0000119>
+        <obo:IAO_0000115>A data transformation to identify protein-binding regions in a genome sequence from the data generated from a ChIP-sequencing or ChIP-chip experiment. When the protein is a transcription factor, the region is a transcription factor binding site (TFBS).</obo:IAO_0000115>
+    </owl:Class>
+    
+    
+    
 </rdf:RDF>
 
 
