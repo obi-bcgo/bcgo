@@ -55,6 +55,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BCGO_0000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000060"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019"/>
@@ -138,6 +150,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CLO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000031"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CLO_0000044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000044"/>
@@ -205,6 +223,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ERO_0001400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001400">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stem cell derived cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000031"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell line that is derived from a stem cell.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ERO_0001716 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001716">
@@ -233,6 +262,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0042571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042571"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0050879 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050879"/>
@@ -258,6 +293,33 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050879"/>
         <obo:IAO_0000115>&quot;The process of biting and mashing food with the teeth prior to swallowing.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/nbo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBCS_0000164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBCS_0000164">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000060"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obofoundry.org/obo/obcs.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBCS_0000165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBCS_0000165">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000060"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obofoundry.org/obo/obcs.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBCS_0000166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBCS_0000166">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000010"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obofoundry.org/obo/obcs.owl"/>
     </owl:Class>
     
 
@@ -302,6 +364,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000031">
+        <rdfs:label>disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115 xml:lang="en">A disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OGMS_0000063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000063">
@@ -320,6 +393,16 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A processual entity whose completion is hypothesized (by a healthcare provider) to alleviate the signs and symptoms associated with a disorder</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/REO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/REO_0000002">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antibody reagent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042571"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/reo.owl"/>
     </owl:Class>
     
 
@@ -352,6 +435,28 @@
         <rdfs:label>cancer cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
         <obo:IAO_0000115>a cell that is the output of some malignant cell transformation process whereby a cell in vivo becomes capable of causing cancer in an organism.  Such cells are typically able to proliferate indefinitely if cultured in vitro.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/reo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/REO_0000501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/REO_0000501">
+        <rdfs:label>monoclonal antibody</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/REO_0000002"/>
+        <obo:IAO_0000115>An antibody reagent produced by clonal hybridoma cells deriving from the fusion of a single activasted  B-cell with a neoplastic cell, such that antibodies isolated from such cells are monospecific for a single epitope. A collection of such antibodies has specificity for a single epitopes on its target antigen  - versus a collection of &#39;polyclonal antibodies&#39;, which recognize various different epitopes.  But at the structural level of the individual molecular reagent, there is of course no distinction between mono- and poly-clonal antibodies.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/reo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/REO_0000502 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/REO_0000502">
+        <rdfs:label>polyclonal antibody</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/REO_0000002"/>
+        <obo:IAO_0000115>an antibody reagent that is output from an antibody production process that yields a heterogenous collection of antibodies that are not mono-specific (ie individual antibodies in the collection may recognize different epitopes becasue they arise from more than one clone of B-lymphocyte cells).   Polyclonal antibodies are typically manufactured through an antibody production technique in which a host organism is immunized with a specific immunogen and antibodies purified from serum collected following the induced immune response. A collection of such antibodies has specificity for various different epitopes on its target antigen  - versus a collection of &#39;monoclonal antibodies&#39;, which all recognize a single epitope.  But at the structural level of the individual molecular reagent, there is of course no distinction between mono- and poly-clonal antibodies.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/reo.owl"/>
     </owl:Class>
     
