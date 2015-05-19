@@ -110,9 +110,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000056 -->
+    <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000056"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000056"/>
     
 
 
@@ -305,7 +305,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000021"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007143"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3233,7 +3233,7 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CP_0000027"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030263"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -3242,7 +3242,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000765"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030263"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4309,7 +4309,7 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0002478"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0060047"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -4337,7 +4337,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0060047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4932,7 +4932,7 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000006611"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0033152"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -4959,7 +4959,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0033152"/>
             </owl:Restriction>
         </rdfs:subClassOf>
