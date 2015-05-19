@@ -130,11 +130,13 @@ http://purl.obolibrary.org/obo/GO_0022407
 http://purl.obolibrary.org/obo/GO_0034109
 http://purl.obolibrary.org/obo/GO_1903706
 http://purl.obolibrary.org/obo/GO_0022610
-
+http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+http://purl.obolibrary.org/obo/GO_0005575 #cellular_component
+http://purl.obolibrary.org/obo/GO_0003674 #molecular_function
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/GO_0008150 #biological_process
-subClassOf http://purl.obolibrary.org/obo/BFO_0000007 #process
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
 http://purl.obolibrary.org/obo/GO_0005575 #cellular_component
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 http://purl.obolibrary.org/obo/GO_0003674 #molecular_function
