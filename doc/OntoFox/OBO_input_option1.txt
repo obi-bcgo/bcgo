@@ -66,6 +66,7 @@ http://purl.obolibrary.org/obo/ERO_0001211 #massively parallel signature sequenc
 http://purl.obolibrary.org/obo/ERO_0001334 #biopsy
 http://purl.obolibrary.org/obo/ERO_0000378 #surgery
 http://purl.obolibrary.org/obo/ERO_0001716 #database
+http://purl.obolibrary.org/obo/ERO_0001400 #stem cell derived cell line
 
 
 [Top level source term URIs and target direct superclass URIs]
@@ -77,6 +78,9 @@ http://purl.obolibrary.org/obo/ERO_0000378 #surgery
 subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
 http://purl.obolibrary.org/obo/ERO_0001716 #database
 subClassOf http://purl.obolibrary.org/obo/IAO_0000030
+http://purl.obolibrary.org/obo/ERO_0001400 #stem cell derived cell line
+subClassOf http://purl.obolibrary.org/obo/CLO_0000031 #cell line
+
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -138,6 +142,7 @@ http://purl.obolibrary.org/obo/OGMS_0000015 #clinical history
 http://purl.obolibrary.org/obo/OGMS_0000023 #phenotype
 http://purl.obolibrary.org/obo/OGMS_0000063 #disease course
 http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+http://purl.obolibrary.org/obo/OGMS_0000031 #disease
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OGMS_0000015 #clinical history
@@ -148,6 +153,8 @@ http://purl.obolibrary.org/obo/OGMS_0000063 #disease course
 subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological process
 http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
 subClassOf http://purl.obolibrary.org/obo/OBI_0000011
+http://purl.obolibrary.org/obo/OGMS_0000031 #disease
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -166,6 +173,9 @@ REO
 http://purl.obolibrary.org/obo/REO_0000280 #molecular label
 http://purl.obolibrary.org/obo/REO_0000171 #molecular label role
 http://purl.obolibrary.org/obo/REO_0000383 #cancer cell
+http://purl.obolibrary.org/obo/REO_0000002 #antibody reagent
+http://purl.obolibrary.org/obo/REO_0000502 #polyclonal antibody
+http://purl.obolibrary.org/obo/REO_0000501 #monoclonal antibody
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/REO_0000280 #molecular label
@@ -174,6 +184,13 @@ http://purl.obolibrary.org/obo/REO_0000171 #molecular label role
 subClassOf http://purl.obolibrary.org/obo/BFO_0000023
 http://purl.obolibrary.org/obo/REO_0000383 #cancer cell
 subClassOf http://purl.obolibrary.org/obo/CL_0000000 #cell
+http://purl.obolibrary.org/obo/REO_0000002 #antibody reagent
+subClassOf http://purl.obolibrary.org/obo/GO_0042571 #immunoglobulin complex, circulating
+http://purl.obolibrary.org/obo/REO_0000502 #polyclonal antibody
+subClassOf http://purl.obolibrary.org/obo/REO_0000002 #antibody reagent
+http://purl.obolibrary.org/obo/REO_0000501 #monoclonal antibody
+subClassOf http://purl.obolibrary.org/obo/REO_0000002 #antibody reagent
+
 
 [Source term retrieval setting]
 includeNoIntermediates
