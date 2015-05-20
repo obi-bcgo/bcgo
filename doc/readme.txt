@@ -10,7 +10,8 @@ Few terms are not in released version of OBI uploaded into the Ontobee server, t
 
 http://purl.obolibrary.org/obo/import_ChEBI.owl		ChEBI_output_option2.owl
 http://purl.obolibrary.org/obo/import_CL.owl		CL_subset.owl 
-	(CL_output_option3.owl removed classes defined in external resources and remove or replace GO_0005623 'cell' by CL_0000000 'cell' which was defined as equivalent class in CL found on Dec 11, 2013)
+	(CL_output_option3.owl removed classes defined in external resources and remove or replace GO_0005623 'cell' by CL_0000000 'cell' which was defined as equivalent class in CL found on Dec 11, 2013
+	BFO_0000053 replace by RO_0000053, BFO_0000056 replace by RO_0000056)
 http://purl.obolibrary.org/obo/import_CLO.owl		CLO_output_option2.owl
 	(need replace EFO:disease http://www.ebi.ac.uk/efo/EFO_0000408 by OGMS:disease http://purl.obolibrary.org/obo/OGMS_0000031, then delete EFO:disease)
 http://purl.obolibrary.org/obo/import_GO.owl		GO_output_option2.owl
