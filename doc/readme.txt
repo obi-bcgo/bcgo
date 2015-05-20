@@ -9,17 +9,21 @@ BFO,CARO,CHEBI,CL,CLO,GO,NCBITaxon,OGMS,PATO,PR,REO,SO,UBERON,UO,RO)
 Few terms are not in released version of OBI uploaded into the Ontobee server, these terms imported manually.
 
 http://purl.obolibrary.org/obo/import_ChEBI.owl		ChEBI_output_option2.owl
-http://purl.obolibrary.org/obo/import_CL.owl		CL_subset.owl (CL_output_option3.owl removed classes defined in external resources and remove or replace GO_0005623 'cell' by CL_0000000 'cell' which was defined as equivalent class in CL found on Dec 11, 2013)
+http://purl.obolibrary.org/obo/import_CL.owl		CL_subset.owl 
+	(CL_output_option3.owl removed classes defined in external resources and remove or replace GO_0005623 'cell' by CL_0000000 'cell' which was defined as equivalent class in CL found on Dec 11, 2013)
 http://purl.obolibrary.org/obo/import_CLO.owl		CLO_output_option2.owl
+	(need replace EFO:disease http://www.ebi.ac.uk/efo/EFO_0000408 by OGMS:disease http://purl.obolibrary.org/obo/OGMS_0000031, then delete EFO:disease)
 http://purl.obolibrary.org/obo/import_GO.owl		GO_output_option2.owl
 http://purl.obolibrary.org/obo/import_NCBITaxon.owl	NCBITaxon_output_option2.owl
 http://purl.obolibrary.org/obo/import_PATO.owl		PATO_output_option3.owl
 http://purl.obolibrary.org/obo/import_PR.owl		PR_output_option2.owl
-http://purl.obolibrary.org/obo/import_SO.owl		SO_output.owl (before v0.2 release, SO_input_option1 and SO_output_option1.owl was used)
-http://purl.obolibrary.org/obo/import_UBERON.owl	start to use UBERON_output_option2.owl since using option 3 bring in many classes and axioms which might not be useful for BCGO and add unnecessary complexity
-http://purl.obolibrary.org/obo/import_UO.owl		UO_output_option2.owl and replace UO_0000000 unit by IAO_0000003 measurement unit label, then delete UO_0000000
+http://purl.obolibrary.org/obo/import_SO.owl		SO_output.owl (Note: before v0.2 release, SO_input_option1 and SO_output_option1.owl was used)
+http://purl.obolibrary.org/obo/import_UBERON.owl	UBERON_output_option2.owl (Note: using option 3 bring in many classes and axioms which might not be useful for BCGO and add unnecessary complexity)
+http://purl.obolibrary.org/obo/import_UO.owl		UO_output_option2.owl 
+	(replace UO_0000000 unit by IAO_0000003 measurement unit label, then delete UO_0000000)
 http://purl.obolibrary.org/obo/import_OBO.owl		OBO_output_option1.owl
-http://purl.obolibrary.org/obo/import_EFO.owl		EFO_output.owl and replace EFO_0000408 disease by OGMS_0000031 disease, then delete EFO_0000408. 
+http://purl.obolibrary.org/obo/import_EFO.owl		EFO_output.owl
+	(need replace EFO:disease http://www.ebi.ac.uk/efo/EFO_0000408 by OGMS:disease http://purl.obolibrary.org/obo/OGMS_0000031, then delete EFO:disease)
 
 
 Version of ontologies since May 19, 2015

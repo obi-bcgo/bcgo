@@ -192,7 +192,7 @@
         <obo:IAO_0000117>Jie Zheng, Yongqun He, Yu Lin, Allen Xiang</obo:IAO_0000117>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
-        <rdfs:range rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
     </owl:ObjectProperty>
     
@@ -665,15 +665,6 @@
     
 
 
-    <!-- http://www.ebi.ac.uk/efo/EFO_0000408 -->
-
-    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000408">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease is a disposition that describes states of disease associated with a particular sample and/or organism.</rdfs:comment>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
-    </owl:Class>
 </rdf:RDF>
 
 
