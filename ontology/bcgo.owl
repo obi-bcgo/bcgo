@@ -253,9 +253,16 @@
     <!-- http://purl.obolibrary.org/obo/BCGO_0000063 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BCGO_0000063">
-        <rdfs:label xml:lang="en">has contact person</rdfs:label>
-        <efo:definition>relates an entity to a person who can be contacted for information regarding the entity.</efo:definition>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <rdfs:label xml:lang="en">has contact</rdfs:label>
+        <efo:definition>relates an entity to a person or an organization that can be contacted for information regarding the entity.</efo:definition>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
     </owl:ObjectProperty>
     
 
@@ -874,13 +881,13 @@ For example, male/female could be values for biological sex, 0, 0.01, 0.02 mg/L 
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000010047"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000012523"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000012523"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000010047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cell that has all features and genetic signatures as functional beta cell. It may not be part of pancreas.</obo:IAO_0000115>
@@ -1070,8 +1077,8 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000066"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002104"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001559"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000015424"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1082,8 +1089,8 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000015424"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002104"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001559"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>an epithelial cell that is part of the ventral pancreatic bud, expresses a gene for SOX-17 and has Epcam in the plasma membrane.</obo:IAO_0000115>
@@ -1126,26 +1133,26 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0031016"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000013418"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001402"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0031016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003922"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001402"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
@@ -1188,14 +1195,14 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0031018"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001264"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001264"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0031018"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1219,14 +1226,14 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#lacks_part"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001264"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001264"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#lacks_part"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1250,12 +1257,6 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0031018"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009062"/>
             </owl:Restriction>
@@ -1264,6 +1265,12 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001264"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0031018"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
@@ -1281,14 +1288,14 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000016"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#lacks_part"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#lacks_part"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009062"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
@@ -1312,14 +1319,14 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001501"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000016"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001501"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>Chris Stoeckert</obo:IAO_0000119>
@@ -1337,26 +1344,26 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000169"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001701"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000006"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001701"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0051594"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a type B pancreatic cell that is mature and expresses a gene for insulin</obo:IAO_0000115>
@@ -1397,13 +1404,13 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000053"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000022"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000012523"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000022"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000012523"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1721,8 +1728,8 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001398"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000690"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1749,8 +1756,8 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000690"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001398"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
@@ -1767,6 +1774,18 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCGO_0000089">
         <rdfs:label>transcriptional profiling by MARIS assay</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0400099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
@@ -1787,18 +1806,6 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001331"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0400099"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118>MARIS</obo:IAO_0000118>
@@ -2158,13 +2165,13 @@ http://www.criver.com/EN-US/PRODSERV/BYTYPE/RESMODOVER/RESMOD/Pages/C3HMouse.asp
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009116"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011158"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000009116"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
