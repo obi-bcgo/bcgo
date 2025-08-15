@@ -1,46 +1,47 @@
 BCGO_basis.owl imports following OWL files generated from Ontodog or OntoFox.
 
-- <b>OBI</b>: http://purl.obolibrary.org/obo/OBI_subset.owl (filename: OBI_subset.owl
+- <b>OBI</b>: http://purl.obolibrary.org/obo/bcgo/OBI_subset.owl (filename: OBI_subset.owl
 	<br>This OWL file is generated from OBI_output.owl:
     - Removed terms defined in external resources except IAO. The terms with following prefix need to be moved:
 BFO,CARO,CHEBI,CL,CLO,GO,NCBITaxon,OGMS,PATO,PR,REO,SO,UBERON,UO,RO
   	- Replaced PATO_0001237 with PATO_0002182 ('molecular entity') since subClass OBI term is 'DNA residue methylation'. Term PATO_0001237 and PATO_0001238 were merged to term PATO_0001241 and the URIs cannot be found in PATO anymore. If there are other subClasses, may need to simple the replacement by using PATO_0001241.  
 
-- <b>ChEBI</b>: http://purl.obolibrary.org/obo/import_ChEBI.owl (filename: ChEBI_output_option2.owl)
+- <b>ChEBI</b>: http://purl.obolibrary.org/obo/bcgo/import_ChEBI.owl (filename: ChEBI_output_option2.owl)
 
-- <b>CL</b>: http://purl.obolibrary.org/obo/import_CL.owl (filename: CL_subset.owl)
+- <b>CL</b>: http://purl.obolibrary.org/obo/bcgo/import_CL.owl (filename: CL_subset.owl)
 	<br>This OWL file is generated from CL_output_option3.owl
 	- Removed classes defined in external resources
     - Removed or replaced GO_0005623 'cell' with CL_0000000 'cell' which was defined as equivalent class in CL found on Dec 11, 2013
 	- Replaced BFO_0000053 with RO_0000053 and BFO_0000056 with RO_0000056
 
-- <b>CLO</b>: http://purl.obolibrary.org/obo/import_CLO.owl (filename: CLO_output_option2.owl)
+- <b>CLO</b>: http://purl.obolibrary.org/obo/bcgo/import_CLO.owl (filename: CLO_output_option2.owl)
   	- Replaced [EFO:disease](http://www.ebi.ac.uk/efo/EFO_0000408) with [OGMS:disease] (http://purl.obolibrary.org/obo/OGMS_0000031), then delete EFO:disease
 
-- <b>GO</b>: http://purl.obolibrary.org/obo/import_GO.owl (filename: GO_output_option2.owl)
+- <b>GO</b>: http://purl.obolibrary.org/obo/bcgo/import_GO.owl (filename: GO_output_option2.owl)
 
-- <b>NCBITaxon</b>: http://purl.obolibrary.org/obo/import_NCBITaxon.owl (filename: NCBITaxon_output_option2.owl)
+- <b>NCBITaxon</b>: http://purl.obolibrary.org/obo/bcgo/import_NCBITaxon.owl (filename: NCBITaxon_output_option2.owl)
 
-- <b>PATO</b>: http://purl.obolibrary.org/obo/import_PATO.owl (filename: PATO_output_option3.owl)
+- <b>PATO</b>: http://purl.obolibrary.org/obo/bcgo/import_PATO.owl (filename: PATO_output_option3.owl)
 
-- <b>PR</b>: http://purl.obolibrary.org/obo/import_PR.owl (filename: PR_output_option2.owl)
+- <b>PR</b>: http://purl.obolibrary.org/obo/bcgo/import_PR.owl (filename: PR_output_option2.owl)
 
-- <b>SO</b>: http://purl.obolibrary.org/obo/import_SO.owl (filename: SO_output.owl
+- <b>SO</b>: http://purl.obolibrary.org/obo/bcgo/import_SO.owl (filename: SO_output.owl
   <br>Note: before v0.2 release, SO_input_option1 and SO_output_option1.owl was used
 
-- <b>UBERON</b>: http://purl.obolibrary.org/obo/import_UBERON.owl (filename: UBERON_output_option2.owl)
+- <b>UBERON</b>: http://purl.obolibrary.org/obo/bcgo/import_UBERON.owl (filename: UBERON_output_option2.owl)
   <br>Note: using option 3 bring in many classes and axioms which might not be useful for BCGO and add unnecessary complexity
 
-- <b>UO</b>: http://purl.obolibrary.org/obo/import_UO.owl (filename: UO_output_option2.owl) 
+- <b>UO</b>: http://purl.obolibrary.org/obo/bcgo/import_UO.owl (filename: UO_output_option2.owl) 
   - replaced UO_0000000 unit with IAO_0000003 measurement unit label, then delete UO_0000000
 
-- <b>EFO</b>: http://purl.obolibrary.org/obo/import_EFO.owl (filename: EFO_output.owl)
+- <b>EFO</b>: http://purl.obolibrary.org/obo/bcgo/import_EFO.owl (filename: EFO_output.owl)
   	- Replaced [EFO:disease](http://www.ebi.ac.uk/efo/EFO_0000408) with [OGMS:disease] (http://purl.obolibrary.org/obo/OGMS_0000031), then delete EFO:disease
 
-- <b>OBO</b>: http://purl.obolibrary.org/obo/import_OBO.owl (filename: OBO_output_option1.owl)
-
-- <b>Manual import</b>:
-   <br>Few terms are not in released version of OBI uploaded into the Ontobee server, these terms imported manually.
+- <b>OBO</b>: http://purl.obolibrary.org/obo/bcgo/import_OBO.owl (filename: OBO_output_option1.owl)
+  <br>Ontology terms are not in the ontologies listed above.
+   
+- <b>Manual import</b>: http://purl.obolibrary.org/obo/bcgo/externalByHand.owl (filename: externalByHand.owl)
+  <br>Few terms imported manually.
 
 <b>Version of ontologies used by BCGO since May 19, 2015</b>
 Ontology | Version
@@ -95,4 +96,5 @@ UBERON | n/a
 UO | 2013-06-27
 EFO | version 2.36 (15th May 2013) 
 	
+
 
