@@ -1,4 +1,4 @@
-Ontology terms from external ontologies were extracted using the OntoFox tool and made some edits when needed before imported the OWL files into the bcgo.owl or bcgo.owl or bcgo_basis.owl. The details of imported terms see below.
+Ontology terms from external ontologies were extracted using the OntoDog or OntoFox tools and made some edits when needed before imported these OWL files into the bcgo.owl or bcgo_basis.owl. The details of imported files see below.
 
 - <b>OBI</b>: http://purl.obolibrary.org/obo/bcgo/OBI_subset.owl (filename: OBI_subset.owl)
 	<br>This OWL file is generated from OBI_output.owl:
