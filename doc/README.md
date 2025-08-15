@@ -1,6 +1,6 @@
 BCGO_basis.owl imports following OWL files generated from Ontodog or OntoFox.
 
-- <b>OBI</b>: http://purl.obolibrary.org/obo/bcgo/OBI_subset.owl (filename: OBI_subset.owl
+- <b>OBI</b>: http://purl.obolibrary.org/obo/bcgo/OBI_subset.owl (filename: OBI_subset.owl)
 	<br>This OWL file is generated from OBI_output.owl:
     - Removed terms defined in external resources except IAO. The terms with following prefix need to be moved:
 BFO,CARO,CHEBI,CL,CLO,GO,NCBITaxon,OGMS,PATO,PR,REO,SO,UBERON,UO,RO
@@ -25,7 +25,7 @@ BFO,CARO,CHEBI,CL,CLO,GO,NCBITaxon,OGMS,PATO,PR,REO,SO,UBERON,UO,RO
 
 - <b>PR</b>: http://purl.obolibrary.org/obo/bcgo/import_PR.owl (filename: PR_output_option2.owl)
 
-- <b>SO</b>: http://purl.obolibrary.org/obo/bcgo/import_SO.owl (filename: SO_output.owl
+- <b>SO</b>: http://purl.obolibrary.org/obo/bcgo/import_SO.owl (filename: SO_output.owl)
   <br>Note: before v0.2 release, SO_input_option1 and SO_output_option1.owl was used
 
 - <b>UBERON</b>: http://purl.obolibrary.org/obo/bcgo/import_UBERON.owl (filename: UBERON_output_option2.owl)
@@ -96,5 +96,6 @@ UBERON | n/a
 UO | 2013-06-27
 EFO | version 2.36 (15th May 2013) 
 	
+
 
 
