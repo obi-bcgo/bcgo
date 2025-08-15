@@ -7,7 +7,7 @@ The ontology is available on: http://purl.obolibrary.org/obo/bcgo.owl
 Recommended Protege version and Reasoner are Protege 5 and Hermit 1.3.8.
 
 ### Contact Us
- - Jie Zheng (jiezheng at upenn dot edu)
+ - Jie Zheng (jiezhen at umich dot edu)
  - Christian J. Stoeckert (stoeckrt at upenn dot edu) 
 
 #### References 
