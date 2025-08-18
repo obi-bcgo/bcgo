@@ -11,5 +11,5 @@ Recommended Protege version and Reasoner are Protege 5 and Hermit 1.3.8.
  - Christian J. Stoeckert (stoeckrt at upenn dot edu) 
 
 #### References 
-Zheng J, Manduchi E, and Stoeckert C. Development of an Application Ontology for Beta Cell Genomics Based On the Ontology for Biomedical Investigations. International Conference on Biomedical Ontologies (ICBO 2013), Montreal, Canada, July 2013. [Full Paper](http://www2.unb.ca/csas/data/ws/icbo2013/papers/research/icbo2013_submission_31.pdf)
+Zheng J, Manduchi E, and Stoeckert C. Development of an Application Ontology for Beta Cell Genomics Based On the Ontology for Biomedical Investigations. International Conference on Biomedical Ontologies (ICBO 2013), Montreal, Canada, July 2013. [Full Paper](https://ceur-ws.org/Vol-1060/icbo2013_submission_31.pdf)
 
